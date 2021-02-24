@@ -1,0 +1,11 @@
+fit work process image to page
+
+write text and pick images for individual work pages
+
+implement click image overlay on all images including background image
+
+create cycling arrows background for index process
+
+write contact page
+
+create work.html gallery

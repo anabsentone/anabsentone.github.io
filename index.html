@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width">
+     <link rel="shortcut icon" href="images/logo.png">
+     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sail">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode Sans">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pontano Sans">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+     <title>Vincent Qiu</title>
+</head>
+
+<body onload="loadPage();">
+     <div id="imageOverlay" class="overlayOff" onclick="closeOverlay();">
+          <div id="overlayContainer">
+               <div id="overlayClose">
+                    <div onclick="closeOverlay();">×</div>
+               </div>
+               <div id="overlayImage">
+                    <img id="overlayImg" src="">
+               </div>
+               <div id="overlayText"></div>
+          </div>
+     </div>
+
+     <header>
+          <h1>Vincent Qiu</h1>
+     </header>
+
+     <main id="main">
+          <nav>
+               <a class="currentTab">about</a>
+               <a href="work/districtsix.html">work</a>
+               <a href="connect.html">connect</a>
+          </nav>
+          <div id="descriptionIntroduction">
+               <div class="descriptionHeader">
+                    design scientist
+               </div>
+               <div class="descriptionSentence">
+                    Being intentional in approaching the wicked problems of modern society.
+               </div>
+               <div class="descriptionHeader">
+                    user researcher
+               </div>
+               <div class="descriptionSentence">
+                    Understanding the interface between human behavior and the designed world.
+               </div>
+               <div class="descriptionHeader">
+                    digital scholar
+               </div>
+               <div class="descriptionSentence">
+                    Leveraging technology in the creation and dissemination of knowledge.
+               </div>
+          </div>
+          <div id="processIntroduction">
+               <div class="processSection">
+                    <div class="processHeader">
+                         understand
+                    </div>
+                    <div id="understand" class="processDescription">
+                         the whole problem and its context. Decompose the relevant issues. Identify root causes. Have conversations with stakeholders at all levels of relevance. Outline preferred endstates.
+                         <br>
+                         <br>
+                         <i>Starting with problems as given, matters of choice or decision are solved through the selection of the one best suited to established ends. But with this emphasis on problem solving, we ignore problem setting, the process by which we define the decision to be made, the ends to be achieved, and the means that may be chosen. In real-world practice, problems do not present themselves to the practitioner as givens. They must be constructed from the materials of problematic situations which are puzzling, troubling, and uncertain.</i>
+                         <br>
+                         - Donald A Schön
+                    </div>
+               </div>
+               <div class="processSection">
+                    <div class="processHeader">
+                         experiment
+                    </div>
+                    <div id="experiment" class="processDescription">
+                         with a diversity of ideas. Assemble prototypes and assess prospects. Engage stakeholders to gain more insights into the problem and the approaches.
+                         <br>
+                         <br>
+                         <i>Every day, thousands of great new ideas, concepts, and plans are nipped in the bud by devil’s advocates that encourage idea wreckers to assume the most negative possible perspective, one that sees only the downside, the problems, the disasters-in-waiting. Once those floodgates open, they can drown a new initiative in negativity.</i>
+                         <br>
+                         - Tom Kelley and Jonathan Littman
+                    </div>
+               </div>
+               <div class="processSection">
+                    <div class="processHeader">
+                         implement
+                    </div>
+                    <div id="implement" class="processDescription">
+                         a plan of change. Recognize how embedding a change in the world alters the future landscape. Accept that wicked problems are not solved but merely its effects can be changed.
+                         <br>
+                         <br>
+                         <i>It must constantly be borne in mind that the object being worked on is going to be ridden in, sat upon, looked at, talked into, activated, operated, or in some way used by people individually or en masse. If the point of contact between the product and people becomes a point of friction, then the designer has failed. If, on the other hand, people are made safer, more comfortable, more desirous of purchase, more efficient — or just plain happier — by contact with the product, then the designer has succeeded.</i>
+                         <br>
+                         - Henry Dreyfuss
+                    </div>
+               </div>
+          </div>
+          <div id="gallery">
+               <a href="">
+                    <div id="work1" class="imageCenter" onmouseover="hoverWork(1);" onmouseout="departWork(1);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work2" class="imageCenter" onmouseover="hoverWork(2);" onmouseout="departWork(2);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work3" class="imageCenter" onmouseover="hoverWork(3);" onmouseout="departWork(3);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work4" class="imageCenter" onmouseover="hoverWork(4);" onmouseout="departWork(4);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work5" class="imageCenter" onmouseover="hoverWork(5);" onmouseout="departWork(5);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work6" class="imageCenter" onmouseover="hoverWork(6);" onmouseout="departWork(6);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work7" class="imageCenter" onmouseover="hoverWork(7);" onmouseout="departWork(7);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+               <a href="">
+                    <div id="work8" class="imageCenter" onmouseover="hoverWork(8);" onmouseout="departWork(8);">
+                         <div class="imageGroup">
+                              <div class="imageCover"></div>
+                              <img src="">
+                         </div>
+                    </div>
+               </a>
+          </div>
+
+     </main>
+
+     <script src="js/script.js"></script>
+</body>
+
+<div id="backdrop"></div>
+
+</html>
