@@ -311,7 +311,7 @@ nav>a:hover {
 	cursor: default;
 }
 
-.processExpand {
+/* .processExpand {
 	display: none;
 	text-align: left;
 }
@@ -343,7 +343,37 @@ nav>a:hover {
 .activeExpand>.processImg {
 	max-width: 35%;
 	height: auto;
+} */
+
+.processExpand {
+	text-align: left;
+	height: 100%;
+	width: 100%;
+	padding: 3vh;
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+	display: flex;
+	flex-direction: row;
 }
+
+.processExpand>.processText {
+	max-width: 65%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.processExpand>.processArtifact {
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+/* .processExpand>.processImg {
+	max-width: 35%;
+	height: auto;
+} */
 
 #gallery {
 	display: grid;
