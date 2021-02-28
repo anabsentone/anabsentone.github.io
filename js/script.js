@@ -129,36 +129,36 @@ function processTab(nextTab) {
     processNav.children[nextTab].classList.add("activeTab");
     // processDiv.children[nextTab + 1].classList.add("activeExpand");
 
-    var processDiv = document.getElementById("processText");
-    var processImg = document.getElementById("processImg");
-
     var currentPage = document.URL.split("/")[document.URL.split("/").length -1].split(".")[0];
     var fullImageDirectory = "../images/" + currentPage + "/";
     switch (nextTab) {
         case 0:
-            for (var i = 0; i < workLibrary[workLibrary[currentPage]]["understand"].length; i++) {
-                
-            }
-            processDiv.innerHTML = workLibrary[workLibrary[currentPage]]["understand"];
-            processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["understandImg"];
-            processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["understandImgAlt"];
+            var processLibrary = workLibrary[currentPage]["understand"];
             break;
         case 1:
-            for (var i = 0; i < workLibrary[workLibrary[currentPage]]["experiment"].length; i++) {
-                
-            }
-            processDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["experiment"];
-            processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["experimentImg"];
-            processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["experimentImgAlt"];
+            var processLibrary = workLibrary[currentPage]["experiment"];
             break;
         case 2:
-            for (var i = 0; i < workLibrary[workLibrary[currentPage]]["implement"].length; i++) {
-                
-            }
-            processDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["implement"];
-            processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["implementImg"];
-            processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["implementImgAlt"];
+            var processLibrary = workLibrary[currentPage]["implement"];
             break;
+    }
+    console.log(processLibrary);
+    var processExpand = document.getElementById("processExpand");
+    for (var i = 0; i < processLibrary.length; i++) {
+        var processTextDiv = document.createElement("div");
+        processTextDiv.innerHTML = processLibrary[i]["txt"];
+        processTextDiv.classList.add("processText");
+        processExpand.appendChild(processTextDiv);
+        var processArtifactDiv = document.createElement("div");
+        processArtifactDiv.classList.add("processArtifact");
+        var processImg = document.createElement("img");
+        processImg.src = fullImageDirectory + processLibrary[i]["img"];
+        processImg.alt = processLibrary[i]["alt"];
+        processImg.onclick = function() {
+            showOverlay(this);
+        };
+        processArtifactDiv.appendChild(processImg);
+        processExpand.appendChild(processArtifactDiv);
     }
 }
 
