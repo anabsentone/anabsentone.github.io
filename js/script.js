@@ -281,7 +281,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "thumbnail": "thumbnail.png"
+        "thumbnail": "thumbnail.png",
         "extra": "",
     },
     "ceder": {
