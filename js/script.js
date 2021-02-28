@@ -31,8 +31,8 @@ function closeOverlay() {
 }
 
 function loadPage() {
-    var locationArray = window.location.href.split("/");
-    var locationPage = locationArray[locationArray.length - 1];
+    var locationPage = var currentPage = document.URL.split("/")[document.URL.split("/").length -1].split(".")[0];
+    console.log(locationPage);
 
     var imageDirectory = "images/";
     var linkDirectory = "work/";
@@ -40,7 +40,7 @@ function loadPage() {
     var full;
 
     switch (locationPage) {
-        case "index.html" :
+        case "index.html" : // need to decide whether this page will actually end in index.html
             loadGallery(imageDirectory, linkDirectory, workNum, full);
             break;
         case "work.html" :
@@ -94,11 +94,12 @@ function loadContent(imageDirectory, workNum) {
     // implementImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["implementImg"];
     // implementImg.alt = workLibrary[workLibrary["gallery"][workNum]]["implementImgAlt"];
 
-    var processDiv = document.getElementById("processText");
-    var processImg = document.getElementById("processImg");
-    processDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["understand"];
-    processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["understandImg"];
-    processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["understandImgAlt"];
+//     var processDiv = document.getElementById("processText");
+//     var processImg = document.getElementById("processImg");
+//     processDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["understand"];
+//     processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["understandImg"];
+//     processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["understandImgAlt"];
+    processTab(0);
 }
 
 function hoverInteractive() {
