@@ -352,17 +352,22 @@ nav>a:hover {
 	padding: 3vh;
 	position: relative;
 	background-color: rgba(255,255,255,0.8);
+}
+
+.processRow {
+	width: 100%;
+	position: relative;
 	display: flex;
 	flex-direction: row;
 }
 
-#processExpand>.processText {
+.processRow>.processText {
 	max-width: 65%;
 	height: 100%;
 	overflow-y: scroll;
 }
 
-#processExpand>.processArtifact {
+.processRow>.processArtifact {
 	display: flex;
 	position: relative;
 	align-items: center;
@@ -374,6 +379,10 @@ nav>a:hover {
 	max-width: 35%;
 	height: auto;
 } */
+
+.keyword {
+	background-color: rgba(225,225,225,1);
+}
 
 #gallery {
 	display: grid;
