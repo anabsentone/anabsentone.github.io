@@ -374,7 +374,7 @@ nav>a:hover {
 	position: relative;
 	align-items: center;
 	height: 100%;
-	width: 100%; /* temporary because not sure how intro artifact doesnt overflow */
+	max-width: 35%; /* temporary because not sure how intro artifact doesnt overflow */
 }
 
 .processImg {
