@@ -40,15 +40,14 @@ function loadPage() {
     var full;
 
     switch (locationPage) {
-        case "index.html" : // need to decide whether this page will actually end in index.html
-            loadGallery(imageDirectory, linkDirectory, workNum, full);
+        case "index" : // need to decide whether this page will actually end in index.html
             break;
-        case "work.html" :
+        case "" : // this handles ending not in .html such as /portfolio
+            break;
+        case "work" :
             full = true;
-            loadGallery(imageDirectory, linkDirectory, workNum, full);
             break;
-        case "connect.html" :
-            loadGallery(imageDirectory, linkDirectory, workNum, full);
+        case "connect" :
             break;
         default:
             imageDirectory = "../images/";
@@ -60,9 +59,9 @@ function loadPage() {
                 }
             }
             loadContent(imageDirectory, workNum);
-            loadGallery(imageDirectory, linkDirectory, workNum, full);
             break;
     }
+    loadGallery(imageDirectory, linkDirectory, workNum, full);
 }
 
 function loadContent(imageDirectory, workNum) {
