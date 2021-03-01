@@ -143,6 +143,7 @@ function processTab(nextTab) {
             break;
     }
     var processExpand = document.getElementById("processExpand");
+    processExpand.innerHTML = "";
     for (var i = 0; i < Object.keys(processLibrary).length; i++) {
         var processTextDiv = document.createElement("div");
         processTextDiv.innerHTML = processLibrary[i]["txt"];
