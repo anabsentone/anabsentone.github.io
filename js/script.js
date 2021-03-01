@@ -152,6 +152,7 @@ function processTab(nextTab) {
         var processImg = document.createElement("img");
         processImg.src = fullImageDirectory + processLibrary[i]["img"];
         processImg.alt = processLibrary[i]["alt"];
+        processImg.classList.add("processImg"):
         processImg.onclick = function() {
             showOverlay(this);
         };
