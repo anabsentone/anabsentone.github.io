@@ -144,7 +144,7 @@ function processTab(nextTab) {
     }
     console.log(processLibrary);
     var processExpand = document.getElementById("processExpand");
-    for (var i = 0; i < processLibrary.length; i++) {
+    for (var i = 0; i < Object.keys(processLibrary).length; i++) {
         var processTextDiv = document.createElement("div");
         console.log(processLibrary[i]["txt"]);
         processTextDiv.innerHTML = processLibrary[i]["txt"];
