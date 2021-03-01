@@ -150,13 +150,13 @@ function processTab(nextTab) {
         processTextDiv.classList.add("processText");
         var processArtifactDiv = document.createElement("div");
         processArtifactDiv.classList.add("processArtifact");
+        processArtifactDiv.onclick = function() {
+            showOverlay(this);
+        };
         var processImg = document.createElement("img");
         processImg.src = fullImageDirectory + processLibrary[i]["img"];
         processImg.alt = processLibrary[i]["alt"];
         processImg.classList.add("processImg");
-        processImg.onclick = function() {
-            showOverlay(this);
-        };
         processArtifactDiv.appendChild(processImg);
         var processRow = document.createElement("div");
         processRow.classList.add("processRow");
