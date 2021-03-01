@@ -356,7 +356,7 @@ nav>a:hover {
 }
 
 .processRow {
-	padding 0 0 2vh 0;
+	padding: 0 0 2vh 0;
 	width: 100%;
 	position: relative;
 	display: flex;
