@@ -31,7 +31,7 @@ function closeOverlay() {
 }
 
 function loadPage() {
-    var locationPage = var currentPage = document.URL.split("/")[document.URL.split("/").length -1].split(".")[0];
+    var locationPage = document.URL.split("/")[document.URL.split("/").length -1].split(".")[0];
     console.log(locationPage);
 
     var imageDirectory = "images/";
