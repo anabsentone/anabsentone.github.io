@@ -142,16 +142,11 @@ function processTab(nextTab) {
             var processLibrary = workLibrary[currentPage]["implement"];
             break;
     }
-    console.log(processLibrary);
     var processExpand = document.getElementById("processExpand");
     for (var i = 0; i < Object.keys(processLibrary).length; i++) {
         var processTextDiv = document.createElement("div");
-        console.log(processLibrary[i]["txt"]);
         processTextDiv.innerHTML = processLibrary[i]["txt"];
         processTextDiv.classList.add("processText");
-        console.log(processTextDiv);
-        processExpand.appendChild(processTextDiv);
-        console.log(processExpand);
         var processArtifactDiv = document.createElement("div");
         processArtifactDiv.classList.add("processArtifact");
         var processImg = document.createElement("img");
@@ -161,7 +156,11 @@ function processTab(nextTab) {
             showOverlay(this);
         };
         processArtifactDiv.appendChild(processImg);
-        processExpand.appendChild(processArtifactDiv);
+        var processRow = document.createElement("div");
+        processRow.classList.add("processRow");
+        processRow.appendChild(processTextDiv);
+        processRow.appendChild(processArtifactDiv);
+        processExpand.appendChild(processRow);
     }
 }
 
