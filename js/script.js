@@ -53,7 +53,7 @@ function loadPage() {
             imageDirectory = "../images/";
             linkDirectory = "";
             for (var i = 0; i < Object.keys(workLibrary["gallery"]).length; i++) {
-                if (locationPage.split(".")[0] == workLibrary["gallery"][i]) {
+                if (locationPage == workLibrary["gallery"][i]) {
                     workNum = i;
                     break;
                 }
