@@ -146,9 +146,12 @@ function processTab(nextTab) {
     var processExpand = document.getElementById("processExpand");
     for (var i = 0; i < processLibrary.length; i++) {
         var processTextDiv = document.createElement("div");
+        console.log(processLibrary[i]["txt"]);
         processTextDiv.innerHTML = processLibrary[i]["txt"];
         processTextDiv.classList.add("processText");
+        console.log(processTextDiv);
         processExpand.appendChild(processTextDiv);
+        console.log(processExpand);
         var processArtifactDiv = document.createElement("div");
         processArtifactDiv.classList.add("processArtifact");
         var processImg = document.createElement("img");
