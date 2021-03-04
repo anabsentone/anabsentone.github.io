@@ -451,7 +451,7 @@ var workLibrary = {
                 "alt": "temp alt text understand1",
             },
             1: {
-                "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul>- accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</ul><ul>- economical: museum should not incur any additional costs to host the map on their website</ul><ul>- customizable: map must integrate and display the disparate sources and types of data with desired user interactions</ul><ul>- sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</ul>",
+                "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
                 "img": "thumbnail.png",
                 "alt": "temp alt text understand2",
             },
