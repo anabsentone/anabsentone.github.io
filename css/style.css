@@ -368,7 +368,7 @@ nav>a:hover {
 	overflow-y: scroll;
 }
 
-.processText li {
+.processText ul li {
 	list-style-type: "-   ";
 }
 
