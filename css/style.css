@@ -398,6 +398,7 @@ nav>a:hover {
 #connectIntroduction {
 	-ms-flex: 8;
 	flex: 8;
+	overflow: hidden;
 }
 
 #gallery {
