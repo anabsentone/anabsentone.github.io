@@ -386,6 +386,10 @@ nav>a:hover {
 	height: auto;
 }
 
+.spacer {
+	margin: 0.5vw;
+}
+
 /* #processExpand>.processImg {
 	max-width: 35%;
 	height: auto;
