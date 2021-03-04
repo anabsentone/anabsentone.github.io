@@ -158,13 +158,10 @@ function processTab(nextTab) {
         processImg.alt = processLibrary[i]["alt"];
         processImg.classList.add("processImg");
         processArtifactDiv.appendChild(processImg);
-        var spacerDiv = document.createElement("div");
-        spacerDiv.classList.add("spacer");
         var processRow = document.createElement("div");
         processRow.classList.add("processRow");
         processRow.appendChild(processTextDiv);
         processRow.appendChild(processArtifactDiv);
-        processRow.appendChild(spacerDiv);
         processExpand.appendChild(processRow);
     }
 }
