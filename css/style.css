@@ -348,7 +348,7 @@ nav>a:hover {
 #processExpand {
 	text-align: left;
 	height: 70%;
-	padding: 3vh;
+	padding: 3vh 1.5vw 3vh 3vh;
 	position: relative;
 	background-color: rgba(255,255,255,0.8);
 	overflow-y: scroll;
@@ -387,7 +387,7 @@ nav>a:hover {
 }
 
 .spacer {
-	margin: 0.5vw;
+	margin: 0.75vw;
 }
 
 /* #processExpand>.processImg {
