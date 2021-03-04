@@ -395,6 +395,11 @@ nav>a:hover {
 	background-color: rgba(225,225,225,1);
 }
 
+#connectIntroduction {
+	-ms-flex: 8;
+	flex: 8;
+}
+
 #gallery {
 	display: grid;
 	grid-template-columns: repeat(8, minmax(0, 8fr));
