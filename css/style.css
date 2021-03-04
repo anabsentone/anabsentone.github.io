@@ -399,6 +399,7 @@ nav>a:hover {
 	-ms-flex: 8;
 	flex: 8;
 	overflow: hidden;
+	line-height: 125%;
 }
 
 #connectIntroduction>div {
