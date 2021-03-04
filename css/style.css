@@ -368,6 +368,10 @@ nav>a:hover {
 	overflow-y: scroll;
 }
 
+.processText li {
+	list-style-type: "-   ";
+}
+
 .processArtifact {
 	display: flex;
 	position: relative;
