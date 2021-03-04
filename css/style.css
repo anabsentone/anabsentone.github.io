@@ -401,6 +401,10 @@ nav>a:hover {
 	overflow: hidden;
 }
 
+#connectIntroduction>div {
+	margin: 3vh 3vh 3vh 0;
+}
+
 #gallery {
 	display: grid;
 	grid-template-columns: repeat(8, minmax(0, 8fr));
