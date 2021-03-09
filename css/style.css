@@ -17,6 +17,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	max-width: 1300px;
+	margin: 0 auto;
 }
 
 #imageOverlay {
