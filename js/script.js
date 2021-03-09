@@ -464,7 +464,7 @@ var workLibrary = {
         "experiment": {
             0: {
                 "txt": "Multiple <span class='keyword'>sketching</span> sessions were held to generate ideas for the map layout, content structure, and interactive features. Having a variety of concepts allowed us to discuss the benefits of different design features and combine ideas that might work well together.",
-                "img": "sketchdesktop3.jpg",
+                "img": "sketchdesktop2.jpg",
                 "alt": "temp alt text experiment0",
             },
             1: {
