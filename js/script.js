@@ -464,13 +464,13 @@ var workLibrary = {
         "experiment": {
             0: {
                 "txt": "Multiple <span class='keyword'>sketching</span> sessions were held to generate ideas for the map layout, content structure, and interactive features. Having a variety of concepts allowed us to discuss the benefits of different design features and combine ideas that might work well together.",
-                "img": "thumbnail.png",
+                "img": "sketchdesktop3.jpg",
                 "alt": "temp alt text experiment0",
             },
             1: {
                 "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. The prototype of the desktop version of the map was a multipage PDF with mouse click interactions simulated by hyperlinks to different pages, built using Adobe Illustrator. The prototype of the mobile version was built using Figma.",
-                "img": "thumbnail.png",
-                "alt": "temp alt text experiment1",
+                "img": "digitalprototypedesktop.png",
+                "alt": "desktop: pdf file; mobile: https://www.figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1",
             },
         },
         "implement": {
