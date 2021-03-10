@@ -154,7 +154,14 @@ function processTab(nextTab) {
             showOverlay(this);
         };
         var processImg = document.createElement("img");
-        processImg.src = fullImageDirectory + processLibrary[i]["img"];
+        console.log("length is" + Object.keys(processLibrary[i]["img"]).length);
+        if (Object.keys(processLibrary[i]["img"]).length > 1) {
+            console.log("more than 1 image here");
+            var processImages = "";
+        }
+        else {    
+            processImg.src = fullImageDirectory + processLibrary[i]["img"];
+        }
         processImg.alt = processLibrary[i]["alt"];
         processImg.classList.add("processImg");
         processArtifactDiv.appendChild(processImg);
