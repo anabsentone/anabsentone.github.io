@@ -402,17 +402,17 @@ nav>a:hover {
 }
 
 .imageArrow {
-	visibility: hidden;
 	display: flex;
 	align-items: center;
 	height: 100%;
 	padding: 0.5vw;
-	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,0);
+	color: rgba(0,0,0,0);
 }
 
 .imageArrow:hover {
-	visibility: visible;
 	background-color: rgba(225,225,225,0.8);
+	color: rgba(255,255,255,1);
 	cursor: pointer;
 	transition: 0.5s ease;
 }
