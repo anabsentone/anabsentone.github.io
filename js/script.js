@@ -4,8 +4,6 @@ function linkWork(workNum) {
 
 function showOverlay(option, element) {
     document.getElementById("imageOverlay").classList.remove("overlayOff");
-    console.log(option);
-    console.log(element);
     switch(option) {
         case "background":
             document.getElementById("overlayImg").src = "";
@@ -38,7 +36,6 @@ function closeOverlay() {
 
 function loadPage() {
     var locationPage = document.URL.split("/")[document.URL.split("/").length -1].split(".")[0];
-    console.log(locationPage);
 
     var imageDirectory = "images/";
     var linkDirectory = "work/";
