@@ -15,11 +15,15 @@ function showOverlay(option) {
             document.getElementById("overlayImage").innerHTML = '<iframe src="https://districtsixmuseum.github.io/memorymappingproject"></iframe>';
             document.getElementById("overlayText").innerHTML = 'something something about this map you know blah blah';
             break;
-        default:
-            console.log(option);
+        case "artifact":
             document.getElementById("overlayImg").src = option.children[0].src;
             document.getElementById("overlayImg").alt = option.children[0].alt;
             document.getElementById("overlayText").innerHTML = option.children[0].alt;
+            break;
+        default:
+            document.getElementById("overlayImg").src = option.src;
+            document.getElementById("overlayImg").alt = option.alt;
+            document.getElementById("overlayText").innerHTML = option.alt;
             break;
     }
 }
