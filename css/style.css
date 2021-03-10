@@ -390,6 +390,17 @@ nav>a:hover {
 	height: auto;
 }
 
+#imageLeft {
+}
+
+#imageRight {
+}
+
+.imageArrow {
+	padding: 0.5vw;
+	z-index: 0;
+}
+
 /* #processExpand>.processImg {
 	max-width: 35%;
 	height: auto;
