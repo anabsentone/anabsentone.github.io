@@ -542,13 +542,13 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. A <a href='' target='_blank'>prototype of the desktop version of the map</a> was a multipage PDF built using Adobe Illustrator with mouse click interactions simulated by hyperlinks to different pages. A <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>prototype of the mobile version</a> was built using Figma, an online collaborative user interface wireframming and prototyping platform.",
+                "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. A <a href='districtsix/digitalprototypedesktop.pdf' target='_blank'>prototype of the desktop version of the map</a> was a multipage PDF built using Adobe Illustrator with mouse click interactions simulated by hyperlinks to different pages. A <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>prototype of the mobile version</a> was built using Figma, an online collaborative user interface wireframming and prototyping platform.",
                 "img": {
                     0: "digitalprototypedesktop.png",
                     1: "digitalprototypemobile.png",
                 },
                 "alt": {
-                    0: "desktop: pdf file",
+                    0: "The digital prototype for the desktop version of the map was built using Adobe Illustrator, and it is accessible through this link: <a href='districtsix/digitalprototypedesktop.pdf' target='_blank'>DigitalPrototypeDesktop.pdf</a>",
                     1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible in this frame and also through this link: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>.",
                 },
             },
