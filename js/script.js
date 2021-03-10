@@ -514,7 +514,7 @@ var workLibrary = {
                     0: "quote.jpg",
                 },
                 "alt": {
-                    0: "temp alt text understand2",
+                    0: "This quote by a former resident of District Six captures the diversity of life within the community prior to the arrival of the apartheid policies that dismantled it. The quote was printed on an otherwise blank wall in the District Six Homecoming Centre next door to the museum that serves as an additional heritage learning center, community gathering space, and event venue.",
                 },
             },
             2: {
