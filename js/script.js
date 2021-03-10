@@ -179,6 +179,9 @@ function processTab(nextTab) {
             processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
             processImg.alt = processLibrary[i]["alt"][j];
             processImg.classList.add("processImg");
+            if (j > 0) {
+                processImg.style.display = "none";
+            }
             processArtifactDiv.appendChild(processImg);
         }
         var processRow = document.createElement("div");
