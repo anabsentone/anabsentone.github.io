@@ -516,10 +516,10 @@ var workLibrary = {
             2: {
                 "txt": "We conducted a <span class='keyword'>comparator analysis</span> by researching other existing maps to gather insight on graphical layouts, information architecture, interactive features, and GIS implementation methods. A map of District Six printed in the museum’s recently published historical cookbook that highlighted some community landmarks served as a good starting point. The <a href='https://projects.lib.wayne.edu/12thstreetdetroit/exhibits/show/july23_aug41967/map' target='_blank'>Detroit 67 Project</a> was built with the Neatline plugin for Omeka CMS, plotting clickable points of interest onto a baselayer of Google Maps or OpenStreetMaps, but this implementation approach did not meet the need for historical accuracy because the baselayer would display current-day streets and buildings while the points of interest would be from a past era where the geography was different. <a href='https://arcg.is/ubmm9' target='_blank'>The St. Louis LGBTQ Map</a> used ArcGIS to produce maps very smoothly integrated into the entire webpage, but this implementation approach would likely entail subscription fees to the hosting service.",
                 "img": {
-                    0: "thumbnail.png",
+                    0: "arcgisproto.gif",
                 },
                 "alt": {
-                    0: "temp alt text understand3",
+                    0: "From researching some existing online interactive maps, we tried to replicate their implementation methods to understand the capabilities and limitations afforded by those systems. The test captured in these images was built on ArcGIS Online, which we concluded would not be appropriate for this project because of its subscription fees.",
                 },
             },
         },
