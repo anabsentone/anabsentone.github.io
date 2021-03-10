@@ -154,10 +154,6 @@ function processTab(nextTab) {
         processTextDiv.classList.add("processText");
         var processArtifactDiv = document.createElement("div");
         processArtifactDiv.classList.add("processArtifact");
-        processArtifactDiv.onclick = function() {
-            showOverlay(this);
-        };
-        // https://w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
         if (Object.keys(processLibrary[i]["img"]).length > 1) {
             var imageLeft = document.createElement("div");
             imageLeft.innerHTML = "❮";
@@ -183,6 +179,9 @@ function processTab(nextTab) {
             processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
             processImg.alt = processLibrary[i]["alt"][j];
             processImg.classList.add("processImg");
+            processImg.addEventListener("click", function(e) {
+                showOverlay('', this);
+            });
             if (j > 0) {
                 processImg.style.display = "none";
             }
