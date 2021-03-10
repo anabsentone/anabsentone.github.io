@@ -2,7 +2,7 @@ function linkWork(workNum) {
     var workID;
 }
 
-function showOverlay(option) {
+function showOverlay(option, element) {
     document.getElementById("imageOverlay").classList.remove("overlayOff");
     switch(option) {
         case "background":
@@ -16,14 +16,14 @@ function showOverlay(option) {
             document.getElementById("overlayText").innerHTML = 'something something about this map you know blah blah';
             break;
         case "artifact":
-            document.getElementById("overlayImg").src = option.children[0].src;
-            document.getElementById("overlayImg").alt = option.children[0].alt;
-            document.getElementById("overlayText").innerHTML = option.children[0].alt;
+            document.getElementById("overlayImg").src = element.children[0].src;
+            document.getElementById("overlayImg").alt = element.children[0].alt;
+            document.getElementById("overlayText").innerHTML = element.children[0].alt;
             break;
         default:
-            document.getElementById("overlayImg").src = option.src;
-            document.getElementById("overlayImg").alt = option.alt;
-            document.getElementById("overlayText").innerHTML = option.alt;
+            document.getElementById("overlayImg").src = element.src;
+            document.getElementById("overlayImg").alt = element.alt;
+            document.getElementById("overlayText").innerHTML = element.alt;
             break;
     }
 }
