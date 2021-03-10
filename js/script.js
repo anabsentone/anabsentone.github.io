@@ -155,16 +155,30 @@ function processTab(nextTab) {
         };
         var processImg = document.createElement("img");
         console.log("length is" + Object.keys(processLibrary[i]["img"]).length);
+        // https://w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
         if (Object.keys(processLibrary[i]["img"]).length > 1) {
             console.log("more than 1 image here");
-            var processImages = "";
-        }
-        else {    
+            var imageLeft = document.createElement("div");
+            imageLeft.innerHTML = "❮";
+            var imageRight = document.createElement("div");
+            imageRight.innerHTML = "❯";
             processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
             processImg.alt = processLibrary[i]["alt"][0];
+            processImg.classList.add("processImg");
+            processArtifactDiv.appendChild(imageLeft);
+            processArtifactDiv.appendChild(processImg);
+            processArtifactDiv.appendChild(imageRight);
+            var processImages = processLibrary[i]["img"];
+            for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
+                
+            }
         }
-        processImg.classList.add("processImg");
-        processArtifactDiv.appendChild(processImg);
+        else {
+            processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
+            processImg.alt = processLibrary[i]["alt"][0];
+            processImg.classList.add("processImg");
+            processArtifactDiv.appendChild(processImg);
+        }
         var processRow = document.createElement("div");
         processRow.classList.add("processRow");
         processRow.appendChild(processTextDiv);
