@@ -153,7 +153,6 @@ function processTab(nextTab) {
         processArtifactDiv.onclick = function() {
             showOverlay(this);
         };
-        var processImg = document.createElement("img");
         // https://w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
         if (Object.keys(processLibrary[i]["img"]).length > 1) {
             var imageLeft = document.createElement("div");
@@ -162,7 +161,7 @@ function processTab(nextTab) {
             imageLeft.classList.add("imageArrow");
             imageLeft.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(-1);
+                imageChange(-1, this);
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
@@ -170,18 +169,15 @@ function processTab(nextTab) {
             imageRight.classList.add("imageArrow");
             imageRight.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(1);
+                imageChange(1, this);
             });
-            processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
-            processImg.alt = processLibrary[i]["alt"][0];
-            processImg.classList.add("processImg");
             processArtifactDiv.appendChild(imageLeft);
-            processArtifactDiv.appendChild(processImg);
             processArtifactDiv.appendChild(imageRight);
         }
-        else {
-            processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
-            processImg.alt = processLibrary[i]["alt"][0];
+        for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
+            var processImg = document.createElement("img");
+            processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
+            processImg.alt = processLibrary[i]["alt"][j];
             processImg.classList.add("processImg");
             processArtifactDiv.appendChild(processImg);
         }
@@ -193,8 +189,9 @@ function processTab(nextTab) {
     }
 }
 
-function imageChange(direction) {
+function imageChange(direction, thingy) {
     console.log(direction);
+    console.log(thingy);
 }
 
 function loadGallery(imageDirectory, linkDirectory, workNum, full) {
