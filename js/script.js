@@ -154,24 +154,26 @@ function processTab(nextTab) {
             showOverlay(this);
         };
         var processImg = document.createElement("img");
-        console.log("length is" + Object.keys(processLibrary[i]["img"]).length);
         // https://w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
         if (Object.keys(processLibrary[i]["img"]).length > 1) {
-            console.log("more than 1 image here");
             var imageLeft = document.createElement("div");
             imageLeft.innerHTML = "❮";
+            imageLeft.classList.add("imageLeft");
+            imageLeft.addEventListener("onclick", function() {
+                imageChange(-1);
+            });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
+            imageRight.classList.add("imageRight");
+            imageRight.addEventListener("onclick", function() {
+                imageChange(1);
+            });
             processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
             processImg.alt = processLibrary[i]["alt"][0];
             processImg.classList.add("processImg");
             processArtifactDiv.appendChild(imageLeft);
             processArtifactDiv.appendChild(processImg);
             processArtifactDiv.appendChild(imageRight);
-            var processImages = processLibrary[i]["img"];
-            for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
-                
-            }
         }
         else {
             processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
@@ -185,6 +187,10 @@ function processTab(nextTab) {
         processRow.appendChild(processArtifactDiv);
         processExpand.appendChild(processRow);
     }
+}
+
+function imageChange(direction) {
+    console.log(direction);
 }
 
 function loadGallery(imageDirectory, linkDirectory, workNum, full) {
