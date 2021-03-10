@@ -158,13 +158,15 @@ function processTab(nextTab) {
         if (Object.keys(processLibrary[i]["img"]).length > 1) {
             var imageLeft = document.createElement("div");
             imageLeft.innerHTML = "❮";
-            imageLeft.classList.add("imageLeft");
+            imageLeft.id = "imageLeft";
+            imageLeft.classList.add("imageArrow");
             imageLeft.addEventListener("click", function() {
                 imageChange(-1);
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
-            imageRight.classList.add("imageRight");
+            imageRight.id = "imageRight";
+            imageRight.classList.add("imageArrow");
             imageRight.addEventListener("click", function() {
                 imageChange(1);
             });
