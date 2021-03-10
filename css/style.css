@@ -391,14 +391,20 @@ nav>a:hover {
 }
 
 #imageLeft {
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 #imageRight {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .imageArrow {
+	height: 100%;
 	padding: 0.5vw;
-	z-index: 0;
 }
 
 /* #processExpand>.processImg {
