@@ -4,6 +4,8 @@ function linkWork(workNum) {
 
 function showOverlay(option, element) {
     document.getElementById("imageOverlay").classList.remove("overlayOff");
+    console.log(option);
+    console.log(element);
     switch(option) {
         case "background":
             document.getElementById("overlayImg").src = "";
