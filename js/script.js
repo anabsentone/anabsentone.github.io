@@ -5,7 +5,7 @@ function linkWork(workNum) {
 function showOverlay(option, element) {
     document.getElementById("imageOverlay").classList.remove("overlayOff");
     switch(option) {
-        case "background":
+        case "background": // currently covered by a dark translucent full page background div so not clickable
             document.getElementById("overlayImg").src = "";
             document.getElementById("overlayImg").alt = "Adidas Gazelles";
             document.getElementById("overlayText").innerHTML = "Adidas Gazelles";
@@ -25,6 +25,10 @@ function showOverlay(option, element) {
             document.getElementById("overlayImg").alt = element.alt;
             document.getElementById("overlayText").innerHTML = element.alt;
             break;
+    }
+    if (element.src.includes("digitalprototypemobile")) {
+        document.getElementById("overlayImage").removeChild(document.getElementById("overlayImg"));
+        document.getElementById("overlayImage").innerHTML = "<iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYC8xfxRYXYLaYJarzpc6jv7F%2FDistrict-Six-Museum-Wireframe%3Fnode-id%3D17%253A46%26scaling%3Dscale-down' allowfullscreen></iframe>";
     }
 }
 
@@ -545,7 +549,7 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "desktop: pdf file",
-                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a><iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYC8xfxRYXYLaYJarzpc6jv7F%2FDistrict-Six-Museum-Wireframe%3Fnode-id%3D17%253A46%26scaling%3Dscale-down' allowfullscreen></iframe>",
+                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>",
                 },
             },
         },
