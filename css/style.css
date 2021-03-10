@@ -399,12 +399,22 @@ nav>a:hover {
 #imageRight {
 	position: absolute;
 	right: 0;
-	top: 0;
 }
 
 .imageArrow {
+	visibility: hidden;
+	display: flex;
+	align-items: center;
 	height: 100%;
 	padding: 0.5vw;
+	color: rgba(255,255,255,1);
+}
+
+.imageArrow:hover {
+	visibility: visible;
+	background-color: rgba(225,225,225,0.8);
+	cursor: pointer;
+	transition: 0.5s ease;
 }
 
 /* #processExpand>.processImg {
