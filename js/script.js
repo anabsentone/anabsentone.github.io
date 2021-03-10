@@ -160,9 +160,9 @@ function processTab(nextTab) {
             var processImages = "";
         }
         else {    
-            processImg.src = fullImageDirectory + processLibrary[i]["img"];
+            processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
+            processImg.alt = processLibrary[i]["alt"][0];
         }
-        processImg.alt = processLibrary[i]["alt"];
         processImg.classList.add("processImg");
         processArtifactDiv.appendChild(processImg);
         var processRow = document.createElement("div");
