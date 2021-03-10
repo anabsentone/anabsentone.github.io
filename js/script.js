@@ -498,16 +498,16 @@ var workLibrary = {
             0: {
                 "txt": "Through <span class='keyword'>stakeholder conversations</span> with the museum administration, we gained a clear understanding of the project goal being an interactive map embedded on the museum’s public website that presented the pre-apartheid history of the District Six community. The museum staff stressed to us the importance of apartheid history to South Africans, especially since there were still many living survivors. Maps from the era were particularly treasured because they served as proof of the thriving communities beforehand and the barren lots after, which is why they believed that adding a map to the museum website could serve as a mark of identity as well as an educational resource. What was left open for our team to determine was the specific content that map would contain, how the map would be integrated into the museum’s website, and how a website visitor would explore and interact with the map.",
                 "img": {
-                    0: "thumbnail.png",
+                    0: "cntravelerdistrictsixmuseum.jpg",
                 },
                 "alt": {
-                    0: "temp alt text understand1",
+                    0: "The District Six Museum was established in an old church building, and its main room hosts a gallery of artifacts from District Six. The centerpiece is the large floor map of District Six's streets, on which former residents have scrawled notes about the places where they lived, worked, and played.",
                 },
             },
             1: {
                 "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
                 "img": {
-                    0: "thumbnail.png",
+                    0: "quote.jpg",
                 },
                 "alt": {
                     0: "temp alt text understand2",
