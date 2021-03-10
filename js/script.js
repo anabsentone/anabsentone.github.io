@@ -519,7 +519,7 @@ var workLibrary = {
                     0: "arcgisproto.gif",
                 },
                 "alt": {
-                    0: "From researching some existing online interactive maps, we tried to replicate their implementation methods to understand the capabilities and limitations afforded by those systems. The test captured in these images was built on ArcGIS Online, which we concluded would not be appropriate for this project because of its subscription fees.",
+                    0: "From researching existing online interactive maps, we tried to replicate their implementation methods to understand the capabilities and limitations afforded by those systems. The test captured in these images was built on ArcGIS Online, which we concluded would not be appropriate for this project because of its subscription fees.",
                 },
             },
         },
@@ -545,7 +545,7 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "desktop: pdf file",
-                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>",
+                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a><iframe style='border: 1px solid rgba(0, 0, 0, 0.1);' width='800' height='450' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYC8xfxRYXYLaYJarzpc6jv7F%2FDistrict-Six-Museum-Wireframe%3Fnode-id%3D17%253A46%26scaling%3Dscale-down' allowfullscreen></iframe>",
                 },
             },
         },
