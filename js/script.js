@@ -454,47 +454,79 @@ var workLibrary = {
         "understand": {
             0: {
                 "txt": "Through <span class='keyword'>stakeholder conversations</span> with the museum administration, we gained a clear understanding of the project goal being an interactive map embedded on the museum’s public website that presented the pre-apartheid history of the District Six community. The museum staff stressed to us the importance of apartheid history to South Africans, especially since there were still many living survivors. Maps from the era were particularly treasured because they served as proof of the thriving communities beforehand and the barren lots after, which is why they believed that adding a map to the museum website could serve as a mark of identity as well as an educational resource. What was left open for our team to determine was the specific content that map would contain, how the map would be integrated into the museum’s website, and how a website visitor would explore and interact with the map.",
-                "img": "thumbnail.png",
-                "alt": "temp alt text understand1",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text understand1",
+                },
             },
             1: {
                 "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
-                "img": "thumbnail.png",
-                "alt": "temp alt text understand2",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text understand2",
+                },
             },
             2: {
                 "txt": "We conducted a <span class='keyword'>comparator analysis</span> by researching other existing maps to gather insight on graphical layouts, information architecture, interactive features, and GIS implementation methods. A map of District Six printed in the museum’s recently published historical cookbook that highlighted some community landmarks served as a good starting point. The <a href='https://projects.lib.wayne.edu/12thstreetdetroit/exhibits/show/july23_aug41967/map' target='_blank'>Detroit 67 Project</a> was built with the Neatline plugin for Omeka CMS, plotting clickable points of interest onto a baselayer of Google Maps or OpenStreetMaps, but this implementation approach did not meet the need for historical accuracy because the baselayer would display current-day streets and buildings while the points of interest would be from a past era where the geography was different. <a href='https://arcg.is/ubmm9' target='_blank'>The St. Louis LGBTQ Map</a> used ArcGIS to produce maps very smoothly integrated into the entire webpage, but this implementation approach would likely entail subscription fees to the hosting service.",
-                "img": "thumbnail.png",
-                "alt": "temp alt text understand3",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text understand3",
+                },
             },
         },
         "experiment": {
             0: {
                 "txt": "Multiple <span class='keyword'>sketching</span> sessions were held to generate ideas for the map layout, content structure, and interactive features. Having a variety of concepts allowed us to discuss the benefits of different design features and combine ideas that might work well together.",
-                "img": "sketchdesktop2.jpg",
-                "alt": "temp alt text experiment0",
+                "img": {
+                    0: "sketchdesktop2.jpg",
+                },
+                "alt": {
+                    0: "temp alt text experiment0",
+                },
             },
             1: {
                 "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. The prototype of the desktop version of the map was a multipage PDF with mouse click interactions simulated by hyperlinks to different pages, built using Adobe Illustrator. The <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1'>prototype of the mobile version</a> was built using Figma.",
-                "img": "digitalprototypedesktop.png",
-                "alt": "desktop: pdf file; mobile: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1'>https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1</a>",
+                "img": {
+                    0: "digitalprototypedesktop.png",
+                },
+                "alt": {
+                    0: "desktop: pdf file; mobile: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1'>https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1</a>",
+                },
             },
         },
         "implement": {
             0: {
                 "txt": "Particular <span class='keyword'>interaction features</span> were programmed to support exploration of the large quantity of content contained within the map:<ul><li>togglable layers allowed focusing on particular content such as individual resident’s stories or groups of community landmarks by graphically highlighting the selected layer’s points of interest and gently fading the rest</li><li>image slideshows enabled scrolling through photos taken over the course of each resident’s life without overcrowding the screen</li><li>an image overlay would cover the screen upon clicking any individual image, making the historical photos larger for better viewing as well as displaying accompanying textual descriptions about their significance</li><li>audio players lent an additional dimension of immersion through recordings of residents discussing life in District Six in their own voices</li></ul>",
-                "img": "thumbnail.png",
-                "alt": "temp alt text implement0",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text implement0",
+                },
             },
             1: {
                 "txt": "We built a lengthy <span class='keyword'>implementation process</span> to integrate the disparate pieces produced by the different members of the team. District Six community landmark data collected from the museum archives as well as data points of former residents’ life stories gathered from interviews organized in Excel spreadsheets and historical building footprints outlined in Illustrator were imported into open source QGIS mapping software where they were geolocated and assigned to corresponding map layers. From QGIS, the qgis2web plugin exported that compiled map to a HTML, CSS, and JavaScript web code representation on top of which additional features were developed including toggleable layers and embedding historical photos and audio recordings. This fully developed code was uploaded to a newly created GitHub repository in the museum’s name, and to have the interactive map rendered online we inserted an iframe element linking to the GitHub-hosted code on a dedicated webpage on the museum’s WordPress website.",
-                "img": "thumbnail.png",
-                "alt": "temp alt text implement1",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text implement1",
+                },
             },
             2: {
                 "txt": "At the close of the project, we included <span class='keyword'>sustainability recommendations</span> in our deliverables submitted to the museum administration. In addition to describing further work that could be undertaken to enhance the interactive map such as evaluating visitor navigation as well as implementing the mobile version that was determined to be beyond scope with our timeline, we included a conceptual breakdown of domain knowledge and technological capabilities that the museum should consider bringing into their staff to be able to continue to engage in these types of digital scholarship projects going forward.",
-                "img": "thumbnail.png",
-                "alt": "temp alt text implement2",
+                "img": {
+                    0: "thumbnail.png",
+                },
+                "alt": {
+                    0: "temp alt text implement2",
+                },
             },
         },
         "thumbnail": "thumbnail.png",
