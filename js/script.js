@@ -159,13 +159,13 @@ function processTab(nextTab) {
             var imageLeft = document.createElement("div");
             imageLeft.innerHTML = "❮";
             imageLeft.classList.add("imageLeft");
-            imageLeft.addEventListener("onclick", function() {
+            imageLeft.addEventListener("click", function() {
                 imageChange(-1);
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
             imageRight.classList.add("imageRight");
-            imageRight.addEventListener("onclick", function() {
+            imageRight.addEventListener("click", function() {
                 imageChange(1);
             });
             processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
