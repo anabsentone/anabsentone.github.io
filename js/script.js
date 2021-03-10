@@ -545,7 +545,7 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "desktop: pdf file",
-                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1</a>",
+                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible here: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>",
                 },
             },
         },
