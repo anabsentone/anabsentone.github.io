@@ -160,14 +160,16 @@ function processTab(nextTab) {
             imageLeft.innerHTML = "❮";
             imageLeft.id = "imageLeft";
             imageLeft.classList.add("imageArrow");
-            imageLeft.addEventListener("click", function() {
+            imageLeft.addEventListener("click", function(e) {
+                e.stopPropagation();
                 imageChange(-1);
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
             imageRight.id = "imageRight";
             imageRight.classList.add("imageArrow");
-            imageRight.addEventListener("click", function() {
+            imageRight.addEventListener("click", function(e) {
+                e.stopPropagation();
                 imageChange(1);
             });
             processImg.src = fullImageDirectory + processLibrary[i]["img"][0];
