@@ -161,7 +161,7 @@ function processTab(nextTab) {
             imageLeft.classList.add("imageArrow");
             imageLeft.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(-1, this.parentElement);
+                imageChange(-1, this.parentElement.getElementsByTagName("img"));
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
@@ -169,7 +169,7 @@ function processTab(nextTab) {
             imageRight.classList.add("imageArrow");
             imageRight.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(1, this.parentElement);
+                imageChange(1, this.parentElement.getElementsByTagName("img"));
             });
             processArtifactDiv.appendChild(imageLeft);
             processArtifactDiv.appendChild(imageRight);
@@ -192,10 +192,26 @@ function processTab(nextTab) {
     }
 }
 
-function imageChange(direction, artifactDiv) {
-    console.log(direction);
-    console.log(artifactDiv);
-    console.log(artifactDiv.getElementsByTagName("img"));
+function imageChange(direction, imageList) {
+    var currentImg;
+    for (var i = 0; i < imageList.length; i++) {
+        if (imageList[i].style.display != "none") {
+            currentImg = i;
+            imageList[i].style.display = "none";
+            break;
+        }
+    }
+    switch (currentImg + direction) {
+        case -1:
+            imageList[imageList.length - 1].style.display = "initial";
+            break;
+        case imageList.length:
+            imageList[0].style.display = "initial";
+            break;
+        default:
+            imageList[currentImg + direction].style.display = "initial";
+            break;
+    }
 }
 
 function loadGallery(imageDirectory, linkDirectory, workNum, full) {
