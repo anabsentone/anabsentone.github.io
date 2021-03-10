@@ -28,7 +28,7 @@ function showOverlay(option, element) {
     }
     if (element.src.includes("digitalprototypemobile")) {
         document.getElementById("overlayImage").removeChild(document.getElementById("overlayImg"));
-        document.getElementById("overlayImage").innerHTML = "<iframe style='height: 80vh;' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYC8xfxRYXYLaYJarzpc6jv7F%2FDistrict-Six-Museum-Wireframe%3Fnode-id%3D17%253A46%26scaling%3Dscale-down' allowfullscreen></iframe>";
+        document.getElementById("overlayImage").innerHTML = "<iframe style='height: 70vh;' src='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FYC8xfxRYXYLaYJarzpc6jv7F%2FDistrict-Six-Museum-Wireframe%3Fnode-id%3D17%253A46%26scaling%3Dscale-down' allowfullscreen></iframe>";
     }
 }
 
