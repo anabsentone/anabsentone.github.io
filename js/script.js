@@ -13,7 +13,7 @@ function showOverlay(option, element) {
         case "districtsix":
             document.getElementById("overlayImage").removeChild(document.getElementById("overlayImg"));
             document.getElementById("overlayImage").innerHTML = '<iframe src="https://districtsixmuseum.github.io/memorymappingproject"></iframe>';
-            document.getElementById("overlayText").innerHTML = 'Map can be panned (mouse click and drag) and zoomed (mouse double-click or mouse scrollwheel or buttons in upper left corner). Some points do not appear until sufficiently zoomed in. Click on a storyteller&quot;s button above to highlight that individual&quot;s story. Click on a landmark button below to toggle its icons on and off. Click on a location in the map to see more details about it. Click on an image to expand it.';
+            document.getElementById("overlayText").innerHTML = 'Map can be panned (mouse click and drag) and zoomed (mouse double-click or mouse scrollwheel or buttons in upper left corner). Some points do not appear until sufficiently zoomed in. Click on a storyteller&apos;s button above to highlight that individual&apos;s story. Click on a landmark button below to toggle its icons on and off. Click on a location in the map to see more details about it. Click on an image to expand it.';
             break;
         case "artifact":
             document.getElementById("overlayImg").src = element.children[0].src;
