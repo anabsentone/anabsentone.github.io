@@ -23,12 +23,11 @@ body {
 }
 
 #imageOverlay {
-	height: 100vh;
-	width: 100vw;
 	position: absolute;
 	z-index: 100;
 	background-color: rgba(0,0,0,0.85);
 	transition: 0.5s ease;
+	max-width: 1300px;
 }
 
 #overlayContainer {
