@@ -161,7 +161,7 @@ function processTab(nextTab) {
             imageLeft.classList.add("imageArrow");
             imageLeft.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(-1, this.parent.getElementsByTagName("img"));
+                imageChange(-1, this.parent);
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
@@ -169,7 +169,7 @@ function processTab(nextTab) {
             imageRight.classList.add("imageArrow");
             imageRight.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(1, this.parent.getElementsByTagName("img"));
+                imageChange(1, this.parent);
             });
             processArtifactDiv.appendChild(imageLeft);
             processArtifactDiv.appendChild(imageRight);
@@ -192,9 +192,10 @@ function processTab(nextTab) {
     }
 }
 
-function imageChange(direction, thingy) {
+function imageChange(direction, artifactDiv) {
     console.log(direction);
-    console.log(thingy);
+    console.log(artifactDiv);
+    console.log(artifactDiv.getElementsByTagName("img"));
 }
 
 function loadGallery(imageDirectory, linkDirectory, workNum, full) {
