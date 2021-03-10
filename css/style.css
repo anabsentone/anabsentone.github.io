@@ -391,28 +391,27 @@ nav>a:hover {
 }
 
 #imageLeft {
-	position: absolute;
 	left: 0;
-	top: 0;
 }
 
 #imageRight {
-	position: absolute;
 	right: 0;
 }
 
 .imageArrow {
+	position: absolute;
 	display: flex;
 	align-items: center;
 	height: 100%;
 	padding: 0.5vw;
 	background-color: rgba(0,0,0,0);
 	color: rgba(0,0,0,0);
+	overflow: hidden;
 }
 
 .imageArrow:hover {
-	background-color: rgba(225,225,225,0.8);
-	color: rgba(255,255,255,1);
+	background-color: rgba(200,200,200,0.8);
+	color: rgba(0,0,0,1);
 	cursor: pointer;
 	transition: 0.5s ease;
 }
