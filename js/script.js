@@ -161,7 +161,7 @@ function processTab(nextTab) {
             imageLeft.classList.add("imageArrow");
             imageLeft.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(-1, this);
+                imageChange(-1, this.parent.getElementsByTagName("img"));
             });
             var imageRight = document.createElement("div");
             imageRight.innerHTML = "❯";
@@ -169,7 +169,7 @@ function processTab(nextTab) {
             imageRight.classList.add("imageArrow");
             imageRight.addEventListener("click", function(e) {
                 e.stopPropagation();
-                imageChange(1, this);
+                imageChange(1, this.parent.getElementsByTagName("img"));
             });
             processArtifactDiv.appendChild(imageLeft);
             processArtifactDiv.appendChild(imageRight);
