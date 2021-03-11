@@ -179,16 +179,18 @@ function processTab(nextTab) {
         }
         for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
             var processImg = document.createElement("img");
-            processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
-            processImg.alt = processLibrary[i]["alt"][j];
-            processImg.classList.add("processImg");
-            processImg.addEventListener("click", function(e) {
-                showOverlay('', this);
-            });
-            if (j > 0) {
-                processImg.style.display = "none";
+            if (processLibrary[i]["img"][j]) {
+                processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
+                processImg.alt = processLibrary[i]["alt"][j];
+                processImg.classList.add("processImg");
+                processImg.addEventListener("click", function(e) {
+                    showOverlay('', this);
+                });
+                if (j > 0) {
+                    processImg.style.display = "none";
+                }
+                processArtifactDiv.appendChild(processImg);
             }
-            processArtifactDiv.appendChild(processImg);
         }
         var processRow = document.createElement("div");
         processRow.classList.add("processRow");
