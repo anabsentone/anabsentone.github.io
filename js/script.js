@@ -497,7 +497,7 @@ var workLibrary = {
     "districtsix": {
         "title": "Cape Town District Six Pre-Apartheid Community Memory Mapping",
         "tags": "interaction development, UX design, information architecture, technology implementation, GIS",
-        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. We interviewed seven former residents, identified community landmarks within the museum archives, and incorporated street address data to design, develop, and implement this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a>. The map alone can be explored by clicking the image to the right.<br><br>This project won Honorable Mention at the 2019 Innovation and Appropriate Technology in Africa Conference as well as Faculty Choice at the 2020 UMSI Spring Exposition.",
+        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team interviewed seven former residents, identified community landmarks within the museum archives, and incorporated street address data to design, develop, and implement this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a>. The map alone can be explored by clicking the image to the right.<br><br>This project won Honorable Mention at the 2019 Innovation and Appropriate Technology in Africa Conference as well as Faculty Choice at the 2020 UMSI Spring Exposition.",
         "artifact": "websiteview.png",
         "artifactAlt": "Interactive map screenshot",
         "understand": {
@@ -767,14 +767,14 @@ var workLibrary = {
     "veggiefresh": {
         "title": "VeggieFresh Consumer Food Storage Product Design",
         "tags": "product design, market research, quantitative data analysis, design engineering, business planning",
-        "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, we researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was VeggieFresh: an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
+        "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was VeggieFresh: an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
         "artifact": "prototype.jpg",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "understand": {
             0: {
                 "txt": "interviews and surveys",
-                "img": "model.png",
-                "alt": "replace maybe with market positioning",
+                "img": "",
+                "alt": "",
             },
             1: {
                 "txt": "Market positioning and opportunities",
@@ -790,8 +790,8 @@ var workLibrary = {
         "experiment": {
             0: {
                 "txt": "Functional decomposition",
-                "img": "cad.gif",
-                "alt": "replace maybe with scanned draft ideas or maybe pugh chart",
+                "img": "",
+                "alt": "",
             },
             1: {
                 "txt": "Brainstorm",
@@ -812,8 +812,14 @@ var workLibrary = {
         "implement": {
             0: {
                 "txt": "3D modeling for establishing final product appearance",
-                "img": "cad2.gif",
-                "alt": "animation of intended product usage",
+                "img": {
+                    0: "cad.gif",
+                    1: "cad2.gif",
+                },
+                "alt": {
+                    0: "animation of intended product usage1",
+                    1: "animation of intended product usage2",
+                },
             },
             1: {
                 "txt": "Physical prototyping for evaluating use case and value proposition",
