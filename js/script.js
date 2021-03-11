@@ -531,16 +531,16 @@ var workLibrary = {
         },
         "experiment": {
             0: {
-                "txt": "Multiple <span class='keyword'>sketching</span> sessions were held to generate ideas for the map layout, content structure, and interactive features. Having a variety of concepts allowed us to discuss the benefits of different design features and combine ideas that might work well together.",
+                "txt": "Multiple <span class='keyword'>sketching</span> sessions were held to generate ideas for the map layout, content structure, and interactive features. Having a variety of concepts allowed us to discuss the benefits of different design features and combine ideas that might work well together. Sketching enabled brainstormed concepts to be explored and expanded upon, and visualizing them helped us to determine more clearly which features were promising to proceed with and which might need to be tabled.",
                 "img": {
                     0: "sketchdesktop1.jpg",
                     1: "sketchdesktop2.jpg",
                     2: "sketchdesktop3.jpg",
                 },
                 "alt": {
-                    0: "temp alt text experiment00",
-                    1: "temp alt text experiment01",
-                    2: "temp alt text experiment02",
+                    0: "Some of my sketches showing former residents' personally significant locations on a highlighted path to represent possible paths they may have taken through the community.",
+                    1: "A teammate's sketches introducing the ideas of audio players to be able to include the former residents' telling their own stories in their own voices as well as image carousels to be able to present more historical photos in less screen interface real estate.",
+                    2: "A teammate's sketches of the general graphical layout and information architecture that were moved forward with.",
                 },
             },
             1: {
