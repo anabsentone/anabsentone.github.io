@@ -539,8 +539,8 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "Some of my sketches showing former residents' personally significant locations on a highlighted path to represent possible paths they may have taken through the community.",
-                    1: "A teammate's sketches introducing the ideas of audio players to be able to include the former residents' telling their own stories in their own voices as well as image carousels to be able to present more historical photos in less screen interface real estate.",
-                    2: "A teammate's sketches of the general graphical layout and information architecture that were moved forward with.",
+                    1: "A teammate's sketches introduced the ideas of audio players to be able to include the former residents' telling their own stories in their own voices as well as image carousels to be able to present more historical photos in less screen interface real estate.",
+                    2: "A teammate's sketches initiated the general graphical layout and navigational heirarchy that were further developed.",
                 },
             },
             1: {
