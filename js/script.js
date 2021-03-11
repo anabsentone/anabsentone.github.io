@@ -195,8 +195,8 @@ function processTab(nextTab) {
                 processArtifactDiv.appendChild(processImg);
             }
             processRow.appendChild(processArtifactDiv);
-            processExpand.appendChild(processRow);
         }
+        processExpand.appendChild(processRow);
     }
 }
 
