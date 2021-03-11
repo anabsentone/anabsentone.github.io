@@ -155,31 +155,34 @@ function processTab(nextTab) {
         var processTextDiv = document.createElement("div");
         processTextDiv.innerHTML = processLibrary[i]["txt"];
         processTextDiv.classList.add("processText");
-        var processArtifactDiv = document.createElement("div");
-        processArtifactDiv.classList.add("processArtifact");
-        if (Object.keys(processLibrary[i]["img"]).length > 1) {
-            var imageLeft = document.createElement("div");
-            imageLeft.innerHTML = "❮";
-            imageLeft.id = "imageLeft";
-            imageLeft.classList.add("imageArrow");
-            imageLeft.addEventListener("click", function(e) {
-                e.stopPropagation();
-                imageChange(-1, this.parentElement.getElementsByTagName("img"));
-            });
-            var imageRight = document.createElement("div");
-            imageRight.innerHTML = "❯";
-            imageRight.id = "imageRight";
-            imageRight.classList.add("imageArrow");
-            imageRight.addEventListener("click", function(e) {
-                e.stopPropagation();
-                imageChange(1, this.parentElement.getElementsByTagName("img"));
-            });
-            processArtifactDiv.appendChild(imageLeft);
-            processArtifactDiv.appendChild(imageRight);
-        }
-        for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
-            var processImg = document.createElement("img");
-            if (processLibrary[i]["img"][j]) {
+        var processRow = document.createElement("div");
+        processRow.classList.add("processRow");
+        processRow.appendChild(processTextDiv);
+        if (processLibrary[i]["img"]) {
+            var processArtifactDiv = document.createElement("div");
+            processArtifactDiv.classList.add("processArtifact");
+            if (Object.keys(processLibrary[i]["img"]).length > 1) {
+                var imageLeft = document.createElement("div");
+                imageLeft.innerHTML = "❮";
+                imageLeft.id = "imageLeft";
+                imageLeft.classList.add("imageArrow");
+                imageLeft.addEventListener("click", function(e) {
+                    e.stopPropagation();
+                    imageChange(-1, this.parentElement.getElementsByTagName("img"));
+                });
+                var imageRight = document.createElement("div");
+                imageRight.innerHTML = "❯";
+                imageRight.id = "imageRight";
+                imageRight.classList.add("imageArrow");
+                imageRight.addEventListener("click", function(e) {
+                    e.stopPropagation();
+                    imageChange(1, this.parentElement.getElementsByTagName("img"));
+                });
+                processArtifactDiv.appendChild(imageLeft);
+                processArtifactDiv.appendChild(imageRight);
+            }
+            for (var j = 0; j < Object.keys(processLibrary[i]["img"]).length; j++) {
+                var processImg = document.createElement("img");
                 processImg.src = fullImageDirectory + processLibrary[i]["img"][j];
                 processImg.alt = processLibrary[i]["alt"][j];
                 processImg.classList.add("processImg");
@@ -191,12 +194,9 @@ function processTab(nextTab) {
                 }
                 processArtifactDiv.appendChild(processImg);
             }
+            processRow.appendChild(processArtifactDiv);
+            processExpand.appendChild(processRow);
         }
-        var processRow = document.createElement("div");
-        processRow.classList.add("processRow");
-        processRow.appendChild(processTextDiv);
-        processRow.appendChild(processArtifactDiv);
-        processExpand.appendChild(processRow);
     }
 }
 
@@ -578,12 +578,8 @@ var workLibrary = {
             },
             2: {
                 "txt": "At the close of the project, we included <span class='keyword'>sustainability recommendations</span> in our deliverables submitted to the museum administration. In addition to describing further work that could be undertaken to enhance the interactive map such as evaluating visitor navigation as well as implementing the mobile version that was determined to be beyond scope with our timeline, we included a conceptual breakdown of domain knowledge and technological capabilities that the museum should consider bringing into their staff to be able to continue to engage in these types of digital scholarship projects going forward.",
-                "img": {
-                    0: "thumbnail.png",
-                },
-                "alt": {
-                    0: "temp alt text implement2",
-                },
+                "img": "",
+                "alt": "",
             },
         },
         "thumbnail": "thumbnail.png",
