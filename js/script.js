@@ -505,19 +505,17 @@ var workLibrary = {
                 "txt": "Through <span class='keyword'>stakeholder conversations</span> with the museum administration, we gained a clear understanding of the project goal being an interactive map embedded on the museum’s public website that presented the pre-apartheid history of the District Six community. The museum staff stressed to us the importance of apartheid history to South Africans, especially since there were still many living survivors. Maps from the era were particularly treasured because they served as proof of the thriving communities beforehand and the barren lots after, which is why they believed that adding a map to the museum website could serve as a mark of identity as well as an educational resource. What was left open for our team to determine was the specific content that map would contain, how the map would be integrated into the museum’s website, and how a website visitor would explore and interact with the map.",
                 "img": {
                     0: "cntravelerdistrictsixmuseum.jpg",
+                    1: "quote.jpg",
                 },
                 "alt": {
                     0: "The District Six Museum was established in an old church building, and its main room hosts a gallery of artifacts from District Six. The centerpiece is the large floor map of District Six's streets, on which former residents have scrawled notes about the places where they lived, worked, and played.",
+                    1: "This quote by a former resident of District Six captures the diversity of life within the community prior to the arrival of the apartheid policies that dismantled it. The quote was printed on an otherwise blank wall in the District Six Homecoming Centre next door to the museum that serves as an additional heritage learning center, community gathering space, and event venue.",
                 },
             },
             1: {
                 "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
-                "img": {
-                    0: "quote.jpg",
-                },
-                "alt": {
-                    0: "This quote by a former resident of District Six captures the diversity of life within the community prior to the arrival of the apartheid policies that dismantled it. The quote was printed on an otherwise blank wall in the District Six Homecoming Centre next door to the museum that serves as an additional heritage learning center, community gathering space, and event venue.",
-                },
+                "img": "",
+                "alt": "",
             },
             2: {
                 "txt": "We conducted a <span class='keyword'>comparator analysis</span> by researching other existing maps to gather insight on graphical layouts, information architecture, interactive features, and GIS implementation methods. A map of District Six printed in the museum’s recently published historical cookbook that highlighted some community landmarks served as a good starting point. The <a href='https://projects.lib.wayne.edu/12thstreetdetroit/exhibits/show/july23_aug41967/map' target='_blank'>Detroit 67 Project</a> was built with the Neatline plugin for Omeka CMS, plotting clickable points of interest onto a baselayer of Google Maps or OpenStreetMaps, but this implementation approach did not meet the need for historical accuracy because the baselayer would display current-day streets and buildings while the points of interest would be from a past era where the geography was different. <a href='https://arcg.is/ubmm9' target='_blank'>The St. Louis LGBTQ Map</a> used ArcGIS to produce maps very smoothly integrated into the entire webpage, but this implementation approach would likely entail subscription fees to the hosting service.",
