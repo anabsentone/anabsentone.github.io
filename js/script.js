@@ -1,7 +1,3 @@
-function linkWork(workNum) {
-    var workID;
-}
-
 function showOverlay(option, element) {
     document.getElementById("imageOverlay").classList.remove("overlayOff");
     switch(option) {
@@ -230,10 +226,11 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         }
 
         if (document.URL.includes("work")) {
-            var currentGallery = galleryDiv.children[workNum].innerHTML;
-            galleryDiv.children[workNum].href = "";
-            galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
-
+            if (workNum) {
+                var currentGallery = galleryDiv.children[workNum].innerHTML;
+                galleryDiv.children[workNum].href = "";
+                galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
+            }
             galleryDiv.children[7].children[0].children[0].children[1].src = "../images/etc.png";
             galleryDiv.children[7].href = "../work.html";
         }
