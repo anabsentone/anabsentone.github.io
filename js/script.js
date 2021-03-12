@@ -65,24 +65,24 @@ function loadPage() {
                     break;
                 }
             }
-            loadContent(imageDirectory, workNum);
+            loadContent(imageDirectory, locationPage);
             break;
     }
     loadGallery(imageDirectory, linkDirectory, workNum, full);
 }
 
-function loadContent(imageDirectory, workNum) {
-    var fullImageDirectory = imageDirectory + workLibrary["gallery"][workNum] + "/";
+function loadContent(imageDirectory, locationPage) {
+    var fullImageDirectory = imageDirectory + locationPage + "/";
 
     var titleDiv = document.getElementById("descriptionTitle");
     var tagsDiv = document.getElementById("descriptionTags");
     var subtitleDiv = document.getElementById("descriptionSubtitle");
     var artifactImg = document.getElementById("artifactImage");
-    titleDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["title"];
-    tagsDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["tags"];
-    subtitleDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["subtitle"];
-    artifactImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["artifact"];
-    artifactImg.alt = workLibrary[workLibrary["gallery"][workNum]]["artifactAlt"];
+    titleDiv.innerHTML = workLibrary[locationPage]["title"];
+    tagsDiv.innerHTML = workLibrary[locationPage]["tags"];
+    subtitleDiv.innerHTML = workLibrary[locationPage]["subtitle"];
+    artifactImg.src = fullImageDirectory + workLibrary[locationPage]["artifact"];
+    artifactImg.alt = workLibrary[locationPage]["artifactAlt"];
 
     // var understandDiv = document.getElementById("understandText");
     // var understandImg = document.getElementById("understandImg");
