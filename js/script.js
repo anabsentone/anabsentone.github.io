@@ -43,7 +43,6 @@ function loadPage() {
 
     var imageDirectory = "images/";
     var linkDirectory = "work/";
-    var workNum;
     var full;
 
     switch (locationPage) {
@@ -59,16 +58,10 @@ function loadPage() {
         default:
             imageDirectory = "../images/";
             linkDirectory = "";
-            for (var i = 0; i < Object.keys(workLibrary["gallery"]).length; i++) {
-                if (locationPage == workLibrary["gallery"][i]) {
-                    workNum = i;
-                    break;
-                }
-            }
             loadContent(imageDirectory, locationPage);
             break;
     }
-    loadGallery(imageDirectory, linkDirectory, workNum, full);
+    loadGallery(imageDirectory, linkDirectory, locationPage, full);
 }
 
 function loadContent(imageDirectory, locationPage) {
@@ -222,25 +215,35 @@ function imageChange(direction, imageList) {
     }
 }
 
-function loadGallery(imageDirectory, linkDirectory, workNum, full) {
-    var galleryDiv = document.getElementById("gallery");
+function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
+    
+    if (!full) {
+        var galleryDiv = document.getElementById("gallery");
+        var workNum;
 
-    for (i = 0; i < 7; i++) {
-        galleryDiv.children[i].children[0].children[0].children[1].src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
-        galleryDiv.children[i].href = linkDirectory + workLibrary["gallery"][i] + ".html";
-    }
+        for (i = 0; i < 7; i++) {
+            galleryDiv.children[i].children[0].children[0].children[1].src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
+            galleryDiv.children[i].href = linkDirectory + workLibrary["gallery"][i] + ".html";
+            if (workLibrary["gallery"][i] == locationPage) {
+                workNum = i;
+            }
+        }
 
-    if (typeof workNum === 'number') {
-        var currentGallery = galleryDiv.children[workNum].innerHTML;
-        galleryDiv.children[workNum].href = "";
-        galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
+        if (document.URL.includes("work")) {
+            var currentGallery = galleryDiv.children[workNum].innerHTML;
+            galleryDiv.children[workNum].href = "";
+            galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
 
-        galleryDiv.children[7].children[0].children[0].children[1].src = "../images/etc.png";
-        galleryDiv.children[7].href = "../work.html";
+            galleryDiv.children[7].children[0].children[0].children[1].src = "../images/etc.png";
+            galleryDiv.children[7].href = "../work.html";
+        }
+        else {
+            galleryDiv.children[7].children[0].children[0].children[1].src = "images/etc.png";
+            galleryDiv.children[7].href = "work.html";
+        }
     }
     else {
-        galleryDiv.children[7].children[0].children[0].children[1].src = "images/etc.png";
-        galleryDiv.children[7].href = "work.html";
+        
     }
 }
 
