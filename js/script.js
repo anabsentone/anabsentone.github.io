@@ -714,44 +714,44 @@ var workLibrary = {
     "skim": {
         "title": "SKIM Ann Arbor Local News Publication Service Design",
         "tags": "service design, design evaluation, behavioral research, quantitative data analysis",
-        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, volunteering, serving the community, social action, and actively seeking information about civic issues), and learned that university students in particular face unique challenges to becoming engaged with the broader local community. To address this issue, we designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation user testing suggested that such a service might be able to contribute towards increasing university student civic engagement.",
+        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, volunteering, serving the community, social action, and actively seeking information about civic issues), and we learned that university students in particular face unique challenges to becoming engaged with the broader local community. To address this issue, we designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.",
         "artifact": "",
         "artifactAlt": "",
         "examine": {
             0: {
-                "txt": "",
+                "txt": "literature review",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "survey",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "",
+                "txt": "contextual inquiry interviews and focus groups",
                 "img": "",
                 "alt": "",
             },
             3: {
-                "txt": "",
+                "txt": "problem statement and design objectives",
                 "img": "",
                 "alt": "",
             },
         },
         "experiment": {
             0: {
-                "txt": "",
+                "txt": "brainstorming",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "design prioritization",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "",
+                "txt": "protoype and preliminary testing",
                 "img": "",
                 "alt": "",
             },
@@ -763,22 +763,22 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "",
+                "txt": "service blueprint and design features",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "usability testing",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "",
+                "txt": "guerilla testing",
                 "img": "",
                 "alt": "",
             },
             3: {
-                "txt": "",
+                "txt": "interview",
                 "img": "",
                 "alt": "",
             },
