@@ -72,28 +72,6 @@ function loadContent(imageDirectory, locationPage) {
     subtitleDiv.innerHTML = workLibrary[locationPage]["subtitle"];
     artifactImg.src = fullImageDirectory + workLibrary[locationPage]["artifact"];
     artifactImg.alt = workLibrary[locationPage]["artifactAlt"];
-
-    // var understandDiv = document.getElementById("understandText");
-    // var understandImg = document.getElementById("understandImg");
-    // var experimentDiv = document.getElementById("experimentText");
-    // var experimentImg = document.getElementById("experimentImg");
-    // var implementDiv = document.getElementById("implementText");
-    // var implementImg = document.getElementById("implementImg");
-    // understandDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["understand"];
-    // understandImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["understandImg"];
-    // understandImg.alt = workLibrary[workLibrary["gallery"][workNum]]["understandImgAlt"];
-    // experimentDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["experiment"];
-    // experimentImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["experimentImg"];
-    // experimentImg.alt = workLibrary[workLibrary["gallery"][workNum]]["experimentImgAlt"];
-    // implementDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["implement"];
-    // implementImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["implementImg"];
-    // implementImg.alt = workLibrary[workLibrary["gallery"][workNum]]["implementImgAlt"];
-
-//     var processDiv = document.getElementById("processText");
-//     var processImg = document.getElementById("processImg");
-//     processDiv.innerHTML = workLibrary[workLibrary["gallery"][workNum]]["understand"];
-//     processImg.src = fullImageDirectory + workLibrary[workLibrary["gallery"][workNum]]["understandImg"];
-//     processImg.alt = workLibrary[workLibrary["gallery"][workNum]]["understandImgAlt"];
     processTab(0);
 }
 
@@ -129,13 +107,13 @@ function processTab(nextTab) {
     var fullImageDirectory = "../images/" + currentPage + "/";
     switch (nextTab) {
         case 0:
-            var processLibrary = workLibrary[currentPage]["understand"];
+            var processLibrary = workLibrary[currentPage]["examine"];
             break;
         case 1:
             var processLibrary = workLibrary[currentPage]["experiment"];
             break;
         case 2:
-            var processLibrary = workLibrary[currentPage]["implement"];
+            var processLibrary = workLibrary[currentPage]["embed"];
             break;
     }
     var processExpand = document.getElementById("processExpand");
@@ -275,7 +253,7 @@ var workLibrary = {
         "subtitle": "",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -319,7 +297,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -350,7 +328,7 @@ var workLibrary = {
         "subtitle": "",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -394,7 +372,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -425,7 +403,7 @@ var workLibrary = {
         "subtitle": "",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -469,7 +447,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -500,7 +478,7 @@ var workLibrary = {
         "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team interviewed seven former residents, identified community landmarks within the museum archives, and incorporated street address data to design, develop, and implement this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a>. The map alone can be explored by clicking the image to the right.<br><br>This project won Honorable Mention at the 2019 Innovation and Appropriate Technology in Africa Conference as well as Faculty Choice at the 2020 UMSI Spring Exposition.",
         "artifact": "websiteview.png",
         "artifactAlt": "Interactive map screenshot",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "Through <span class='keyword'>stakeholder conversations</span> with the museum administration, we gained a clear understanding of the project goal being an interactive map embedded on the museum’s public website that presented the pre-apartheid history of the District Six community. The museum staff stressed to us the importance of apartheid history to South Africans, especially since there were still many living survivors. Maps from the era were particularly treasured because they served as proof of the thriving communities beforehand and the barren lots after, which is why they believed that adding a map to the museum website could serve as a mark of identity as well as an educational resource. What was left open for our team to determine was the specific content that map would contain, how the map would be integrated into the museum’s website, and how a website visitor would explore and interact with the map.",
                 "img": {
@@ -555,7 +533,7 @@ var workLibrary = {
                 },
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "Particular <span class='keyword'>interaction features</span> were programmed to support exploration of the large quantity of content contained within the map:<ul><li>togglable layers allowed focusing on particular content such as individual resident’s stories or groups of community landmarks by graphically highlighting the selected layer’s points of interest and gently fading the rest</li><li>image slideshows enabled scrolling through photos taken over the course of each resident’s life without overcrowding the screen</li><li>an image overlay would cover the screen upon clicking any individual image, making the historical photos larger for better viewing as well as displaying accompanying textual descriptions about their significance</li><li>audio players lent an additional dimension of immersion through recordings of residents discussing life in District Six in their own voices</li></ul>",
                 "img": {
@@ -589,7 +567,7 @@ var workLibrary = {
         "subtitle": "murphybed",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -633,7 +611,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -664,7 +642,7 @@ var workLibrary = {
         "subtitle": "",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -708,7 +686,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -739,7 +717,51 @@ var workLibrary = {
         "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, volunteering, serving the community, social action, and actively seeking information about civic issues), and learned that university students in particular face unique challenges to becoming engaged with the broader local community. To address this issue, we designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation user testing suggested that such a service might be able to contribute towards increasing university student civic engagement.",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "experiment": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -770,7 +792,7 @@ var workLibrary = {
         "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was VeggieFresh: an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
         "artifact": "prototype.jpg",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "interviews and surveys",
                 "img": "",
@@ -809,7 +831,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "3D modeling for establishing final product appearance",
                 "img": {
@@ -851,7 +873,7 @@ var workLibrary = {
         "subtitle": "This project won 3rd prize at the 2020 James A. Kelly Learning Levers competition as well as the Zell Lurie Institute Innovation and Entrepreneurship Award at the 2020 UMSI Spring Exposition.",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -895,7 +917,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
@@ -926,7 +948,7 @@ var workLibrary = {
         "subtitle": "",
         "artifact": "",
         "artifactAlt": "",
-        "understand": {
+        "examine": {
             0: {
                 "txt": "",
                 "img": "",
@@ -940,7 +962,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "implement": {
+        "embed": {
             0: {
                 "txt": "",
                 "img": "",
