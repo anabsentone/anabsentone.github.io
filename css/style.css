@@ -438,7 +438,7 @@ nav>a:hover {
 
 #gallery {
 	display: grid;
-	grid-template-columns: repeat(8, minmax(0, 8fr));
+/* 	grid-template-columns: repeat(8, minmax(0, 8fr)); */
 	background-color: rgba(150,150,150,0.75);
 }
 
