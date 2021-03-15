@@ -208,7 +208,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         }
 
         if (document.URL.includes("work")) {
-            console.log("url includes work);
+            console.log("url includes work");
             if (workNum) {
                 console.log("worknum is valid");
                 var currentGallery = galleryDiv.children[workNum].innerHTML;
