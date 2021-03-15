@@ -195,16 +195,22 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var galleryDiv = document.getElementById("gallery");
         var workNum;
 
+        console.log("just before for loop");
         for (i = 0; i < 7; i++) {
             galleryDiv.children[i].children[0].children[0].children[1].src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
             galleryDiv.children[i].href = linkDirectory + workLibrary["gallery"][i] + ".html";
+            console.log(workLibrary["gallery"][i]);
+            console.log(locationPage);
             if (workLibrary["gallery"][i] == locationPage) {
+                console.log("in if condition");
                 workNum = i;
             }
         }
 
         if (document.URL.includes("work")) {
+            console.log("url includes work);
             if (workNum) {
+                console.log("worknum is valid");
                 var currentGallery = galleryDiv.children[workNum].innerHTML;
                 galleryDiv.children[workNum].href = "";
                 galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
