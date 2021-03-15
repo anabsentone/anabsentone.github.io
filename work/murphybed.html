@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width">
+     <link rel="shortcut icon" href="../images/logo.png">
+     <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
+     <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sail">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode Sans">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pontano Sans">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+     <title>Murphy Folding Bed Frame Build | Vincent Qiu</title>
+</head>
+
+<body onload="loadPage();">
+     <div id="imageOverlay" class="overlayOff" onclick="closeOverlay();">
+          <div id="overlayContainer">
+               <div id="overlayClose">
+                    <div onclick="closeOverlay();">×</div>
+               </div>
+               <div id="overlayImage">
+                    <img id="overlayImg" src="">
+               </div>
+               <div id="overlayText"></div>
+          </div>
+     </div>
+
+     <header>
+          <h1>Vincent Qiu</h1>
+     </header>
+
+     <main id="main">
+          
+          <nav>
+               <a href="../index.html">about</a>
+               <a class="currentTab">work</a>
+               <a href="../connect.html">connect</a>
+          </nav>
+
+          <div id="description">
+               <div id="descriptionText">
+                    <div id="descriptionTitle"></div>
+                    <div id="descriptionTags"></div>
+                    <div id="descriptionSubtitle"></div>
+               </div>
+               <div id="descriptionArtifact" onclick="showOverlay('artifact', this);">
+                    <img id="artifactImage" src="">
+               </div>
+          </div>
+
+          <div id="process">
+               <div class="processNav">
+                    <a id="processExamine" class="activeTab" onclick="processTab(0);">examine</a>
+                    <a id="processExperiment" onclick="processTab(1);">experiment</a>
+                    <a id="processEmbed" onclick="processTab(2);">embed</a>
+               </div>
+               <div id="processExpand"></div>
+          </div>
+
+          <div id="gallery"></div>
+     </main>
+
+     <script src="../js/script.js"></script>
+</body>
+
+<div id="backdrop"></div>
+
+</html>
