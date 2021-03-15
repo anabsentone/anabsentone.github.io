@@ -283,10 +283,10 @@ var workLibrary = {
     "gallery": {
         0: "districtsix",
         1: "veggiefresh",
-        2: "youngread",
-//         3: "ceder",
-//         4: "murphybed",
-//         5: "skim",
+        2: "skim",
+        3: "murphybed",
+//         4: "ceder",
+//         5: "youngread",
 //         6: "cofund",
     },
     "arassistant": {
