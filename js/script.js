@@ -562,18 +562,18 @@ var workLibrary = {
     },
     "murphybed": {
         "title": "Fold-Down Murphy Bedframe ",
-        "tags": "product design, ergonomic analysis, manufacturing, cost optimization",
-        "subtitle": "murphybed",
+        "tags": "product design, ergonomic analysis, manufacturing",
+        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. However, the available options on the market were around $1000 or above, well outside of my budget especially considering that selecting a small apartment was meant to conserve finances to begin with. Therefore, I designed, manufactured, and assembled my own folding bed frame.",
         "artifact": "",
         "artifactAlt": "",
         "examine": {
             0: {
-                "txt": "",
+                "txt": "The <span class='keyword'>design objectives</span> could be quickly defined because I personally understood the scope, goals, and constraints of the project that I hoped to achieve:<ul><li>space-efficient: the design needed to fit within the dimensions of the apartment, and ideally it should integrate other space-saving features</li><li>economical: the money and time cost of materials, manufacturing, and assembly must be kept low</li><li>ergonomic: only a reasonable amount of energy should be required to convert between positions, and all interfaces must be comfortable for interactions with my physical characteristics</li><li>durable: the solution has to withstand the stress of daily use for its lifetime</li><li>simple: the solution must be designed and manufactured by me using available resources and processes</li></ul>",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "Conducting <span class='keyword'>market research</span> on existing products provided insight into methods of accomplishing the core folding function as well as into other design features that may or may not be desirable:<ul><li>spring-assisted folding reduces the amount of energy required to lift the bedframe</li><li>hinge systems enable folding through less space usage</li><li>cabinets, drawers, and shelves provide storage space, obscure articulating mechanisms for cleaner appearance, and block access to them to prevent injury</li><li>pocket space that bed folds up into lends a cleaner appearance to the folded-up position</li><li>seating space made available in the folded-up position</li></ul>",
                 "img": "",
                 "alt": "",
             },
@@ -617,17 +617,12 @@ var workLibrary = {
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "For <span class='keyword'>ecological impact reduction</span> (and complimentary cost savings), I sourced materials such as bamboo plywood and scrap wood from a local environmentally-friendly materials distributor. This stock was cut to size and shape using the tools available in a local workshop, and the leftover scrap was donated to the workshop following manufacturing and assembly.",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "",
+                "txt": "The legs supporting the folded-down position underwent <span class='keyword'>design interactions</span> over the course of using the bed frame. The first iteration was produced quickly in order to be able to begin using the bed as soon as possible, but their instability and fragility soon demanded a reconsideration. The second iteration was sized to fit neatly within the bottom storage compartment when not in use, and its frame-like construction enabled ease of handling since a single hand could grasp multiple from various orientations, but unfortunately design also eventually proved to be structurally insufficient. The third and final iteration resolved the durability issue as these legs survived to the end of the bed frame’s use while retaining the proven desirable features of easy storage and easy handling of the previous design.",
                 "img": "",
                 "alt": "",
             },
@@ -718,17 +713,17 @@ var workLibrary = {
         "artifactAlt": "",
         "examine": {
             0: {
-                "txt": "literature review",
+                "txt": "Our team conducted a <span class='keyword'>literature review</span> of published research on the characteristics of groups who were or were not civically engaged and the factors that influenced their likelihood of participating in such activities. From this initial overview, we were able to identify that university students comprised a large population with particular barriers. Since university students would be plentifully accessible in our local environment throughout the course of the project, we decided to focus our scope to target the needs and goals of university students with regard to civic engagement.",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "survey",
+                "txt": "We wrote and distributed a <span class='keyword'>survey</span> to a broader group of students to see the relevant trends ____ that parsing through a large amount of daily information is difficult, and that civic activities that have direct, quick impact are more motivating.",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "contextual inquiry interviews and focus groups",
+                "txt": "We invited several students to participate in contextual inquiry <span class='keyword'>interviews and focus groups</span> to get a deeper understanding of the mindset, ________ Our findings included that Ann Arbor being a politically vocal space can be intimidating, that lack of connection to community leads to non-engagement",
                 "img": "",
                 "alt": "",
             },
