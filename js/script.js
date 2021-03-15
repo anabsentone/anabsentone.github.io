@@ -196,7 +196,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var workNum;
         var galleryLength = Object.keys(workLibrary["gallery"]).length;
         var galleryLengthPlus = galleryLength + 1;
-        galleryDiv.style.grid-template-columns = "repeat(" + galleryLengthPlus + ", minmax(0, " + galleryLengthPlus + "fr))";
+        galleryDiv.style.gridTemplateColumns = "repeat(" + galleryLengthPlus + ", minmax(0, " + galleryLengthPlus + "fr))";
 
         for (let i = 0; i < galleryLength + 1; i++) {
             if (workLibrary["gallery"][i] == locationPage) {
@@ -286,8 +286,8 @@ var workLibrary = {
         0: "districtsix",
         1: "veggiefresh",
         2: "youngread",
-        3: "ceder",
-        4: "murphybed",
+//         3: "ceder",
+//         4: "murphybed",
 //         5: "skim",
 //         6: "cofund",
     },
