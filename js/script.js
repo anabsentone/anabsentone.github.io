@@ -217,10 +217,10 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             galleryItemDiv.classList.add("imageCenter");
             galleryItemDiv.addEventListener("mouseover", function () {
                 hoverWork(i);
-            });
+            }).bind(i);
             galleryItemDiv.addEventListener("mouseout", function () {
                 departWork(i);
-            });
+            }).bind(i);
             var galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
             var galleryItemImageCover = document.createElement("div");
@@ -266,6 +266,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 }
 
 function hoverWork(workNum) {
+    console.log("hoverWork" + workNum);
     var workID = "work" + workNum;
     var workDiv = document.getElementById(workID);
     workDiv.classList.add("imageCenterHover");
@@ -273,6 +274,7 @@ function hoverWork(workNum) {
 }
 
 function departWork(workNum) {
+    console.log("departWork" + workNum);
     var workID = "work" + workNum;
     var workDiv = document.getElementById(workID);
     workDiv.classList.remove("imageCenterHover");
