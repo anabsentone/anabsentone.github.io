@@ -194,28 +194,71 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
     if (!full) {
         var galleryDiv = document.getElementById("gallery");
         var workNum;
+        var galleryLength = Object.keys(workLibrary["gallery"]).length;
 
-        for (i = 0; i < 7; i++) {
-            galleryDiv.children[i].children[0].children[0].children[1].src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
-            galleryDiv.children[i].href = linkDirectory + workLibrary["gallery"][i] + ".html";
+        for (i = 0; i < galleryLength + 1; i++) {
             if (workLibrary["gallery"][i] == locationPage) {
                 workNum = i;
             }
+            var galleryItemLink = document.createElement("a");
+            if (i != galleryLength) {
+                galleryItemLink.href = linkDirectory + workLibrary["gallery"][i] + ".html";
+            }
+            else {
+                if (document.URL.includes("work")) {
+                    galleryItemLink.href = "../work.html";
+                }
+                else {
+                    galleryItemLink.href = "work.html";
+                }
+            }
+            var galleryItemDiv = document.createElement("div");
+            galleryItemDiv.id = "work" + i;
+            galleryItemDiv.classList.add("imageCenter");
+            galleryItemDiv.addEventListener("mouseover", function () {
+                hoverWork(i);
+            });
+            galleryItemDiv.addEventListener("mouseout", function () {
+                departWork(i);
+            });
+            var galleryItemImageGroup = document.createElement("div");
+            galleryItemImageGroup.classList.add("imageGroup");
+            var galleryItemImageCover = document.createElement("div");
+            galleryItemImageCover.classList.add("imageCover");
+            var galleryItemImage = document.createElement("img");
+            if (i != galleryLength) {
+                galleryItemImage.src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
+            }
+            else {
+                if (document.URL.includes("work")) {
+                    galleryItemImage.src = "../images/etc.png";
+                }
+                else {
+                    galleryItemImage.src = "images/etc.png";
+                }
+            }
+            galleryItemImageGroup.appendChild();
+            galleryItemImageGroup.appendChild();
+            galleryItemDiv.appendChild(galleryItemImageGroup);
+            galleryItemLink.appendChild(galleryItemDiv);
+            galleryDiv.appendChild(galleryItemLink);
+//             galleryDiv.children[i].children[0].children[0].children[1].src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
+//             galleryDiv.children[i].href = linkDirectory + workLibrary["gallery"][i] + ".html";
         }
 
-        if (document.URL.includes("work")) {
-            if (typeof(workNum) == 'number') {
-                var currentGallery = galleryDiv.children[workNum].innerHTML;
-                galleryDiv.children[workNum].href = "";
-                galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
-            }
-            galleryDiv.children[7].children[0].children[0].children[1].src = "../images/etc.png";
-            galleryDiv.children[7].href = "../work.html";
-        }
-        else {
-            galleryDiv.children[7].children[0].children[0].children[1].src = "images/etc.png";
-            galleryDiv.children[7].href = "work.html";
-        }
+//         if (document.URL.includes("work")) {
+//             if (typeof(workNum) == 'number') {
+//                 var currentGallery = galleryDiv.children[workNum].innerHTML;
+//                 galleryDiv.children[workNum].href = "";
+//                 galleryDiv.children[workNum].children[0].classList.add("imageCurrent");
+//             }
+//             galleryDiv.children[galleryLength].children[0].children[0].children[1].src = "../images/etc.png";
+//             galleryDiv.children[galleryLength].href = "../work.html";
+//         }
+//         else {
+//             galleryDiv.children[galleryLength].children[0].children[0].children[1].src = "images/etc.png";
+//             galleryDiv.children[galleryLength].href = "work.html";
+//         }
     }
     else {
         
@@ -243,8 +286,8 @@ var workLibrary = {
         2: "youngread",
         3: "ceder",
         4: "murphybed",
-        5: "skim",
-        6: "cofund",
+//         5: "skim",
+//         6: "cofund",
     },
     "arassistant": {
         "title": "",
