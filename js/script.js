@@ -196,7 +196,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var workNum;
         var galleryLength = Object.keys(workLibrary["gallery"]).length;
 
-        for (i = 0; i < galleryLength + 1; i++) {
+        for (let i = 0; i < galleryLength + 1; i++) {
             if (workLibrary["gallery"][i] == locationPage) {
                 workNum = i;
             }
@@ -215,12 +215,11 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var galleryItemDiv = document.createElement("div");
             galleryItemDiv.id = "work" + i;
             galleryItemDiv.classList.add("imageCenter");
-            var workItem = i;
             galleryItemDiv.addEventListener("mouseover", function () {
-                hoverWork(workItem);
+                hoverWork(i);
             });
             galleryItemDiv.addEventListener("mouseout", function () {
-                departWork(workItem);
+                departWork(i);
             });
             var galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
