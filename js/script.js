@@ -266,7 +266,6 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 }
 
 function hoverWork(workItem) {
-    console.log("hoverWork" + workItem);
     var workID = "work" + workItem;
     var workDiv = document.getElementById(workID);
     workDiv.classList.add("imageCenterHover");
@@ -274,7 +273,6 @@ function hoverWork(workItem) {
 }
 
 function departWork(workItem) {
-    console.log("departWork" + workItem);
     var workID = "work" + workItem;
     var workDiv = document.getElementById(workID);
     workDiv.classList.remove("imageCenterHover");
