@@ -612,7 +612,7 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "",
+                "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>Folding where up position is maintained by center of gravity being past the tipping point</li><li>Ergonomic seating bench</li><li>Storage space</li><li>Stain and polyurethane for appearance, comfort, and durability</li></ul>",
                 "img": "",
                 "alt": "",
             },
