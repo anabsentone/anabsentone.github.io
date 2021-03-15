@@ -195,6 +195,8 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var galleryDiv = document.getElementById("gallery");
         var workNum;
         var galleryLength = Object.keys(workLibrary["gallery"]).length;
+        var galleryLengthPlus = galleryLength + 1;
+        galleryDiv.style.grid-template-columns = "repeat(" + galleryLengthPlus + ", minmax(0, " + galleryLengthPlus + "fr))";
 
         for (let i = 0; i < galleryLength + 1; i++) {
             if (workLibrary["gallery"][i] == locationPage) {
