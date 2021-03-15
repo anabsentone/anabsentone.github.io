@@ -217,10 +217,10 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             galleryItemDiv.classList.add("imageCenter");
             galleryItemDiv.addEventListener("mouseover", function () {
                 hoverWork(i);
-            }).bind(i);
+            }.bind(i));
             galleryItemDiv.addEventListener("mouseout", function () {
                 departWork(i);
-            }).bind(i);
+            }.bind(i));
             var galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
             var galleryItemImageCover = document.createElement("div");
