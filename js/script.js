@@ -215,12 +215,13 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var galleryItemDiv = document.createElement("div");
             galleryItemDiv.id = "work" + i;
             galleryItemDiv.classList.add("imageCenter");
+            var workItem = i;
             galleryItemDiv.addEventListener("mouseover", function () {
-                hoverWork(i);
-            }.bind(i));
+                hoverWork(workItem);
+            });
             galleryItemDiv.addEventListener("mouseout", function () {
-                departWork(i);
-            }.bind(i));
+                departWork(workItem);
+            });
             var galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
             var galleryItemImageCover = document.createElement("div");
@@ -265,17 +266,17 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
     }
 }
 
-function hoverWork(workNum) {
-    console.log("hoverWork" + workNum);
-    var workID = "work" + workNum;
+function hoverWork(workItem) {
+    console.log("hoverWork" + workItem);
+    var workID = "work" + workItem;
     var workDiv = document.getElementById(workID);
     workDiv.classList.add("imageCenterHover");
     workDiv.children[0].children[0].classList.add("imageCoverHover");
 }
 
-function departWork(workNum) {
-    console.log("departWork" + workNum);
-    var workID = "work" + workNum;
+function departWork(workItem) {
+    console.log("departWork" + workItem);
+    var workID = "work" + workItem;
     var workDiv = document.getElementById(workID);
     workDiv.classList.remove("imageCenterHover");
     workDiv.children[0].children[0].classList.remove("imageCoverHover");
