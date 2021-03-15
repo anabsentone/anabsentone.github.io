@@ -243,9 +243,8 @@ var workLibrary = {
         2: "youngread",
         3: "ceder",
         4: "murphybed",
-        5: "recycleannarbor",
+        5: "skim",
         6: "cofund",
-        7: "",
     },
     "arassistant": {
         "title": "",
@@ -783,7 +782,7 @@ var workLibrary = {
                 "alt": "",
             },
         },
-        "thumbnail": "",
+        "thumbnail": "thumbnail.png",
         "extra": "",
     },
     "veggiefresh": {
