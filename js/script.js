@@ -209,7 +209,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 
         if (document.URL.includes("work")) {
             console.log("url includes work");
-            if (workNum) {
+            if (typeof(workNum) == 'number') {
                 console.log("worknum is valid");
                 var currentGallery = galleryDiv.children[workNum].innerHTML;
                 galleryDiv.children[workNum].href = "";
