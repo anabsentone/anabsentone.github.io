@@ -237,8 +237,8 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
                     galleryItemImage.src = "images/etc.png";
                 }
             }
-            galleryItemImageGroup.appendChild();
-            galleryItemImageGroup.appendChild();
+            galleryItemImageGroup.appendChild(galleryItemImageCover);
+            galleryItemImageGroup.appendChild(galleryItemImage);
             galleryItemDiv.appendChild(galleryItemImageGroup);
             galleryItemLink.appendChild(galleryItemDiv);
             galleryDiv.appendChild(galleryItemLink);
