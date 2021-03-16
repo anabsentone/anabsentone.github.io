@@ -196,7 +196,8 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var workNum;
         var galleryLength = Object.keys(workLibrary["gallery"]).length;
 
-        for (let i = 0; i < galleryLength + 1; i++) {
+//         for (let i = 0; i < galleryLength + 1; i++) {
+        for (let i = 0; i < galleryLength; i++) { // change back to above when work.html gallery page is done
             if (workLibrary["gallery"][i] == locationPage) {
                 workNum = i;
             }
