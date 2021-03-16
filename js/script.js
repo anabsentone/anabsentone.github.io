@@ -802,17 +802,23 @@ var workLibrary = {
         "embed": {
             0: {
                 "txt": "service blueprint and design features",
-                "img": "",
+                "img": {
+                    0: "serviceblueprint.png",
+                },
                 "alt": "",
             },
             1: {
                 "txt": "usability testing",
-                "img": "",
+                "img": {
+                    0: "objectiveprotocol.png",
+                },
                 "alt": "",
             },
             2: {
                 "txt": "guerilla testing",
-                "img": "",
+                "img": {
+                    0: "guerillaprotocol.png",
+                },
                 "alt": "",
             },
             3: {
