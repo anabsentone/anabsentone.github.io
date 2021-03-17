@@ -774,7 +774,7 @@ var workLibrary = {
             3: {
                 "txt": "problem statement and design objectives",
                 "img": "",
-                "alt": "",
+                "alt": "stakeholdermap.png",
             },
         },
         "experiment": {
