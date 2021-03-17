@@ -773,8 +773,12 @@ var workLibrary = {
             },
             3: {
                 "txt": "problem statement and design objectives",
-                "img": "",
-                "alt": "stakeholdermap.png",
+                "img": {
+                    0: "stakeholdermap.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
         },
         "experiment": {
@@ -805,21 +809,27 @@ var workLibrary = {
                 "img": {
                     0: "serviceblueprint.png",
                 },
-                "alt": "",
+                "alt": {
+                    0: "",
+                },
             },
             1: {
                 "txt": "usability testing",
                 "img": {
                     0: "objectiveprotocol.png",
                 },
-                "alt": "",
+                "alt": {
+                    0: "",
+                },
             },
             2: {
                 "txt": "guerilla testing",
                 "img": {
                     0: "guerillaprotocol.png",
                 },
-                "alt": "",
+                "alt": {
+                    0: "",
+                },
             },
             3: {
                 "txt": "interview",
