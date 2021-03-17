@@ -589,8 +589,12 @@ var workLibrary = {
             },
             2: {
                 "txt": "At the close of the project, we included <span class='keyword'>sustainability recommendations</span> in our deliverables submitted to the museum administration. In addition to describing further work that could be undertaken to enhance the interactive map such as evaluating visitor navigation as well as implementing the mobile version that was determined to be beyond scope with our timeline, we included a conceptual breakdown of domain knowledge and technological capabilities that the museum should consider bringing into their staff to be able to continue to engage in these types of digital scholarship projects going forward.",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "recommendations.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
         },
         "thumbnail": "thumbnail.png",
