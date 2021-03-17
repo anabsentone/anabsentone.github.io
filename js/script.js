@@ -579,12 +579,8 @@ var workLibrary = {
         "embed": {
             0: {
                 "txt": "Particular <span class='keyword'>interaction features</span> were programmed to support exploration of the large quantity of content contained within the map:<ul><li>togglable layers allowed focusing on particular content such as individual resident’s stories or groups of community landmarks by graphically highlighting the selected layer’s points of interest and gently fading the rest</li><li>image slideshows enabled scrolling through photos taken over the course of each resident’s life without overcrowding the screen</li><li>an image overlay would cover the screen upon clicking any individual image, making the historical photos larger for better viewing as well as displaying accompanying textual descriptions about their significance</li><li>audio players lent an additional dimension of immersion through recordings of residents discussing life in District Six in their own voices</li></ul>",
-                "img": {
-                    0: "thumbnail.png",
-                },
-                "alt": {
-                    0: "temp alt text implement0",
-                },
+                "img": "",
+                "alt": "",
             },
             1: {
                 "txt": "We built a lengthy <span class='keyword'>implementation process</span> to integrate the disparate pieces produced by the different members of the team. District Six community landmark data collected from the museum archives as well as data points of former residents’ life stories gathered from interviews organized in Excel spreadsheets and historical building footprints outlined in Illustrator were imported into open source QGIS mapping software where they were geolocated and assigned to corresponding map layers. From QGIS, the qgis2web plugin exported that compiled map to a HTML, CSS, and JavaScript web code representation on top of which additional features were developed including toggleable layers and embedding historical photos and audio recordings. This fully developed code was uploaded to a newly created GitHub repository in the museum’s name, and to have the interactive map rendered online we inserted an iframe element linking to the GitHub-hosted code on a dedicated webpage on the museum’s WordPress website.",
@@ -863,7 +859,7 @@ var workLibrary = {
     "veggiefresh": {
         "title": "VeggieFresh Consumer Food Storage Product Design",
         "tags": "product design, market research, quantitative data analysis, design engineering, business planning",
-        "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was VeggieFresh: an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
+        "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
         "artifact": "prototype.jpg",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "examine": {
