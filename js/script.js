@@ -605,8 +605,12 @@ var workLibrary = {
         "examine": {
             0: {
                 "txt": "The <span class='keyword'>design objectives</span> could be quickly defined because I personally understood the scope, goals, and constraints of the project that I hoped to achieve:<ul><li>space-efficient: the design needed to fit within the dimensions of the apartment, and ideally it should integrate other space-saving features</li><li>economical: the money and time cost of materials, manufacturing, and assembly must be kept low</li><li>ergonomic: only a reasonable amount of energy should be required to convert between positions, and all interfaces must be comfortable for interactions with my physical characteristics</li><li>durable: the solution has to withstand the stress of daily use for its lifetime</li><li>simple: the solution must be designed and manufactured by me using available resources and processes</li></ul>",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "ergonomic.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             1: {
                 "txt": "Conducting <span class='keyword'>market research</span> on existing products provided insight into methods of accomplishing the core folding function as well as into other design features that may or may not be desirable:<ul><li>spring-assisted folding reduces the amount of energy required to lift the bedframe</li><li>hinge systems enable folding through less space usage</li><li>cabinets, drawers, and shelves provide storage space, obscure articulating mechanisms for cleaner appearance, and block access to them to prevent injury</li><li>pocket space that bed folds up into lends a cleaner appearance to the folded-up position</li><li>seating space made available in the folded-up position</li></ul>",
@@ -624,14 +628,14 @@ var workLibrary = {
                 "alt": {
                     0: "",
                     1: "",
-                },,
+                },
             },
         },
         "embed": {
             0: {
                 "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>Folding where up position is maintained by center of gravity being past the tipping point</li><li>Ergonomic seating bench</li><li>Storage space</li><li>Stain and polyurethane for appearance, comfort, and durability</li></ul>",
                 "img": {
-                    0: "ergonomic.png",
+                    0: "outline.png",
                     1: "up.jpg",
                     2: "down.jpg",
                 },
