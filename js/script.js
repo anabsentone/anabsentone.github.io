@@ -588,12 +588,8 @@ var workLibrary = {
             },
             1: {
                 "txt": "We built a lengthy <span class='keyword'>implementation process</span> to integrate the disparate pieces produced by the different members of the team. District Six community landmark data collected from the museum archives as well as data points of former residents’ life stories gathered from interviews organized in Excel spreadsheets and historical building footprints outlined in Illustrator were imported into open source QGIS mapping software where they were geolocated and assigned to corresponding map layers. From QGIS, the qgis2web plugin exported that compiled map to a HTML, CSS, and JavaScript web code representation on top of which additional features were developed including toggleable layers and embedding historical photos and audio recordings. This fully developed code was uploaded to a newly created GitHub repository in the museum’s name, and to have the interactive map rendered online we inserted an iframe element linking to the GitHub-hosted code on a dedicated webpage on the museum’s WordPress website.",
-                "img": {
-                    0: "thumbnail.png",
-                },
-                "alt": {
-                    0: "temp alt text implement1",
-                },
+                "img": "",
+                "alt": "",
             },
             2: {
                 "txt": "At the close of the project, we included <span class='keyword'>sustainability recommendations</span> in our deliverables submitted to the museum administration. In addition to describing further work that could be undertaken to enhance the interactive map such as evaluating visitor navigation as well as implementing the mobile version that was determined to be beyond scope with our timeline, we included a conceptual breakdown of domain knowledge and technological capabilities that the museum should consider bringing into their staff to be able to continue to engage in these types of digital scholarship projects going forward.",
