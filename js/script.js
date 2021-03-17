@@ -613,37 +613,18 @@ var workLibrary = {
                 "img": "",
                 "alt": "",
             },
-            2: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
         },
         "experiment": {
             0: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            1: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            2: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "",
-                "img": "",
-                "alt": "",
+                "txt": "3D modeling with CAD software served to <span class='keyword'>prototype</span> various design concepts. Through this trial-and-error process, it was able to be decided to omit certain features for the sake of simplifying the design. This allowed for a reduction in the amount of necessary time and care in manufacturing as well as the reduction of potential failure points with features improperly handled. Features considered but dropped from the final design included:<ul><li>folding legs that would stow flush against the bed frame when put up and deploy when the frame is set down introduced concerns of not being sturdy enough to support a full weight</li><li>restraints for securing the mattress against the bed frame were determined to not be necessary since the mattress did not shift much with frame folding</li><li>springs and linkages to reduce the manual force necessary to fold the bed frame were determined to not be necessary since the combined weight of the frame and mattress was manageable</li></ul>",
+                "img": {
+                    0: "cadup.png",
+                    1: "caddown.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },,
             },
         },
         "embed": {
