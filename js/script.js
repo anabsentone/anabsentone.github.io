@@ -608,7 +608,7 @@ var workLibrary = {
         "title": "Murphy Folding Bed Frame Build",
         "tags": "product design, ergonomic analysis, manufacturing",
         "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. However, the available options on the market were around $1000 or above, well outside of my budget especially considering that selecting a small apartment was meant to conserve finances to begin with. Therefore, I designed, manufactured, and assembled my own folding bed frame.",
-        "artifact": "",
+        "artifact": "bedframe.jpg",
         "artifactAlt": "",
         "examine": {
             0: {
@@ -658,12 +658,14 @@ var workLibrary = {
             0: {
                 "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>Folding where up position is maintained by center of gravity being past the tipping point</li><li>Ergonomic seating bench</li><li>Storage space</li><li>Stain and polyurethane for appearance, comfort, and durability</li></ul>",
                 "img": {
-                    0: "up.jpg",
-                    1: "down.jpg",
+                    0: "ergonomic.png",
+                    1: "up.jpg",
+                    2: "down.jpg",
                 },
                 "alt": {
                     0: "",
                     1: "",
+                    2: "",
                 },
             },
             1: {
@@ -675,6 +677,8 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "",
+                    1: "",
+                    2: "",
                 },
             },
             2: {
