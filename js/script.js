@@ -572,7 +572,7 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "The digital prototype for the desktop version of the map was built using Adobe Illustrator, and it is accessible through this link: <a href='districtsix/digitalprototypedesktop.pdf' target='_blank'>DigitalPrototypeDesktop.pdf</a>",
-                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible in this frame and also through this link: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>.",
+                    1: "The digital prototype for the mobile version of the map was built using Figma, and the interactive version is accessible above and also through this link: <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe</a>.",
                 },
             },
         },
