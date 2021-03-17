@@ -605,7 +605,7 @@ var workLibrary = {
         "extra": "",
     },
     "murphybed": {
-        "title": "Fold-Down Murphy Bedframe ",
+        "title": "Murphy Folding Bed Frame Build",
         "tags": "product design, ergonomic analysis, manufacturing",
         "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. However, the available options on the market were around $1000 or above, well outside of my budget especially considering that selecting a small apartment was meant to conserve finances to begin with. Therefore, I designed, manufactured, and assembled my own folding bed frame.",
         "artifact": "",
@@ -657,18 +657,38 @@ var workLibrary = {
         "embed": {
             0: {
                 "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>Folding where up position is maintained by center of gravity being past the tipping point</li><li>Ergonomic seating bench</li><li>Storage space</li><li>Stain and polyurethane for appearance, comfort, and durability</li></ul>",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "up.jpg",
+                    1: "down.jpg",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
             1: {
                 "txt": "For <span class='keyword'>ecological impact reduction</span> (and complimentary cost savings), I sourced materials such as bamboo plywood and scrap wood from a local environmentally-friendly materials distributor. This stock was cut to size and shape using the tools available in a local workshop, and the leftover scrap was donated to the workshop following manufacturing and assembly.",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "assembly.jpg",
+                    1: "upcycle.jpg",
+                    2: "stain.jpg",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             2: {
                 "txt": "The legs supporting the folded-down position underwent <span class='keyword'>design interactions</span> over the course of using the bed frame. The first iteration was produced quickly in order to be able to begin using the bed as soon as possible, but their instability and fragility soon demanded a reconsideration. The second iteration was sized to fit neatly within the bottom storage compartment when not in use, and its frame-like construction enabled ease of handling since a single hand could grasp multiple from various orientations, but unfortunately design also eventually proved to be structurally insufficient. The third and final iteration resolved the durability issue as these legs survived to the end of the bed frame’s use while retaining the proven desirable features of easy storage and easy handling of the previous design.",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "legiteration.jpg",
+                    1: "legscomponents.jpg",
+                    2: "legsfinal.jpg",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                    2: "",
+                },
             },
         },
         "thumbnail": "thumbnail.jpg",
