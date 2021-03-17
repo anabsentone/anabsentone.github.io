@@ -436,6 +436,15 @@ nav>a:hover {
 	margin: 3vh 3vh 3vh 0;
 }
 
+#connectArtifacts {
+	height: 37.5vh;
+}
+
+#connectArtifacts>iframe {
+	width: 80%;
+	height: 100%;
+}
+
 #gallery {
 	display: grid;
 	grid-template-columns: repeat(8, minmax(0, 8fr));
