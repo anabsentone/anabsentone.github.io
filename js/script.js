@@ -564,8 +564,8 @@ var workLibrary = {
                     0: "Some of my sketches showing former residents' personally significant locations on a highlighted path to represent possible paths they may have taken through the community.",
                     1: "A teammate's sketches introduced the ideas of audio players to be able to include the former residents' telling their own stories in their own voices as well as image carousels to be able to present more historical photos in less screen interface real estate.",
                     2: "A teammate's sketches initiated the general graphical layout and navigational heirarchy that were further developed.",
-                    3: "",
-                    4: "",
+                    3: "My sketches experimenting with graphical layouts for a mobile version of the map. The primary issue we encountered in this exercise was that the limited screen real estate of a mobile device made it difficult to allocate sufficient space to the map, the images, and the text in a manner without being overly cluttered.",
+                    4: "A teammate's sketches illustrating additional layout variations for a mobile version of the map.",
                 },
             },
             1: {
@@ -587,7 +587,7 @@ var workLibrary = {
                     0: "map.gif",
                 },
                 "alt": {
-                    0: "",
+                    0: "Screenshots of the map demonstrating some of the interactive features. The map alone can be interacted with through this link: <a href='https://districtsixmuseum.github.io/memorymappingproject' target='_blank'>districtsixmuseum.github.io/memorymappingproject</a>",
                 },
             },
             1: {
@@ -601,7 +601,7 @@ var workLibrary = {
                     0: "recommendations.png",
                 },
                 "alt": {
-                    0: "",
+                    0: "This section included in the final report that we submitted to the museum administration captured our recommendations for how the museum might consider upskilling themselves or recruiting into their staff to be able to continue engaging in digital scholarship projects moving forward.",
                 },
             },
         },
@@ -621,7 +621,7 @@ var workLibrary = {
                     0: "ergonomic.png",
                 },
                 "alt": {
-                    0: "",
+                    0: "My body is shorter and thinner than average, and as a result typically available furniture options (even office furniture intended to be ergonomic) are uncomfortable for me because they were designed to be able to accommodate individuals with longer limbs and wider frames. If I were to incorporate seating space into this bed frame design, then the seating dimensions should fit my dimensions and allow my knees to bend at a right angle with my feet flat on the floor for optimal ergonomic positioning.",
                 },
             },
             1: {
