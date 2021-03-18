@@ -806,7 +806,7 @@ var workLibrary = {
         },
         "experiment": {
             0: {
-                "txt": "We <span class='keyword'>brainstormed</span> a variety of approaches to increasing civic engagement, and we found that our ideas could be roughly grouped into 3 categories: short-form student-run media, college-led initiatives, and student-community integration programs. ",
+                "txt": "We <span class='keyword'>brainstormed</span> a variety of approaches to increasing civic engagement, and we found that our ideas could be roughly grouped into 3 categories: short-form student-run media, college-led initiatives, and student-community integration programs.",
                 "img": {
                     0: "brainstorm.png",
                     1: "brainstorm2.png",
@@ -837,7 +837,7 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "service blueprint and design features",
+                "txt": "We expanded our initial design from simply the format and content of a newsletter to encompass the newsletter production process, and this final design is captured in a <span class='keyword'>service blueprint</span>. Through a university course, students would conduct research into local issues alongside community resident partners, synthesize the data into the short format newsletter snippets, and then submit these as assignments for the faculty leading the course to proceed with editing and distribution to the student body at large. We believed that this incorporation of an engaged learning experience would significantly increase the sense of community stake among students who participate.",
                 "img": {
                     0: "serviceblueprint.png",
                 },
