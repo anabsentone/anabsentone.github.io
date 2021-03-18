@@ -862,18 +862,32 @@ var workLibrary = {
         "examine": {
             0: {
                 "txt": "interviews and surveys",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "storyboard.png",
+                    1: "personas.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
             1: {
                 "txt": "Market positioning and opportunities",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "marketmap.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             2: {
-                "txt": "Problem statement, Design attributes and constraints",
-                "img": "",
-                "alt": "",
+                "txt": "Based on our research, we outlined <span class='keyword'>design attributes</span> of the intended solution with the 3 most important being:<ul><li>improve the preservation of stored produce</li><li>improve the visibility of stored produce</li><li>be affordable for an individual consumer to purchase</li></ul>These design attributes were translated into measurable design objectives that could then be used later in the design process to evaluate the success of our solution.",
+                "img": {
+                    0: "attributesobjectives.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
         },
         "experiment": {
