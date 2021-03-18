@@ -766,28 +766,38 @@ var workLibrary = {
         "title": "SKIM Ann Arbor Local News Publication Service Design",
         "tags": "service design, design evaluation, behavioral research, quantitative data analysis",
         "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, volunteering, serving the community, social action, and actively seeking information about civic issues), and we learned that university students in particular face unique challenges to becoming engaged with the broader local community. To address this issue, we designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.",
-        "artifact": "",
+        "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
             0: {
                 "txt": "Our team conducted a <span class='keyword'>literature review</span> of published research on the characteristics of groups who were or were not civically engaged and the factors that influenced their likelihood of participating in such activities. From this initial overview, we were able to identify that university students comprised a large population with particular barriers. Since university students would be plentifully accessible in our local environment throughout the course of the project, we decided to focus our scope to target the needs and goals of university students with regard to civic engagement.",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "stakeholdermap.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             1: {
-                "txt": "We wrote and distributed a <span class='keyword'>survey</span> to a broader group of students in hopes of seeing relevant trends. We received 130 responses, and to analyze them we computed summary statistics with frequencies and compared across groups with two-way cross-tabulation and chi-square tests for discrete choice questions with nominal or ordinal response data, and we computed summary statistics with means and standard deviations and compared across groups with mean comparison, one-way analysis of variance (ANOVA), and independent samples t-tests for interval questions with continuous response data. that parsing through a large amount of daily information is difficult, and that civic activities that have direct, quick impact are more motivating.",
-                "img": "",
-                "alt": "",
+                "txt": "We wrote and distributed a <span class='keyword'>survey</span> to a broader group of students in hopes of seeing relevant trends. We received 130 responses, and to analyze them we computed summary statistics with frequencies and compared across groups with two-way cross-tabulation and chi-square tests for discrete choice questions with nominal or ordinal response data, and we computed summary statistics with means and standard deviations and compared across groups with mean comparison, one-way analysis of variance (ANOVA), and independent samples t-tests for interval questions with continuous response data. Our findings echoed those from our literature review, revealing that young adult residents of our own local community participated less in civic engagement activities and rated their importance as lower compared to older residents of the local community.",
+                "img": {
+                    0: "survey.png",
+                    1: "survey2.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
             2: {
-                "txt": "We invited several students to participate in contextual inquiry <span class='keyword'>interviews and focus groups</span> to get a deeper understanding of the mindset, ________ Our findings included that Ann Arbor being a politically vocal space can be intimidating, that lack of connection to community leads to non-engagement",
+                "txt": "We invited several students to participate in contextual inquiry <span class='keyword'>interviews and focus groups</span> to get a deeper understanding of the needs, goals, and barriers of university students regarding civic engagement. This qualitative data was analyzed using affinity diagramming, and our findings included that Ann Arbor being a politically vocal space can be intimidating, that lack of connection to community leads to non-engagement, that parsing through a large amount of daily information is difficult, and that civic activities that have direct, quick impact are more motivating.",
                 "img": "",
                 "alt": "",
             },
             3: {
-                "txt": "problem statement and design objectives",
+                "txt": "From our research, we concluded that the <span class='keyword'>design attributes</span> that a solution should address are:<ul><li>engender a sense of community stake so that transplants and temporary residents feel a sense of ownership with local issues</li><li>information must be parsable and trustworthy for people to digest it</li><li>should recommend specific actions to take so that people are more likely to act at all</li></ul>",
                 "img": {
-                    0: "stakeholdermap.png",
+                    0: "prioritization.png",
                 },
                 "alt": {
                     0: "",
@@ -796,22 +806,31 @@ var workLibrary = {
         },
         "experiment": {
             0: {
-                "txt": "brainstorming",
-                "img": "",
-                "alt": "",
+                "txt": "We <span class='keyword'>brainstormed</span> a variety of approaches to increasing civic engagement, and we found that our ideas could be roughly grouped into 3 categories: short-form student-run media, college-led initiatives, and student-community integration programs. ",
+                "img": {
+                    0: "brainstorm.png",
+                    1: "brainstorm2.png",
+                    2: "brainstorm3.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                    2: "",
+                },
             },
             1: {
-                "txt": "design prioritization",
-                "img": "",
-                "alt": "",
+                "txt": "protoype",
+                "img": {
+                    0: "sketch.jpg",
+                    1: "sketch2.jpg",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
             2: {
-                "txt": "protoype and preliminary testing",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "",
+                "txt": "preliminary testing",
                 "img": "",
                 "alt": "",
             },
