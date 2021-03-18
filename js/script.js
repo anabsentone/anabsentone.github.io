@@ -621,7 +621,7 @@ var workLibrary = {
                     0: "ergonomic.png",
                 },
                 "alt": {
-                    0: "My body is shorter and thinner than average, and as a result typically available furniture options (even office furniture intended to be ergonomic) are uncomfortable for me because they were designed to be able to accommodate individuals with longer limbs and wider frames. If I were to incorporate seating space into this bed frame design, then the seating dimensions should fit my dimensions and allow my knees to bend at a right angle with my feet flat on the floor for optimal ergonomic positioning.",
+                    0: "My body is shorter and thinner than average, and therefore commonly available furniture options (even office furniture intended to be ergonomic) are uncomfortable for me because they were designed to be able to accommodate individuals with longer limbs and wider frames. If I were to incorporate seating space into this bed frame design, then the seating dimensions should fit my dimensions and allow my knees to bend at a right angle with my feet flat on the floor for optimal ergonomic positioning.",
                 },
             },
             1: {
@@ -645,16 +645,16 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>Folding where up position is maintained by center of gravity being past the tipping point</li><li>Ergonomic seating bench</li><li>Storage space</li><li>Stain and polyurethane for appearance, comfort, and durability</li></ul>",
+                "txt": "The <span class='keyword'>design features</span> of the final version to be manufactured were:<ul><li>folding where the folded-up position is maintained by center of gravity being past the tipping point</li><li>ergonomic seating bench available in the folded-up position</li><li>storage space underneath the bench</li><li>stain and polyurethane finish to cover rough edges and potential splinters with a smooth surface, to improve durability such as protecting against water damage, and for a nicer visual appearance</li></ul>",
                 "img": {
                     0: "outline.png",
                     1: "up.jpg",
                     2: "down.jpg",
                 },
                 "alt": {
-                    0: "",
-                    1: "",
-                    2: "",
+                    0: "In the folded-up orientation, the mattress leans against the wall with the center of gravity sufficiently past the pivot point such that it will not fold down accidentally. Folding the frame up also reveals seating space that suits the dimensions of my limbs.",
+                    1: "The final manufactured and assembled bed frame fit the dimensions of my apartment very well. Folding up the frame grants access to the storage space underneath, some of which was used to store the support legs. One drawback of this design was that it was very tall in the folded-up orientation because the entire length of the mattress sat atop a bench, so tall that a residence of typical room height perhaps would not be able to accommodate it.",
+                    2: "Having never previously designed and built furniture, I initially had concerns about the stability of this bed frame. Those concerns proved to be unwarranted as the design and manufacturing quality of the structure were plenty sturdy, and improvements to the support legs over time further increased stability.",
                 },
             },
             1: {
@@ -665,22 +665,22 @@ var workLibrary = {
                     2: "stain.jpg",
                 },
                 "alt": {
-                    0: "",
-                    1: "",
-                    2: "",
+                    0: "Much of the frame was cut from old storage shelves that were being scrapped by a local business. This setup of clamping the planks to keep them upright allowed me to line up the parts to drill screw holes.",
+                    1: "To conserve material, some parts were made by combining leftover pieces that otherwise would have gone to waste.",
+                    2: "Staining and polyurethaning the parts afforded them additional durability against wear and tear.",
                 },
             },
             2: {
-                "txt": "The legs supporting the folded-down position underwent <span class='keyword'>design interactions</span> over the course of using the bed frame. The first iteration was produced quickly in order to be able to begin using the bed as soon as possible, but their instability and fragility soon demanded a reconsideration. The second iteration was sized to fit neatly within the bottom storage compartment when not in use, and its frame-like construction enabled ease of handling since a single hand could grasp multiple from various orientations, but unfortunately design also eventually proved to be structurally insufficient. The third and final iteration resolved the durability issue as these legs survived to the end of the bed frame’s use while retaining the proven desirable features of easy storage and easy handling of the previous design.",
+                "txt": "The legs supporting the folded-down position underwent <span class='keyword'>design interactions</span> over the course of using the bed frame. The first iteration was produced quickly in order to be able to begin using the bed as soon as possible, but their instability and fragility due to pressure concentration soon demanded a reconsideration. The second iteration was sized to fit neatly within the bottom storage compartment when not in use, and its frame-like construction enabled ease of handling since a single hand could grasp multiple from various orientations, but this design also eventually proved to have structural flaws. The third and final iteration resolved the durability issue as these legs survived to the end of the bed frame’s use while retaining the proven desirable features of easy storage and easy handling of the previous design.",
                 "img": {
                     0: "legiteration.jpg",
                     1: "legscomponents.jpg",
                     2: "legsfinal.jpg",
                 },
                 "alt": {
-                    0: "",
-                    1: "",
-                    2: "",
+                    0: "From left to right, the progression of design iterations of the support legs. The first was made quickly due to time constraints. The second distributed weight over a larger surface and could be easily handled. The last incorporated hand holds into a stronger structure.",
+                    1: "The parts that went into the final leg design.",
+                    2: "The manufactured and assembled final set of legs.",
                 },
             },
         },
