@@ -819,7 +819,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "protoype",
+                "txt": "Our team was the most enthusiastic about a student-run short-form news publication, so we proceeded to <span class='keyword'>sketch</span> some initial drafts of how it might look. We settled on a newsletter design that specifically targeted the design attributes:<ul><li>local issues are written from the perspective of how it relates to university students</li><li>articles are condensed to a handful of sentences that get the point across quickly</li><li>highlighted links make it clear to the reader what next step they should take</li></ul>",
                 "img": {
                     0: "sketch.jpg",
                     1: "sketch2.jpg",
@@ -830,7 +830,7 @@ var workLibrary = {
                 },
             },
             2: {
-                "txt": "preliminary testing",
+                "txt": "We mocked up a <span class='keyword'>digital prototype</span> of a newsletter, and we invited a university student to conduct some preliminary testing with it. Using an eye-tracking device, we observed which areas of the newsletter layout the individual's focus was drawn to, and this gave us good insight on how to iterate on the design.",
                 "img": "",
                 "alt": "",
             },
@@ -846,7 +846,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "usability testing",
+                "txt": "For design verification of the newsletter, we conducted <span class='keyword'>usability testing</span> by inviting university students to participate in guided sessions. We presented them the digital prototype of the newsletter, timed how long it took them to read through it, tested their ability to recall the content, and asked them to rate it in terms of readability, relevance, and actionability.",
                 "img": {
                     0: "objectiveprotocol.png",
                 },
@@ -855,7 +855,7 @@ var workLibrary = {
                 },
             },
             2: {
-                "txt": "guerilla testing",
+                "txt": "For design validation of the newsletter, we conducted <span class='keyword'>guerilla testing</span> by emailing the digital prototype dressed up as a real newsletter publication to some of the university students who had signed up to participate in sessions without clueing them into the fact that this would be part of the session. Then, during their scheduled meeting time, we asked them whether they saw a certain email arrive in their inbox and whether they had opened it. All of our guerilla testing participants reported having opened it, which indicated to us that an email distribution might be a valid way to communicate news on local issues.",
                 "img": {
                     0: "guerillaprotocol.png",
                 },
@@ -864,7 +864,7 @@ var workLibrary = {
                 },
             },
             3: {
-                "txt": "interview",
+                "txt": "For design validation of the production process, we interviewed a former journalism student turned practicing professional journalist. After presenting the design, the individual remarked that they wished there could have been such a hands-on immersive learning opportunity during their time in college and that they believed students would very likely be interested in taking such a course as a means of getting exposure to and experience in news writing.",
                 "img": "",
                 "alt": "",
             },
