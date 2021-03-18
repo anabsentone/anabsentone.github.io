@@ -557,11 +557,15 @@ var workLibrary = {
                     0: "sketchdesktop1.jpg",
                     1: "sketchdesktop2.jpg",
                     2: "sketchdesktop3.jpg",
+                    3: "sketchmobile1.jpg",
+                    4: "sketchmobile2.jpg",
                 },
                 "alt": {
                     0: "Some of my sketches showing former residents' personally significant locations on a highlighted path to represent possible paths they may have taken through the community.",
                     1: "A teammate's sketches introduced the ideas of audio players to be able to include the former residents' telling their own stories in their own voices as well as image carousels to be able to present more historical photos in less screen interface real estate.",
                     2: "A teammate's sketches initiated the general graphical layout and navigational heirarchy that were further developed.",
+                    3: "",
+                    4: "",
                 },
             },
             1: {
@@ -579,8 +583,12 @@ var workLibrary = {
         "embed": {
             0: {
                 "txt": "Particular <span class='keyword'>interaction features</span> were programmed to support exploration of the large quantity of content contained within the map:<ul><li>togglable layers allowed focusing on particular content such as individual resident’s stories or groups of community landmarks by graphically highlighting the selected layer’s points of interest and gently fading the rest</li><li>image slideshows enabled scrolling through photos taken over the course of each resident’s life without overcrowding the screen</li><li>an image overlay would cover the screen upon clicking any individual image, making the historical photos larger for better viewing as well as displaying accompanying textual descriptions about their significance</li><li>audio players lent an additional dimension of immersion through recordings of residents discussing life in District Six in their own voices</li></ul>",
-                "img": "",
-                "alt": "",
+                "img": {
+                    0: "map.gif",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             1: {
                 "txt": "We built an <span class='keyword'>implementation process</span> to integrate the disparate pieces produced by the different members of the team. District Six community landmark data collected from the museum archives as well as data points of former residents’ life stories gathered from interviews organized in Excel spreadsheets and historical building footprints outlined in Illustrator were imported into open source <a href='https://qgis.org' target='_blank'>QGIS mapping software</a> where they were geolocated and assigned to corresponding map layers. From QGIS, the <a href='https://github.com/tomchadwin/qgis2web' target='_blank'>qgis2web plugin</a> exported that compiled map to a HTML, CSS, and JavaScript web code representation on top of which additional features were developed including toggleable layers and embedding historical photos and audio recordings. This fully developed code was uploaded to a <a href='https://github.com/districtsixmuseum/memorymappingproject' target='_blank'>GitHub repository</a> on a new account created on behalf of the museum, and to have the interactive map rendered online we inserted an iframe element linking to the GitHub-hosted code on a <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>dedicated webpage</a> on the <a href='https://districtsix.co.za' target='_blank'>museum’s WordPress website</a>.",
