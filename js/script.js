@@ -534,7 +534,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "The <span class='keyword'>design objectives</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
+                "txt": "The <span class='keyword'>design attributes</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
                 "img": "",
                 "alt": "",
             },
@@ -616,7 +616,7 @@ var workLibrary = {
         "artifactAlt": "",
         "examine": {
             0: {
-                "txt": "The <span class='keyword'>design objectives</span> could be quickly defined because I personally understood the scope, goals, and constraints of the project that I hoped to achieve:<ul><li>space-efficient: the design needed to fit within the dimensions of the apartment, and ideally it should integrate other space-saving features</li><li>economical: the money and time cost of materials, manufacturing, and assembly must be kept low</li><li>ergonomic: only a reasonable amount of energy should be required to convert between positions, and all interfaces must be comfortable for interactions with my physical characteristics</li><li>durable: the solution has to withstand the stress of daily use for its lifetime</li><li>simple: the solution must be designed and manufactured by me using available resources and processes</li></ul>",
+                "txt": "The <span class='keyword'>design attributes</span> could be quickly defined because I personally understood the scope, goals, and constraints of the project that I hoped to achieve:<ul><li>space-efficient: the design needed to fit within the dimensions of the apartment, and ideally it should integrate other space-saving features</li><li>economical: the money and time cost of materials, manufacturing, and assembly must be kept low</li><li>ergonomic: only a reasonable amount of energy should be required to convert between positions, and all interfaces must be comfortable for interactions with my physical characteristics</li><li>durable: the solution has to withstand the stress of daily use for its lifetime</li><li>simple: the solution must be designed and manufactured by me using available resources and processes</li></ul>",
                 "img": {
                     0: "ergonomic.png",
                 },
@@ -775,7 +775,7 @@ var workLibrary = {
                 "alt": "",
             },
             1: {
-                "txt": "We wrote and distributed a <span class='keyword'>survey</span> to a broader group of students to see the relevant trends ____ that parsing through a large amount of daily information is difficult, and that civic activities that have direct, quick impact are more motivating.",
+                "txt": "We wrote and distributed a <span class='keyword'>survey</span> to a broader group of students in hopes of seeing relevant trends. We received 130 responses, and to analyze them we computed summary statistics with frequencies and compared across groups with two-way cross-tabulation and chi-square tests for discrete choice questions with nominal or ordinal response data, and we computed summary statistics with means and standard deviations and compared across groups with mean comparison, one-way analysis of variance (ANOVA), and independent samples t-tests for interval questions with continuous response data. that parsing through a large amount of daily information is difficult, and that civic activities that have direct, quick impact are more motivating.",
                 "img": "",
                 "alt": "",
             },
@@ -963,12 +963,42 @@ var workLibrary = {
                     1: "",
                 },
             },
-//             2: {
+            2: {
+                "txt": "To optimize the design, we set up and distributed a survey to conduct a <span class='keyword'>choice-based conjoint analysis</span>. Survey responders were served numerous combinations of product dimensions associated with prices and were prompted to select from among them the option that they would purchase. Based on this data, we could calculate part-worths for the product dimensions. Mapping these results to material prices, we could then determine the product dimensions that best balanced value to consumer with production cost to generate the most profit.",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "Using the final design dimensions, we conducted a number of <span class='keyword'>engineering functionality analyses</span> to verify that the design would function as intended and validate that the design addressed the outlined design attributes. We calculated that the hand hold used for pulling out the slide has more than adequate space to accommodate the average hand size. We calculated that the plastic structure should be able to support both containers being full of water (10 pounds each) and the slide being fully extended without breaking. We calculated that the containers in the refrigerator would comprise 3% when pushed in and 7% when pulled out of an average human's near peripheral viewfield.",
+                "img": {
+                    0: "functionalanalysis.png",
+                    1: "functionalanalysis2.png",
+                    2: "functionalanalysis3.png",
+                    3: "functionalanalysis4.png",
+                    4: "functionalanalysis5.png",
+                    5: "functionalanalysis6.png",
+                    6: "functionalanalysis7.png",
+                    7: "functionalanalysis8.png",
+                    8: "functionalanalysis9.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                    2: "",
+                    3: "",
+                    4: "",
+                    5: "",
+                    6: "",
+                    7: "",
+                    8: "",
+                },
+            },
+//             4: {
 //                 "txt": "Manufacturing plan",
 //                 "img": "",
 //                 "alt": "",
 //             },
-//             3: {
+//             5: {
 //                 "txt": "Business plan",
 //                 "img": "",
 //                 "alt": "",
