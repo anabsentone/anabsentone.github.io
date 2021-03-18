@@ -861,7 +861,7 @@ var workLibrary = {
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "examine": {
             0: {
-                "txt": "interviews and surveys",
+                "txt": "Through <span class='keyword'>exploratory surveys and interviews</span>, our team learned that people share many common pain points regarding food waste including:<ul><li>people tend not to be aware of how much food they are actually throwing away</li><li>food is purchased with aspirations to cook tasty and healthy meals, but oftentimes people are too tired after work or too busy with other responsibilities, so the food sits for an extended amount of time</li><li>refrigerators are not kept organized and individual items can easily become lost in the clutter</li><li>people feel particularly guilty about throwing out fresh produce that has gone bad because their spoilage is fast and distinctly visible</li></ul>From these insights, we drafted a storyboard and a few personas to aid us in conceptualizing the individuals and their needs and goals with regard to this problem and our designed solution.",
                 "img": {
                     0: "storyboard.png",
                     1: "personas.png",
@@ -892,24 +892,43 @@ var workLibrary = {
         },
         "experiment": {
             0: {
-                "txt": "Functional decomposition",
-                "img": "",
-                "alt": "",
+                "txt": "We began our brainstorming process with a <span class='keyword'>conceptual map</span> of various approaches to motivating people to consume the produce that they've purchased. This helped us to expand the types of solutions being considered and the points within the purchase-to-consume process where we might insert a solution.",
+                "img": {
+                    0: "conceptualmap.png",
+                    1: "brainstorm.png"
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
             1: {
-                "txt": "Brainstorm",
-                "img": "",
-                "alt": "",
+                "txt": "Brainstorming also helped us to learn more about the problem space, causing us to revise our list of design attributes. The brainstormed concepts were then rated against this revised list in a <span class='keyword'>Pugh chart</span> with a standard refrigerator clear crisper drawer serving as a baseline to compare against. Our team determined these ratings based on our best educated guess about how well the concept could address the attribute. From this exercise, the smart vacuum container concept was rated the best, and therefore we chose to proceed with further developing this idea.",
+                "img": {
+                    0: "pugh.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             2: {
-                "txt": "Pugh chart",
-                "img": "",
-                "alt": "",
+                "txt": "To move forward with the smart vacuum container concept, we conducted a <span class='keyword'>functional decomposition</span> of the various actions that such a design would entail. This activity helped us to again expand our idea generation, but now focused on the individual components and how they might integrate into one product design.",
+                "img": {
+                    0: "functionaldecomposition.png",
+                    1: "whiteboard.jpg",
+                },
+                "alt": {
+                    0: "",
+                },
             },
             3: {
-                "txt": "Kansei analysis",
-                "img": "",
-                "alt": "",
+                "txt": "We deployed a survey to conduct a <span class='keyword'>Kansei analysis</span> to gain insight into people's emotional reactions to different materials and shapes that we were considering using for the design. ",
+                "img": {
+                    0: "kansei.png",
+                },
+                "alt": {
+                    0: "",
+                },
             },
         },
         "embed": {
