@@ -872,7 +872,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "Market positioning and opportunities",
+                "txt": "We conducted <span class='keyword'>market research</span> on available products related to the topic of produce storage and preservation. We found a large variety of food-safe containers, refrigerator compartments and add-ons, and vacuum sealing products aimed at the home consumer that were used to construct a market positioning map. We felt that existing options addressed either the identified issues of visiblity or preservation, but none addressed the combination of both. Therefore, we aimed to fill this market opportunity.",
                 "img": {
                     0: "marketmap.png",
                 },
@@ -881,7 +881,7 @@ var workLibrary = {
                 },
             },
             2: {
-                "txt": "Based on our research, we outlined <span class='keyword'>design attributes</span> of the intended solution with the 3 most important being:<ul><li>improve the preservation of stored produce</li><li>improve the visibility of stored produce</li><li>be affordable for an individual consumer to purchase</li></ul>These design attributes were translated into measurable design objectives that could then be used later in the design process to evaluate the success of our solution.",
+                "txt": "Based on our research, we outlined <span class='keyword'>design attributes</span> of the intended solution with the 3 most important being:<ul><li>improve the preservation of stored produce</li><li>improve the visibility of stored produce</li><li>be affordable for an individual consumer to purchase</li></ul>These design attributes were mapped to measurable design objectives that could then be used later in the design process to evaluate the success of our solution.",
                 "img": {
                     0: "attributesobjectives.png",
                 },
