@@ -857,7 +857,7 @@ var workLibrary = {
         "title": "VeggieFresh Consumer Food Storage Product Design",
         "tags": "product design, market research, quantitative data analysis, design engineering, business planning",
         "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
-        "artifact": "prototype.jpg",
+        "artifact": "cad4.png",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "examine": {
             0: {
@@ -919,50 +919,60 @@ var workLibrary = {
                 },
                 "alt": {
                     0: "",
+                    1: "",
                 },
             },
             3: {
-                "txt": "We deployed a survey to conduct a <span class='keyword'>Kansei analysis</span> to gain insight into people's emotional reactions to different materials and shapes that we were considering using for the design. ",
+                "txt": "We deployed a survey to conduct a <span class='keyword'>Kansei analysis</span> to gain insight into people's emotional reactions to different materials that we were considering using for the design. We found that people perceived plastic and glass to be cleaner surfaces than wood, given that our design concept would sit in the enclosed space of a refrigerator, and that people perceived plastic and wood as being more durable than glass. We also found that people perceived a sliding mechanism as being simpler to use than a pivoting or rotating mechanism.",
                 "img": {
                     0: "kansei.png",
+                    1: "kansei2.png",
                 },
                 "alt": {
                     0: "",
+                    1: "",
                 },
             },
         },
         "embed": {
             0: {
-                "txt": "3D modeling for establishing final product appearance",
+                "txt": "3D modeling was used to define the final product design, representing the following <span class='keyword'>design features</span>:<ul><li>removable storage containers made of clear, rigid, microwaveable, dishwasher-safe, BPA-free Tritan plastic</li><li>sliding dock allowing the containers to be pulled out from the refrigerator interior for better visibility of contents</li><li>vacuum pump to extract air from within the container, extending the shelf life of the contents</li><li>vacuum pump that activates upon closing the refrigerator door, operating without occupying the user's attention and also muffling the vacuum sound</li></ul>",
                 "img": {
                     0: "cad.gif",
                     1: "cad2.gif",
+                    2: "cad5.5.png",
+                    3: "cad8.png",
+                    4: "cad10.png",
                 },
                 "alt": {
-                    0: "animation of intended product usage1",
-                    1: "animation of intended product usage2",
+                    0: "",
+                    1: "",
+                    2: "",
+                    3: "",
+                    4: "",
                 },
             },
             1: {
-                "txt": "Physical prototyping for evaluating use case and value proposition",
-                "img": "",
-                "alt": "",
+                "txt": "To evaluate the design, we built a <span class='keyword'>physical prototype</span> with functioning slide and vacuum. Running the vacuum while inside a refrigerator, the sound was barely audible, a much nicer and more streamlined experience in comparison to existing countertop vacuum food storage options which require the user to wait for the loud vacuum operation to finish before then having to move the sealed packages into the refrigerator.",
+                "img": {
+                    0: "prototype.jpg",
+                    1: "fridge.png",
+                },
+                "alt": {
+                    0: "",
+                    1: "",
+                },
             },
-            2: {
-                "txt": "Manufacturing plan",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "Business plan",
-                "img": "",
-                "alt": "",
-            },
-            4: {
-                "txt": "Lifecycle analysis",
-                "img": "",
-                "alt": "",
-            },
+//             2: {
+//                 "txt": "Manufacturing plan",
+//                 "img": "",
+//                 "alt": "",
+//             },
+//             3: {
+//                 "txt": "Business plan",
+//                 "img": "",
+//                 "alt": "",
+//             },
         },
         "thumbnail": "thumbnail.jpg",
         "extra": "",
