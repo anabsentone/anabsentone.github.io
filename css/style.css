@@ -507,8 +507,8 @@ a>.imageCurrent:hover {
 }
 
 #fullGallery {
-	-ms-flex: 4;
-	flex: 4;
+	-ms-flex: 6;
+	flex: 6;
 	padding: 1.5vh 0 0 0;
 	overflow: hidden;
 	display: grid;
