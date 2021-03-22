@@ -512,6 +512,7 @@ a>.imageCurrent:hover {
 	padding: 1.5vh 0 0 0;
 	overflow: hidden;
 	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 4fr));
 }
 
 /* .clearer {
