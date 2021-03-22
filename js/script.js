@@ -263,7 +263,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
     }
     else {
         var galleryDiv = document.getElementById("fullGallery");
-        for (let i = 1; i < Object.keys(workLibrary).length; i++) {
+        for (let i = 1; i < Object.keys(workLibrary).length; i++) { // this doesn't work because the heirarchy is not numerical - i guess make another section called fullgallery in the tree? 
             if (workLibrary[i]["title"]) {
                 var workDiv = document.createElement("div");
                 workDiv.classList.add("fullGalleryWorkDiv");
