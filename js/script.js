@@ -262,7 +262,28 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 //         }
     }
     else {
-        
+        var galleryDiv = document.getElementById("fullGallery");
+        for (let i = 1; i < Object.keys(workLibrary).length; i++) {
+            if (workLibrary[i]["title"]) {
+                var workDiv = document.createElement("div");
+                workDiv.classList.add("fullGalleryWorkDiv");
+                workDiv.addEventListener("mouseover", function() {
+                    updatePreview(i);
+                });
+                var workImg = document.createElement("img");
+                workImg.src = imageDirectory + workLibrary[i]["thumbnail"];
+                workDiv.appendChild(workImg);
+                if (workLibrary[i]["active"]) {
+                    var workA = document.createElement("a");
+                    workA.href = linkDirectory + workLibrary[i] + ".html";
+                    workA.appendChild(workDiv);
+                    galleryDiv.appendChild(workA);
+                }
+                else {
+                    galleryDiv.appendChild(workDiv);
+                }
+            }
+        }
     }
 }
 
@@ -278,6 +299,12 @@ function departWork(workItem) {
     var workDiv = document.getElementById(workID);
     workDiv.classList.remove("imageCenterHover");
     workDiv.children[0].children[0].classList.remove("imageCoverHover");
+}
+
+function updatePreview(i) {
+    document.getElementById("descriptionTitle").innerHTML = workLibrary[i]["title"];
+    document.getElementById("descriptionTags").innerHTML = workLibrary[i]["tags"];
+    document.getElementById("descriptionSubtitle").innerHTML = workLibrary[i]["subtitle"];
 }
 
 var workLibrary = {
@@ -363,6 +390,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "ceder": {
@@ -438,6 +466,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "cofund": {
@@ -513,6 +542,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "districtsix": {
@@ -606,6 +636,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "1",
         "extra": "",
     },
     "murphybed": {
@@ -685,6 +716,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.jpg",
+        "active": "1",
         "extra": "",
     },
     "recycleannarbor": {
@@ -760,6 +792,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "skim": {
@@ -870,6 +903,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "1",
         "extra": "",
     },
     "veggiefresh": {
@@ -1024,6 +1058,7 @@ var workLibrary = {
 //             },
         },
         "thumbnail": "thumbnail.jpg",
+        "active": "1",
         "extra": "",
     },
     "youngread": {
@@ -1099,6 +1134,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "template": {
@@ -1129,6 +1165,7 @@ var workLibrary = {
             },
         },
         "thumbnail": "http://www.placehold.it/200x200",
+        "active": "",
         "extra": "",
     },
 }
