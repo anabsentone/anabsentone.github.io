@@ -268,7 +268,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var workDiv = document.createElement("div");
             workDiv.classList.add("fullGalleryWorkDiv");
             workDiv.addEventListener("mouseover", function() {
-                updatePreview(i);
+                updatePreview(workItem);
             });
             var workImg = document.createElement("img");
             workImg.src = imageDirectory + workItem + "/" + workLibrary[workItem]["thumbnail"];
@@ -300,10 +300,10 @@ function departWork(workItem) {
     workDiv.children[0].children[0].classList.remove("imageCoverHover");
 }
 
-function updatePreview(i) {
-    document.getElementById("descriptionTitle").innerHTML = workLibrary[i]["title"];
-    document.getElementById("descriptionTags").innerHTML = workLibrary[i]["tags"];
-    document.getElementById("descriptionSubtitle").innerHTML = workLibrary[i]["subtitle"];
+function updatePreview(workItem) {
+    document.getElementById("descriptionTitle").innerHTML = workLibrary[workItem]["title"];
+    document.getElementById("descriptionTags").innerHTML = workLibrary[workItem]["tags"];
+    document.getElementById("descriptionSubtitle").innerHTML = workLibrary[workItem]["subtitle"];
 }
 
 var workLibrary = {
