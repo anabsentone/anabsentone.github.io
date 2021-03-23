@@ -273,7 +273,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var workImg = document.createElement("img");
             workImg.src = imageDirectory + workLibrary[workLibrary["fullGallery"][i]]["thumbnail"];
             workDiv.appendChild(workImg);
-            if (workLibrary[i]["active"]) {
+            if (workLibrary["fullGallery"][i]["active"]) {
                 var workA = document.createElement("a");
                 workA.href = linkDirectory + workLibrary[workLibrary["fullGallery"][i]] + ".html";
                 workA.appendChild(workDiv);
