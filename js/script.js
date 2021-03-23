@@ -263,25 +263,23 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
     }
     else {
         var galleryDiv = document.getElementById("fullGallery");
-        for (let i = 1; i < Object.keys(workLibrary).length; i++) { // this doesn't work because the heirarchy is not numerical - i guess make another section called fullgallery in the tree? 
-            if (workLibrary[i]["title"]) {
-                var workDiv = document.createElement("div");
-                workDiv.classList.add("fullGalleryWorkDiv");
-                workDiv.addEventListener("mouseover", function() {
-                    updatePreview(i);
-                });
-                var workImg = document.createElement("img");
-                workImg.src = imageDirectory + workLibrary[i]["thumbnail"];
-                workDiv.appendChild(workImg);
-                if (workLibrary[i]["active"]) {
-                    var workA = document.createElement("a");
-                    workA.href = linkDirectory + workLibrary[i] + ".html";
-                    workA.appendChild(workDiv);
-                    galleryDiv.appendChild(workA);
-                }
-                else {
-                    galleryDiv.appendChild(workDiv);
-                }
+        for (let i = 1; i < Object.keys(fullGallery).length; i++) {
+            var workDiv = document.createElement("div");
+            workDiv.classList.add("fullGalleryWorkDiv");
+            workDiv.addEventListener("mouseover", function() {
+                updatePreview(i);
+            });
+            var workImg = document.createElement("img");
+            workImg.src = imageDirectory + workLibrary[workLibrary["fullGallery"][i]]["thumbnail"];
+            workDiv.appendChild(workImg);
+            if (workLibrary[i]["active"]) {
+                var workA = document.createElement("a");
+                workA.href = linkDirectory + workLibrary[workLibrary["fullGallery"][i]] + ".html";
+                workA.appendChild(workDiv);
+                galleryDiv.appendChild(workA);
+            }
+            else {
+                galleryDiv.appendChild(workDiv);
             }
         }
     }
@@ -316,6 +314,12 @@ var workLibrary = {
 //         4: "ceder",
 //         5: "youngread",
 //         6: "cofund",
+    },
+    "fullGallery": {
+        0: "districtsix",
+        1: "murphybed",
+        2: "skim",
+        3: "veggiefresh",
     },
     "arassistant": {
         "title": "",
