@@ -263,19 +263,19 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
     }
     else {
         var galleryDiv = document.getElementById("fullGallery");
-        for (let i = 1; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
+        for (let i = 0; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
             var workItem = workLibrary["fullGallery"][i];
             var workDiv = document.createElement("div");
             workDiv.classList.add("fullGalleryWorkDiv");
             workDiv.addEventListener("mouseover", function() {
-                updatePreview(workItem);
+                updatePreview(i);
             });
             var workImg = document.createElement("img");
             workImg.src = imageDirectory + workItem + "/" + workLibrary[workItem]["thumbnail"];
             workDiv.appendChild(workImg);
             if (workLibrary[workItem]["active"]) {
                 var workA = document.createElement("a");
-                workA.href = linkDirectory + workLibrary[workItem] + ".html";
+                workA.href = linkDirectory + workItem + ".html";
                 workA.appendChild(workDiv);
                 galleryDiv.appendChild(workA);
             }
@@ -300,10 +300,13 @@ function departWork(workItem) {
     workDiv.children[0].children[0].classList.remove("imageCoverHover");
 }
 
-function updatePreview(workItem) {
+function updatePreview(i) {
+    var workItem = workLibrary["fullGallery"][i];
     document.getElementById("descriptionTitle").innerHTML = workLibrary[workItem]["title"];
     document.getElementById("descriptionTags").innerHTML = workLibrary[workItem]["tags"];
     document.getElementById("descriptionSubtitle").innerHTML = workLibrary[workItem]["subtitle"];
+    document.getElementById("artifactImage").src = workLibrary[workItem]["artifact"];
+    document.getElementById("artifactImage").alt = workLibrary[workItem]["artifactAlt"];
 }
 
 var workLibrary = {
