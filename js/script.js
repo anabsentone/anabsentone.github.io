@@ -320,10 +320,11 @@ var workLibrary = {
 //         6: "cofund",
     },
     "fullGallery": {
-        0: "districtsix",
-        1: "murphybed",
-        2: "skim",
-        3: "veggiefresh",
+        0: "ceder"
+        1: "districtsix",
+        2: "murphybed",
+        3: "skim",
+        4: "veggiefresh",
     },
     "arassistant": {
         "title": "",
@@ -402,10 +403,10 @@ var workLibrary = {
         "extra": "",
     },
     "ceder": {
-        "title": "CEDER Website Re-Design Consulting",
-        "tags": "client consulting, ",
-        "subtitle": "",
-        "artifact": "",
+        "title": "CEDER Website User Experience Redesign Consulting",
+        "tags": "user needs research, usability testing, consulting, ",
+        "subtitle": "blah blah ceder",
+        "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
             0: {
@@ -478,10 +479,10 @@ var workLibrary = {
         "extra": "",
     },
     "cofund": {
-        "title": "CoFund - ",
-        "tags": "",
-        "subtitle": "",
-        "artifact": "",
+        "title": "CoFund Community Emergent Need Funding Platform",
+        "tags": "market research",
+        "subtitle": "cofund blah blah",
+        "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
             0: {
