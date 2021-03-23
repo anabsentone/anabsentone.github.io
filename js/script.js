@@ -262,20 +262,20 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 //         }
     }
     else {
-        console.log("load full gallery");
         var galleryDiv = document.getElementById("fullGallery");
         for (let i = 1; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
+            var workItem = workLibrary["fullGallery"][i];
             var workDiv = document.createElement("div");
             workDiv.classList.add("fullGalleryWorkDiv");
             workDiv.addEventListener("mouseover", function() {
                 updatePreview(i);
             });
             var workImg = document.createElement("img");
-            workImg.src = imageDirectory + workLibrary[workLibrary["fullGallery"][i]]["thumbnail"];
+            workImg.src = imageDirectory + workItem + "/" + workLibrary[workItem]["thumbnail"];
             workDiv.appendChild(workImg);
-            if (workLibrary["fullGallery"][i]["active"]) {
+            if (workLibrary[workItem]["active"]) {
                 var workA = document.createElement("a");
-                workA.href = linkDirectory + workLibrary[workLibrary["fullGallery"][i]] + ".html";
+                workA.href = linkDirectory + workLibrary[workItem] + ".html";
                 workA.appendChild(workDiv);
                 galleryDiv.appendChild(workA);
             }
