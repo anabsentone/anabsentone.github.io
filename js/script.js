@@ -321,10 +321,11 @@ var workLibrary = {
     },
     "fullGallery": {
         0: "ceder"
-        1: "districtsix",
-        2: "murphybed",
-        3: "skim",
-        4: "veggiefresh",
+        1: "cofund"
+        2: "districtsix",
+        3: "murphybed",
+        4: "skim",
+        5: "veggiefresh",
     },
     "arassistant": {
         "title": "",
