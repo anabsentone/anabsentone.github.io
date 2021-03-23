@@ -305,7 +305,7 @@ function updatePreview(i) {
     document.getElementById("descriptionTitle").innerHTML = workLibrary[workItem]["title"];
     document.getElementById("descriptionTags").innerHTML = workLibrary[workItem]["tags"];
     document.getElementById("descriptionSubtitle").innerHTML = workLibrary[workItem]["subtitle"];
-    document.getElementById("artifactImage").src = "images/" + workItem + workLibrary[workItem]["artifact"];
+    document.getElementById("artifactImage").src = "images/" + workItem + "/" + workLibrary[workItem]["artifact"];
     document.getElementById("artifactImage").alt = workLibrary[workItem]["artifactAlt"];
 }
 
