@@ -320,8 +320,8 @@ var workLibrary = {
 //         6: "cofund",
     },
     "fullGallery": {
-        0: "ceder"
-        1: "cofund"
+        0: "ceder",
+        1: "cofund",
         2: "districtsix",
         3: "murphybed",
         4: "skim",
