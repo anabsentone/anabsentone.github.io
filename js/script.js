@@ -262,8 +262,9 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 //         }
     }
     else {
+        console.log("load full gallery");
         var galleryDiv = document.getElementById("fullGallery");
-        for (let i = 1; i < Object.keys(fullGallery).length; i++) {
+        for (let i = 1; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
             var workDiv = document.createElement("div");
             workDiv.classList.add("fullGalleryWorkDiv");
             workDiv.addEventListener("mouseover", function() {
