@@ -518,6 +518,7 @@ a>.imageCurrent:hover {
 .fullGalleryWorkDiv {
 	overflow: hidden;
 	margin: 3vw;
+	border-radius: 2vh;
 }
 
 .fullGalleryWorkDiv>img {
