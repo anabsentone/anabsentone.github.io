@@ -404,50 +404,45 @@ var workLibrary = {
         "extra": "",
     },
     "ceder": {
-        "title": "CEDER Website User Experience Redesign Consulting",
-        "tags": "user needs research, usability testing, consulting, ",
+        "title": "CEDER Website UX Evaluation and Redesign",
+        "tags": "user needs research, usability testing, prototyping",
         "subtitle": "blah blah ceder",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
             0: {
-                "txt": "",
+                "txt": "stakeholder conversations",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
+                "txt": "interaction map",
                 "img": "",
                 "alt": "",
             },
             2: {
-                "txt": "",
+                "txt": "usability heuristic analysis",
                 "img": "",
                 "alt": "",
             },
             3: {
-                "txt": "",
+                "txt": "survey",
+                "img": "",
+                "alt": "",
+            },
+            4: {
+                "txt": "comparative analysis",
                 "img": "",
                 "alt": "",
             },
         },
         "experiment": {
             0: {
-                "txt": "",
+                "txt": "prototyping",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            2: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            3: {
                 "txt": "",
                 "img": "",
                 "alt": "",
@@ -455,22 +450,12 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "",
+                "txt": "user testing",
                 "img": "",
                 "alt": "",
             },
             1: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            2: {
-                "txt": "",
-                "img": "",
-                "alt": "",
-            },
-            3: {
-                "txt": "",
+                "txt": "Kano analysis",
                 "img": "",
                 "alt": "",
             },
