@@ -262,6 +262,10 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
 //         }
     }
     else {
+        document.getElementById("descriptionTitle").innerHTML = workLibrary["portfolio"]["title"];
+        document.getElementById("descriptionTags").innerHTML = workLibrary["portfolio"]["tags"];
+        document.getElementById("descriptionSubtitle").innerHTML = workLibrary["portfolio"]["subtitle"];
+        document.getElementById("artifactImg").src = workLibrary["portfolio"]["artifact"];
         var galleryDiv = document.getElementById("fullGallery");
         for (let i = 0; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
             var workItem = workLibrary["fullGallery"][i];
@@ -320,12 +324,13 @@ var workLibrary = {
 //         6: "cofund",
     },
     "fullGallery": {
-        0: "ceder",
-        1: "cofund",
-        2: "districtsix",
-        3: "murphybed",
-        4: "skim",
-        5: "veggiefresh",
+        0: "portfolio",
+        1: "ceder",
+        2: "cofund",
+        3: "districtsix",
+        4: "murphybed",
+        5: "skim",
+        6: "veggiefresh",
     },
     "arassistant": {
         "title": "",
@@ -712,6 +717,37 @@ var workLibrary = {
         },
         "thumbnail": "thumbnail.jpg",
         "active": "1",
+        "extra": "",
+    },
+    "portfolio": {
+        "title": "Portfolio Website",
+        "tags": "user experience design, interaction design, implementation",
+        "subtitle": "This website was designed and programmed from the ground up to highlight some of the work that I and the people with whom I've collaborated have put out into the world and also to capture the thought processes that allowed the work to progress. The details of each work are structured along an outline of the design process of examine, experiment, and embed to provide some semblence of beginning-through-end logical sequence, but it should be kept in mind that a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone demonstrates only the surface level of all the insights gained from the myriad of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.",
+        "artifact": "logo.png",
+        "artifactAlt": "",
+        "examine": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "experiment": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "embed": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "thumbnail": "logo.png",
+        "active": "",
         "extra": "",
     },
     "recycleannarbor": {
