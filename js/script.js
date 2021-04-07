@@ -277,12 +277,15 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var workImg = document.createElement("img");
             workImg.src = imageDirectory + workItem + "/" + workLibrary[workItem]["thumbnail"];
             workDiv.appendChild(workImg);
+            var workA = document.createElement("a");
             if (workLibrary[workItem]["active"]) {
-                var workA = document.createElement("a");
                 workA.href = linkDirectory + workItem + ".html";
-                workA.appendChild(workDiv);
-                galleryDiv.appendChild(workA);
             }
+            else {
+                workA.classList.add("inactiveLink");
+            }
+            workA.appendChild(workDiv);
+            galleryDiv.appendChild(workA);
             else {
                 galleryDiv.appendChild(workDiv);
             }
