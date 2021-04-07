@@ -528,6 +528,10 @@ a>.imageCurrent:hover {
 	height: auto;
 }
 
+.inactiveLink:hover {
+	cursor: default;	
+}
+
 #backdrop {
 	position: absolute;
 	top: 0;
