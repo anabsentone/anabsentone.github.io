@@ -265,7 +265,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         document.getElementById("descriptionTitle").innerHTML = workLibrary["portfolio"]["title"];
         document.getElementById("descriptionTags").innerHTML = workLibrary["portfolio"]["tags"];
         document.getElementById("descriptionSubtitle").innerHTML = workLibrary["portfolio"]["subtitle"];
-        document.getElementById("artifactImg").src = "images/portfolio/" + workLibrary["portfolio"]["artifact"];
+        document.getElementById("artifactImage").src = "images/portfolio/" + workLibrary["portfolio"]["artifact"];
         var galleryDiv = document.getElementById("fullGallery");
         for (let i = 0; i < Object.keys(workLibrary["fullGallery"]).length; i++) {
             var workItem = workLibrary["fullGallery"][i];
