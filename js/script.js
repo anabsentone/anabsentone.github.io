@@ -286,9 +286,6 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             }
             workA.appendChild(workDiv);
             galleryDiv.appendChild(workA);
-            else {
-                galleryDiv.appendChild(workDiv);
-            }
         }
     }
 }
