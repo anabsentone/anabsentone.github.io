@@ -528,6 +528,10 @@ a>.imageCurrent:hover {
 	height: auto;
 }
 
+.inactiveLink img:hover {
+	cursor: default;	
+}
+
 #backdrop {
 	position: absolute;
 	top: 0;
@@ -540,10 +544,6 @@ a>.imageCurrent:hover {
 
 img:hover {
 	cursor: pointer;
-}
-
-.inactiveLink:hover {
-	cursor: default;	
 }
 
 ::-webkit-scrollbar {
