@@ -410,8 +410,8 @@ var workLibrary = {
     },
     "ceder": {
         "title": "CEDER Website UX Evaluation and Redesign",
-        "tags": "design research, market research, interaction mapping, usability testing, prototyping",
-        "subtitle": "blah blah ceder",
+        "tags": "design research, market research, interaction mapping, prototyping, usability testing",
+        "subtitle": "The Center for Education Design, Evaluation, and Research (CEDER) within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. ",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -455,7 +455,7 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "user testing",
+                "txt": "guided testing",
                 "img": "",
                 "alt": "",
             },
@@ -564,7 +564,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "The <span class='keyword'>design attributes</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired user interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
+                "txt": "The <span class='keyword'>design attributes</span> that our team was able to define for the map based on our initial discussions were: <ul><li>accessible: public visitors to the museum website should be able to view the map without obstacles such as account credentials or data fees</li><li>economical: museum should not incur any additional costs to host the map on their website</li><li>customizable: map must integrate and display the disparate sources and types of data with desired viewer interactions</li><li>sustainable: solution should not exceed the museum staff’s technological understanding so that they can be capable of maintaining it</li></ul>",
                 "img": "",
                 "alt": "",
             },
@@ -599,7 +599,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. A <a href='districtsix/digitalprototypedesktop.pdf' target='_blank'>prototype of the desktop version of the map</a> was a multipage PDF built using Adobe Illustrator with mouse click interactions simulated by hyperlinks to different pages. A <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>prototype of the mobile version</a> was built using Figma, an online collaborative user interface wireframming and prototyping platform.",
+                "txt": "<span class='keyword'>Digital prototypes</span> were created prior to meeting again with the museum administration, and their approval set these as an initial design direction to begin building. A <a href='districtsix/digitalprototypedesktop.pdf' target='_blank'>prototype of the desktop version of the map</a> was a multipage PDF built using Adobe Illustrator with mouse click interactions simulated by hyperlinks to different pages. A <a href='https://figma.com/proto/YC8xfxRYXYLaYJarzpc6jv7F/District-Six-Museum-Wireframe?node-id=17%3A46&scaling=scale-down&redirected=1' target='_blank'>prototype of the mobile version</a> was built using Figma, an online collaborative digital interface wireframming and prototyping platform.",
                 "img": {
                     0: "digitalprototypedesktop.png",
                     1: "digitalprototypemobile.png",
@@ -721,7 +721,7 @@ var workLibrary = {
     },
     "portfolio": {
         "title": "Portfolio Website",
-        "tags": "user experience design, interaction design, implementation",
+        "tags": "experience design, interaction design, implementation",
         "subtitle": "This website was designed and programmed from the ground up to highlight some of the work that I and the people with whom I've collaborated have put out into the world and also to capture the thought processes that allowed the work to progress. The details of each work are structured along an outline of the design process of examine, experiment, and embed to provide a semblence of narrative sequence, but in reality a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone demonstrates only the surface level of all the insights gained from the myriad of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.<br><br>On each work's page, images can be clicked to view a larger version (or sometimes an interactive piece) accompanied by a more detailed description. Some images have been placed in carousels with left and right arrows that can be clicked to view additional images.",
         "artifact": "logo.png",
         "artifactAlt": "",
@@ -1020,7 +1020,7 @@ var workLibrary = {
         },
         "embed": {
             0: {
-                "txt": "3D modeling was used to define the final product design, representing the following <span class='keyword'>design features</span>:<ul><li>removable storage containers made of clear, rigid, microwaveable, dishwasher-safe, BPA-free Tritan plastic</li><li>sliding dock allowing the containers to be pulled out from the refrigerator interior for better visibility of contents</li><li>vacuum pump to extract air from within the container, extending the shelf life of the contents</li><li>vacuum pump that activates upon closing the refrigerator door, operating without occupying the user's attention and also muffling the vacuum sound</li></ul>",
+                "txt": "3D modeling was used to define the final product design, representing the following <span class='keyword'>design features</span>:<ul><li>removable storage containers made of clear, rigid, microwaveable, dishwasher-safe, BPA-free Tritan plastic</li><li>sliding dock allowing the containers to be pulled out from the refrigerator interior for better visibility of contents</li><li>vacuum pump to extract air from within the container, extending the shelf life of the contents</li><li>vacuum pump that activates upon closing the refrigerator door, operating without occupying the individual's attention and also muffling the vacuum sound</li></ul>",
                 "img": {
                     0: "cad.gif",
                     1: "cad2.gif",
@@ -1037,7 +1037,7 @@ var workLibrary = {
                 },
             },
             1: {
-                "txt": "To evaluate the design, we built a <span class='keyword'>physical prototype</span> with functioning slide and vacuum. Running the vacuum while inside a refrigerator, the sound was barely audible, a much nicer and more streamlined experience in comparison to existing countertop vacuum food storage options which require the user to wait for the loud vacuum operation to finish before then having to move the sealed packages into the refrigerator.",
+                "txt": "To evaluate the design, we built a <span class='keyword'>physical prototype</span> with functioning slide and vacuum. Running the vacuum while inside a refrigerator, the sound was barely audible, a much nicer and more streamlined experience in comparison to existing countertop vacuum food storage options which require the individual to wait for the loud vacuum operation to finish before then having to move the sealed packages into the refrigerator.",
                 "img": {
                     0: "prototype.jpg",
                     1: "fridge.png",
