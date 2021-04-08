@@ -410,7 +410,7 @@ var workLibrary = {
     },
     "ceder": {
         "title": "CEDER Website UX Evaluation and Redesign",
-        "tags": "user needs research, usability testing, prototyping",
+        "tags": "design research, market research, interaction mapping, usability testing, prototyping",
         "subtitle": "blah blah ceder",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
