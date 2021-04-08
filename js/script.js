@@ -411,7 +411,7 @@ var workLibrary = {
     "ceder": {
         "title": "CEDER Website UX Evaluation and Redesign",
         "tags": "design research, market research, interaction mapping, prototyping, usability testing",
-        "subtitle": "The Center for Education Design, Evaluation, and Research (CEDER) within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. ",
+        "subtitle": "The Center for Education Design, Evaluation, and Research (CEDER) within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. To address their request, we interviewed stakeholders in their office to learn about their goals of the website, surveyed a population who would be likely to visit their website, evaluated their existing website against usability heuristics, analyzed the websites of comparator organizations to identify trends and better practices, mocked up a prototype redesign of their website, and guided individuals through tests to evaluate this prototype.",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
