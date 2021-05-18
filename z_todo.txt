@@ -1,11 +1,11 @@
+change top level descriptions of each work item to use bullets to list activities done
+
+finish description of cofund
+
+add work.html gallery page link to bottom gallery, then remove bottom gallery from index and contact
+
+--------
+
 fit work process image to page
 
-write text and pick images for individual work pages
-
-implement click image overlay on all images including background image
-
 create cycling arrows background for index process
-
-write contact page
-
-create work.html gallery
