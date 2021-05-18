@@ -202,7 +202,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
                 workNum = i;
             }
             var galleryItemLink = document.createElement("a");
-            if (i != galleryLength) {
+            if ((i != galleryLength) && (workNum != i)) {
                 galleryItemLink.href = linkDirectory + workLibrary["gallery"][i] + ".html";
             }
             else {
@@ -216,12 +216,17 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             var galleryItemDiv = document.createElement("div");
             galleryItemDiv.id = "work" + i;
             galleryItemDiv.classList.add("imageCenter");
-            galleryItemDiv.addEventListener("mouseover", function () {
-                hoverWork(i);
-            });
-            galleryItemDiv.addEventListener("mouseout", function () {
-                departWork(i);
-            });
+            if (workNum != i) {
+                galleryItemDiv.addEventListener("mouseover", function () {
+                    hoverWork(i);
+                });
+                galleryItemDiv.addEventListener("mouseout", function () {
+                    departWork(i);
+                });
+            }
+            else {
+                galleryItemDiv.classList.add("imageCurrent");
+            }
             var galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
             var galleryItemImageCover = document.createElement("div");
