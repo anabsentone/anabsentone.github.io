@@ -331,11 +331,15 @@ var workLibrary = {
     "fullGallery": {
         0: "portfolio",
         1: "ceder",
-        2: "cofund",
-        3: "districtsix",
-        4: "murphybed",
-        5: "skim",
-        6: "veggiefresh",
+        2: "districtsix",
+        3: "murphybed",
+        4: "skim",
+        5: "veggiefresh",
+        // arassistant
+        // balllauncher
+        // recycleaa
+        // wisedesign
+        // youngread
     },
     "arassistant": {
         "title": "",
@@ -416,7 +420,7 @@ var workLibrary = {
     "ceder": {
         "title": "CEDER Website UX Evaluation and Redesign",
         "tags": "design research, market research, interaction mapping, prototyping, usability testing",
-        "subtitle": "The Center for Education Design, Evaluation, and Research (CEDER) within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. To address their request, we interviewed stakeholders in their office to learn about their goals of the website, surveyed a population who would be likely to visit their website, evaluated their existing website against usability heuristics, analyzed the websites of comparator organizations to identify trends and better practices, mocked up a prototype redesign of their website, and guided individuals through tests to evaluate this prototype.",
+        "subtitle": "The <a href='https://soe.umich.edu/ceder' target='_blank'>Center for Education Design, Evaluation, and Research (CEDER)</a> within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. To address their request, we<ul><li><span class='keyword'>interviewed stakeholders</span> to learn about the goals of the website</li><li><span class='keyword'>surveyed the population</span> who would be likely to visit their website</li><li><span class='keyword'>applied usability heuristics</span> to evaluate their existing website</li><li><span class='keyword'>analyzed comparator organizations' websites</span> to identify trends and better practices</li><li><span class='keyword'>mocked up a prototype redesign</span> of their website incorporating some of the insights gained</li><li><span class='keyword'>guided individuals through tasks</span> to evaluate the prototype redesign</li></ul>",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -553,7 +557,7 @@ var workLibrary = {
     "districtsix": {
         "title": "Cape Town District Six Pre-Apartheid Community Memory Mapping",
         "tags": "interaction development, UX design, information architecture, technology implementation, GIS",
-        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team interviewed seven former residents, identified community landmarks within the museum archives, and incorporated street address data to design, develop, and implement this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a>. The map alone can be explored by clicking the image to the right.<br><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
+        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team<ul><li><span class='keyword'>interviewed former residents</span> to hear their stories about life in District Six</li><li><span class='keyword'>gathered community landmark information</span> within the museum archives</li><li><span class='keyword'>geolocated streets and building footprints</span> from historical aerial photographs</li><li><span class='keyword'>defined design objectives</span> for the deliverable based on discussions with stakeholders</li><li><span class='keyword'>designed the user experience</span> through iterative prototypes</li><li><span class='keyword'>developed interactive features</span> to aid viewer exploration of the content</li><li><span class='keyword'>implemented</span> this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a></li></ul>The map alone can be explored by clicking the image to the right.<br><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
         "artifact": "websiteview.png",
         "artifactAlt": "Interactive map screenshot",
         "examine": {
@@ -647,7 +651,7 @@ var workLibrary = {
     "murphybed": {
         "title": "Murphy Folding Bed Frame Build",
         "tags": "product design, ergonomic analysis, manufacturing",
-        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. However, the available options on the market were around $1000 or above, well outside of my budget especially considering that selecting a small apartment was meant to conserve finances to begin with. Therefore, I designed, manufactured, and assembled my own folding bed frame.",
+        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. In this endeavor, I<ul><li><span class='keyword'>conducted market research</span> on existing products to conclude that they were all beyond my budget and also to gather design ideas</li><li><span class='keyword'>evaluated ergonomics</span> to incorporate into the features</li><li><span class='keyword'>used 3D modeling software</span> to design a folding bedframe</li><li><span class='keyword'>manufactured and assembled</span> this design using salvaged materials</li></ul>",
         "artifact": "bedframe.jpg",
         "artifactAlt": "",
         "examine": {
@@ -725,9 +729,9 @@ var workLibrary = {
         "extra": "",
     },
     "portfolio": {
-        "title": "Portfolio Website",
+        "title": "Portfolio",
         "tags": "experience design, interaction design, implementation",
-        "subtitle": "This website was designed and programmed from the ground up to highlight some of the work that I and the people with whom I've collaborated have put out into the world and also to capture the thought processes that allowed the work to progress. The details of each work are structured along an outline of the design process of examine, experiment, and embed to provide a semblence of narrative sequence, but in reality a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone demonstrates only the surface level of all the insights gained from the myriad of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.<br><br>On each work's page, images can be clicked to view a larger version (or sometimes an interactive piece) accompanied by a more detailed description. Some images have been placed in carousels with left and right arrows that can be clicked to view additional images.",
+        "subtitle": "This website was designed and programmed from the ground up to highlight some of the work I have engaged in alongside collaborators and also to capture the thought processes that progressed the work. The details of each work are structured along an outline of the design process of<ul><li>examine</li><li>experiment</li><li>embed</li></ul>to provide a semblence of narrative sequence, but in reality a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone merely demonstrates the surface level of all the insights gained from the variety of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.<br><br>On each work's page, images can be clicked to view a larger version (or sometimes an interactive piece) accompanied by a more detailed description. Some images have been placed in carousels with left and right arrows that can be clicked to view additional images.",
         "artifact": "logo.png",
         "artifactAlt": "",
         "examine": {
@@ -834,7 +838,7 @@ var workLibrary = {
     "skim": {
         "title": "SKIM Ann Arbor Local News Publication Service Design",
         "tags": "service design, design evaluation, behavioral research, quantitative data analysis",
-        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, volunteering, serving the community, social action, and actively seeking information about civic issues), and we learned that university students in particular face unique challenges to becoming engaged with the broader local community. To address this issue, we designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.",
+        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, community volunteering, seeking information about civic issues, etc.). Additionally, university students face particular challenges to becoming engaged with the broader local community. To address this issue, we<ul><li><span class='keyword'>reviewed research literature</span> about trends in civic engagement</li><li>interviewed and surveyed members of the target demographic</li><li>defined design objectives based on student needs</li><li>designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.</li></ul>",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -945,7 +949,7 @@ var workLibrary = {
     "veggiefresh": {
         "title": "VeggieFresh Consumer Food Storage Product Design",
         "tags": "product design, market research, quantitative data analysis, design engineering, business planning",
-        "subtitle": "Each year in the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person. To address this issue, our team researched the existing market of food storage products to identify design opportunities, defined design objectives based on consumer pain points, brainstormed a diversity of potential ideas, prototyped and optimized one design that best fit the design objectives, and outlined a business plan for manufacturing, distribution, and sale. Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
+        "subtitle": "In the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person per year. To address this issue, our team<ul><li><span class='keyword'>surveyed shoppers and home cooks</span> to learn about behaviors and concerns</li><li><span class='keyword'>researched the market of food storage products</span> to identify gaps and opportunities</li><li><span class='keyword'>defined design objectives</span> based on consumer needs</li><li><span class='keyword'>brainstormed</span> a diversity of potential ideas</li><li><span class='keyword'>iteratively prototyped</span> one design that best fit the objectives</li><li><span class='keyword'>conducted functional analyses</span> to validate that the design addressed consumer needs</li><li><span class='keyword'>outlined a business plan</span> for manufacturing, distribution, and sale</li></ul>Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
         "artifact": "cad4.png",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "examine": {

@@ -378,11 +378,6 @@ nav>a:hover {
 	overflow-y: scroll;
 }
 
-.processText ul {
-	list-style-type: "-   ";
-	padding: 0 0 0 3vw;
-}
-
 .processArtifact {
 	display: flex;
 	position: relative;
@@ -427,7 +422,7 @@ nav>a:hover {
 } */
 
 .keyword {
-	background-color: rgba(225,225,225,1);
+	background-color: rgba(200,200,200,1);
 }
 
 #connectIntroduction {
@@ -508,8 +503,8 @@ a>.imageCurrent:hover {
 }
 
 #fullGallery {
-	-ms-flex: 6;
-	flex: 6;
+	-ms-flex: 4;
+	flex: 4;
 	margin: 1.5vh 0;
 	overflow-y: scroll;
 	display: grid;
@@ -544,6 +539,11 @@ a>.imageCurrent:hover {
 
 img:hover {
 	cursor: pointer;
+}
+
+ul {
+	list-style-type: "-   ";
+	padding: 0 0 0 3vw;
 }
 
 ::-webkit-scrollbar {
