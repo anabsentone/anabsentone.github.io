@@ -2,10 +2,6 @@ change top level descriptions of each work item to use bullets to list activitie
 
 finish description of cofund
 
-add work.html gallery page link to bottom gallery, then remove bottom gallery from index and contact
+add work.html gallery page link to bottom gallery
 
---------
-
-fit work process image to page
-
-create cycling arrows background for index process
+make connect page same width (seems to be driven by embedded video right now)

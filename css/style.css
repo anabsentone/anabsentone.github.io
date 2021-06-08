@@ -110,6 +110,7 @@ main {
 	background-color: rgba(225,225,225,0.95);
 	margin: 4vh 4vw 4vh 0vw;
 	height: 92vh;
+	width: 100%;
 	overflow-y: hidden;
 	text-align: center;
 	display: flex;
@@ -120,7 +121,7 @@ nav {
 	-ms-flex: 0.5;
 	flex: 0.5;
 	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-columns: repeat(2, minmax(0, 1fr));
 	font-size: 3vh;
 	background-color: rgba(150,150,150,0.75);
 }
@@ -432,11 +433,11 @@ nav>a:hover {
 }
 
 #connectIntroduction>div {
-	margin: 3vh 3vh 3vh 0;
+	margin: 3vh;
 }
 
 #connectArtifacts {
-	height: 37.5vh;
+	height: 50vh;
 }
 
 #connectArtifacts>iframe {

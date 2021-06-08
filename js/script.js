@@ -43,21 +43,25 @@ function loadPage() {
 
     switch (locationPage) {
         case "index" : // need to decide whether this page will actually end in index.html
+            full = true;    
+            loadGallery(imageDirectory, linkDirectory, locationPage, full);
             break;
         case "" : // this handles ending not in .html such as /portfolio
-            break;
-        case "work" :
             full = true;
+            loadGallery(imageDirectory, linkDirectory, locationPage, full);
             break;
+        // case "work" :
+        //     full = true;
+        //     break;
         case "connect" :
             break;
         default:
             imageDirectory = "../images/";
             linkDirectory = "";
             loadContent(imageDirectory, locationPage);
+            loadGallery(imageDirectory, linkDirectory, locationPage, full);
             break;
     }
-    loadGallery(imageDirectory, linkDirectory, locationPage, full);
 }
 
 function loadContent(imageDirectory, locationPage) {
@@ -196,13 +200,37 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
         var workNum;
         var galleryLength = Object.keys(workLibrary["gallery"]).length;
 
-//         for (let i = 0; i < galleryLength + 1; i++) {
-        for (let i = 0; i < galleryLength; i++) { // change back to above when work.html gallery page is done
+        var galleryItemLink = document.createElement("a");
+        galleryItemLink.href = "../index.html";
+        var galleryItemDiv = document.createElement("div");
+        var i = 0;
+        galleryItemDiv.id = "work" + i;
+        galleryItemDiv.classList.add("imageCenter");
+        galleryItemDiv.addEventListener("mouseover", function () {
+            hoverWork(i);
+        });
+        galleryItemDiv.addEventListener("mouseout", function () {
+            departWork(i);
+        });
+        var galleryItemImageGroup = document.createElement("div");
+        galleryItemImageGroup.classList.add("imageGroup");
+        var galleryItemImageCover = document.createElement("div");
+        galleryItemImageCover.classList.add("imageCover");
+        var galleryItemImage = document.createElement("img");
+        galleryItemImage.src = "../images/logo.png";
+        galleryItemImageGroup.appendChild(galleryItemImageCover);
+        galleryItemImageGroup.appendChild(galleryItemImage);
+        galleryItemDiv.appendChild(galleryItemImageGroup);
+        galleryItemLink.appendChild(galleryItemDiv);
+        galleryDiv.appendChild(galleryItemLink);
+
+        for (let i = 1; i < galleryLength + 1; i++) {
             if (workLibrary["gallery"][i] == locationPage) {
                 workNum = i;
             }
-            var galleryItemLink = document.createElement("a");
-            if ((i != galleryLength) && (workNum != i)) {
+            galleryItemLink = document.createElement("a");
+            // if ((i != galleryLength) && (workNum != i)) {
+            if (workNum != i) {
                 galleryItemLink.href = linkDirectory + workLibrary["gallery"][i] + ".html";
             }
             else {
@@ -213,7 +241,7 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
                     galleryItemLink.href = "work.html";
                 }
             }
-            var galleryItemDiv = document.createElement("div");
+            galleryItemDiv = document.createElement("div");
             galleryItemDiv.id = "work" + i;
             galleryItemDiv.classList.add("imageCenter");
             if (workNum != i) {
@@ -227,22 +255,22 @@ function loadGallery(imageDirectory, linkDirectory, locationPage, full) {
             else {
                 galleryItemDiv.classList.add("imageCurrent");
             }
-            var galleryItemImageGroup = document.createElement("div");
+            galleryItemImageGroup = document.createElement("div");
             galleryItemImageGroup.classList.add("imageGroup");
-            var galleryItemImageCover = document.createElement("div");
+            galleryItemImageCover = document.createElement("div");
             galleryItemImageCover.classList.add("imageCover");
-            var galleryItemImage = document.createElement("img");
-            if (i != galleryLength) {
+            galleryItemImage = document.createElement("img");
+            // if (i != galleryLength) {
                 galleryItemImage.src = imageDirectory + workLibrary["gallery"][i] + "/" + workLibrary[workLibrary["gallery"][i]]["thumbnail"];
-            }
-            else {
-                if (document.URL.includes("work")) {
-                    galleryItemImage.src = "../images/etc.png";
-                }
-                else {
-                    galleryItemImage.src = "images/etc.png";
-                }
-            }
+            // }
+            // else {
+            //     if (document.URL.includes("work")) {
+            //         galleryItemImage.src = "../images/etc.png";
+            //     }
+            //     else {
+            //         galleryItemImage.src = "images/etc.png";
+            //     }
+            // }
             galleryItemImageGroup.appendChild(galleryItemImageCover);
             galleryItemImageGroup.appendChild(galleryItemImage);
             galleryItemDiv.appendChild(galleryItemImageGroup);
@@ -320,10 +348,10 @@ function updatePreview(i) {
 
 var workLibrary = {
     "gallery": {
-        0: "districtsix",
-        1: "veggiefresh",
-        2: "skim",
-        3: "murphybed",
+        1: "districtsix",
+        2: "veggiefresh",
+        3: "skim",
+        4: "murphybed",
 //         4: "ceder",
 //         5: "youngread",
 //         6: "cofund",
@@ -334,7 +362,8 @@ var workLibrary = {
         2: "districtsix",
         3: "murphybed",
         4: "skim",
-        5: "veggiefresh",
+        5: "umlibrary",
+        6: "veggiefresh",
         // arassistant
         // balllauncher
         // recycleaa
@@ -557,7 +586,7 @@ var workLibrary = {
     "districtsix": {
         "title": "Cape Town District Six Pre-Apartheid Community Memory Mapping",
         "tags": "interaction development, UX design, information architecture, technology implementation, GIS",
-        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team<ul><li><span class='keyword'>interviewed former residents</span> to hear their stories about life in District Six</li><li><span class='keyword'>gathered community landmark information</span> within the museum archives</li><li><span class='keyword'>geolocated streets and building footprints</span> from historical aerial photographs</li><li><span class='keyword'>defined design objectives</span> for the deliverable based on discussions with stakeholders</li><li><span class='keyword'>designed the user experience</span> through iterative prototypes</li><li><span class='keyword'>developed interactive features</span> to aid viewer exploration of the content</li><li><span class='keyword'>implemented</span> this map on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a></li></ul>The map alone can be explored by clicking the image to the right.<br><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
+        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team<ul><li><span class='keyword'>interviewed former residents</span> to hear their stories about life in District Six</li><li><span class='keyword'>gathered community landmark information</span> within the museum archives</li><li><span class='keyword'>geolocated streets and building footprints</span> from historical aerial photographs</li><li><span class='keyword'>defined design objectives</span> for the deliverable based on discussions with stakeholders</li><li><span class='keyword'>designed the user experience</span> through iterative prototypes</li><li><span class='keyword'>developed interactive features</span> to aid viewer exploration of the content</li><li><span class='keyword'>implemented this map</span> on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a></li></ul>The map alone can be explored by clicking the image to the right.<br><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
         "artifact": "websiteview.png",
         "artifactAlt": "Interactive map screenshot",
         "examine": {
@@ -651,7 +680,7 @@ var workLibrary = {
     "murphybed": {
         "title": "Murphy Folding Bed Frame Build",
         "tags": "product design, ergonomic analysis, manufacturing",
-        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. In this endeavor, I<ul><li><span class='keyword'>conducted market research</span> on existing products to conclude that they were all beyond my budget and also to gather design ideas</li><li><span class='keyword'>evaluated ergonomics</span> to incorporate into the features</li><li><span class='keyword'>used 3D modeling software</span> to design a folding bedframe</li><li><span class='keyword'>manufactured and assembled</span> this design using salvaged materials</li></ul>",
+        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. For this project, I<ul><li><span class='keyword'>conducted market research</span> on existing products to conclude that they were all beyond my budget and also to gather design ideas</li><li><span class='keyword'>evaluated ergonomics</span> to incorporate into the features</li><li><span class='keyword'>used 3D modeling software</span> to design a folding bedframe</li><li><span class='keyword'>manufactured and assembled</span> this design using salvaged materials</li></ul>",
         "artifact": "bedframe.jpg",
         "artifactAlt": "",
         "examine": {
@@ -838,7 +867,7 @@ var workLibrary = {
     "skim": {
         "title": "SKIM Ann Arbor Local News Publication Service Design",
         "tags": "service design, design evaluation, behavioral research, quantitative data analysis",
-        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, community volunteering, seeking information about civic issues, etc.). Additionally, university students face particular challenges to becoming engaged with the broader local community. To address this issue, we<ul><li><span class='keyword'>reviewed research literature</span> about trends in civic engagement</li><li>interviewed and surveyed members of the target demographic</li><li>defined design objectives based on student needs</li><li>designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.</li></ul>",
+        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, community volunteering, seeking information about civic issues, etc.). Additionally, university students face particular challenges to becoming engaged with the broader local community. To address this issue, we<ul><li><span class='keyword'>reviewed research literature</span> about trends in civic engagement</li><li><span class='keyword'>interviewed and surveyed</span> members of the target demographic</li><li><span class='keyword'>defined design objectives</span> based on student needs</li><li>designed a new production and distribution service that involved students in the production process and provided digestible and actionable news content. Design evaluation testing suggested that such a service might be able to contribute towards increasing university student civic engagement.</li></ul>",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -944,6 +973,82 @@ var workLibrary = {
         },
         "thumbnail": "thumbnail.png",
         "active": "1",
+        "extra": "",
+    },
+    "umlibrary": {
+        "title": "U-M Library Digital Scholarship Experience Research",
+        "tags": "literature review, interview, qualitative data analysis",
+        "subtitle": "Digital scholarship involves the use of digital technologies in creating and sharing knowledge, such as scanning archival materials to make accessible online, scraping social media to conduct sentiment analyses, incorporating virtual reality into a course curriculum, etc. The University of Michigan Library system was rethinking how to provide support for researchers and educators on digital scholarship projects. To approach this problem, we<ul><li><span class='keyword'>had conversations with librarians</span> to understand their experiences and goals when providing support on digital scholarship projects</li><li><span class='keyword'>conducted a literature review</span> of how other institutions conceptualized digital scholarship and implemented support services and programs</li><li><span class='keyword'>interviewed researchers and educators</span> who had previously received support from the library on digital scholarship projects to understand their needs and processes when seeking assistance</li><li><span class='keyword'>provided a set of recommendations</span> to the library based on the data gathered</li><li><span class='keyword'>brainstormed initial ideas</span> aimed at acting on the recommendations to improve the library's ability to support digital scholarship projects</li></ul>",
+        "artifact": "poster.png",
+        "artifactAlt": "",
+        "examine": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "experiment": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "embed": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "thumbnail": "thumbnail.png",
+        "active": "",
         "extra": "",
     },
     "veggiefresh": {
