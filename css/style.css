@@ -106,10 +106,10 @@ h1 {
 
 main {
 	position: relative;
-	border-radius: 3vh;
+	/* border-radius: 3vh; */
 	background-color: rgba(225,225,225,0.95);
-	margin: 4vh 4vw 4vh 0vw;
-	height: 92vh;
+	margin: 0 4vw 0 0;
+	height: 100vh;
 	width: 100%;
 	overflow-y: hidden;
 	text-align: center;
@@ -128,10 +128,18 @@ nav {
 
 nav>a {
 	text-align: center;
-	border-radius: 3vh 3vh 0 0;
+	/* border-radius: 3vh 3vh 0 0; */
 	padding: 1.5vh 0;
 	color: gray;
 	text-decoration: none;
+}
+
+#navWork {
+	border-radius: 0 3vh 0 0;
+}
+
+#navConnect {
+	border-radius: 3vh 0 0 0;
 }
 
 nav>a:hover {
@@ -506,10 +514,11 @@ a>.imageCurrent:hover {
 #fullGallery {
 	-ms-flex: 4;
 	flex: 4;
-	margin: 1.5vh 0;
+	margin: 1.5vh 0 0 0;
 	overflow-y: scroll;
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0, 4fr));
+	background-color: rgba(150,150,150,0.75);
 }
 
 .fullGalleryWorkDiv {
@@ -548,7 +557,7 @@ ul {
 }
 
 ::-webkit-scrollbar {
-	width: 0.8vw;
+	width: 0.6vw;
 	scroll-margin: 100em;
 }
 

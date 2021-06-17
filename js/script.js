@@ -358,17 +358,18 @@ var workLibrary = {
     },
     "fullGallery": {
         0: "portfolio",
-        1: "ceder",
-        2: "districtsix",
-        3: "murphybed",
-        4: "skim",
-        5: "umlibrary",
-        6: "veggiefresh",
+        1: "balllauncher",
+        2: "ceder",
+        3: "districtsix",
+        4: "murphybed",
+        5: "skim",
+        6: "umlibrary",
+        7: "veggiefresh",
+        8: "youngread",
         // arassistant
         // balllauncher
         // recycleaa
         // wisedesign
-        // youngread
     },
     "arassistant": {
         "title": "",
@@ -446,10 +447,86 @@ var workLibrary = {
         "active": "",
         "extra": "",
     },
+    "balllauncher": {
+        "title": "Spring-Powered Ball Launcher",
+        "tags": "product design, industrial design, design engineering, manufacturing",
+        "subtitle": "A mechanical engineering instructor approached our team with the request to design and build a demonstration piece that could be used in his course to illustrate spring mechanics principles. In conversation with the instructor, we arrived at the idea of a spring-powered ball launcher where the characteristics of the springs could be given to students during lecture for them to calculate how high balls would be launched then watch the balls be launched to compare with their predictions. To design and build this ball launcher, our team<ul><li><span class='keyword'>defined design constraints</span> based on size and weight limits that the instructor could carry</li><li><span class='keyword'>visited the lecture hall</span> to see from the students' perspective what kind of ball would be visible launched into the air</li><li><span class='keyword'>brainstormed ideas</span> for spring compression, retention, and release mechanisms</li><li><span class='keyword'>3D modeled the final design</span> that the team converged on</li><li><span class='keyword'>sourced components</span> from suppliers that fit within the budget</li><li><span class='keyword'>machined, manufactured, and assembled</span> the final product according to the design specifications</li><li><span class='keyword'>tested the product</span> for performance and durability</li></ul><br>Our assembled ball launcher was used for 3 years before having its design iterated by another team.",
+        "artifact": "me450_assembled.png",
+        "artifactAlt": "",
+        "examine": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "experiment": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "embed": {
+            0: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            1: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            2: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+            3: {
+                "txt": "",
+                "img": "",
+                "alt": "",
+            },
+        },
+        "thumbnail": "thumbnail.png",
+        "active": "",
+        "extra": "",
+    },
     "ceder": {
         "title": "CEDER Website UX Evaluation and Redesign",
         "tags": "design research, market research, interaction mapping, prototyping, usability testing",
-        "subtitle": "The <a href='https://soe.umich.edu/ceder' target='_blank'>Center for Education Design, Evaluation, and Research (CEDER)</a> within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. To address their request, we<ul><li><span class='keyword'>interviewed stakeholders</span> to learn about the goals of the website</li><li><span class='keyword'>surveyed the population</span> who would be likely to visit their website</li><li><span class='keyword'>applied usability heuristics</span> to evaluate their existing website</li><li><span class='keyword'>analyzed comparator organizations' websites</span> to identify trends and better practices</li><li><span class='keyword'>mocked up a prototype redesign</span> of their website incorporating some of the insights gained</li><li><span class='keyword'>guided individuals through tasks</span> to evaluate the prototype redesign</li></ul>",
+        "subtitle": "The <a href='https://soe.umich.edu/ceder' target='_blank'>Center for Education Design, Evaluation, and Research (CEDER)</a> within the University of Michigan's School of Education assists with instructional design, conducts program evaluations, and supports educational research. Since the School of Education was in the process of revamping its web presence, so CEDER approached our team to conduct a design evaluation of CEDER's existing website and provide recommendations on how it might be improved as part of the larger redesign. To address their request, we<ul><li><span class='keyword'>interviewed stakeholders</span> to learn about the goals of the website</li><li><span class='keyword'>mapped interactions</span> of the website to understand the current architecture and navigation</li><li><span class='keyword'>surveyed the population</span> who would be likely to visit their website</li><li><span class='keyword'>applied usability heuristics</span> to evaluate their existing website</li><li><span class='keyword'>analyzed comparator organizations' websites</span> to identify trends and better practices</li><li><span class='keyword'>mocked up a prototype redesign</span> of their website incorporating some of the insights gained</li><li><span class='keyword'>guided individuals through tasks</span> to evaluate the prototype redesign</li></ul><br>Our findings included that<ul><li>each webpage had many paragraphs of text that was daunting for visitors so our recommendation was to add stratification with headings, collapsible sections, and images to help guide the visitor's attention</li><li>visitors to the website are prospective clients and want to see previous work examples to assess whether CEDER's services are appropriate for their needs</li><li>while the website had an intake form to invite collaborations, prospective clients prefer to initiate conversations with a real person and therefore would like to see contact information</li><li>pricing information had been left off of the website since services were custom to each project, but prospective clients needed to be able to determine whether costs would fit their budgets</li></ul>",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -586,7 +663,7 @@ var workLibrary = {
     "districtsix": {
         "title": "Cape Town District Six Pre-Apartheid Community Memory Mapping",
         "tags": "interaction development, UX design, information architecture, technology implementation, GIS",
-        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team<ul><li><span class='keyword'>interviewed former residents</span> to hear their stories about life in District Six</li><li><span class='keyword'>gathered community landmark information</span> within the museum archives</li><li><span class='keyword'>geolocated streets and building footprints</span> from historical aerial photographs</li><li><span class='keyword'>defined design objectives</span> for the deliverable based on discussions with stakeholders</li><li><span class='keyword'>designed the user experience</span> through iterative prototypes</li><li><span class='keyword'>developed interactive features</span> to aid viewer exploration of the content</li><li><span class='keyword'>implemented this map</span> on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a></li></ul>The map alone can be explored by clicking the image to the right.<br><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
+        "subtitle": "The District Six Museum in Cape Town, South Africa wanted to publish an interactive online map capturing life in the District Six community prior to the racially segregating apartheid system of the mid-to-late 1900s when its residents were forcibly removed and the buildings were demolished. Our team<ul><li><span class='keyword'>interviewed former residents</span> to hear their stories about life in District Six</li><li><span class='keyword'>gathered community landmark information</span> within the museum archives</li><li><span class='keyword'>geolocated streets and building footprints</span> from historical aerial photographs</li><li><span class='keyword'>defined design objectives</span> for the deliverable based on discussions with stakeholders</li><li><span class='keyword'>designed the user experience</span> through iterative prototypes</li><li><span class='keyword'>developed interactive features</span> to aid viewer exploration of the content</li><li><span class='keyword'>implemented this map</span> on the museum’s website: <a href='https://districtsix.co.za/project/st-marks-memory-mapping-project' target='_blank'>districtsix.co.za/project/st-marks-memory-mapping-project</a></li></ul><br>The code of this map has been archived as part of the <a href='https://archiveprogram.github.com/arctic-vault' target='_blank'>GitHub Arctic Code Vault</a>. This project received Honorable Mention at the <a href='https://ii.umich.edu/asc/stem/conferences/stem5-tech-in-africa.html' target='_blank'>2019 Innovation and Appropriate Technology in Africa Conference</a> as well as Faculty Choice at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
         "artifact": "websiteview.png",
         "artifactAlt": "Interactive map screenshot",
         "examine": {
@@ -680,7 +757,7 @@ var workLibrary = {
     "murphybed": {
         "title": "Murphy Folding Bed Frame Build",
         "tags": "product design, ergonomic analysis, manufacturing",
-        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. For this project, I<ul><li><span class='keyword'>conducted market research</span> on existing products to conclude that they were all beyond my budget and also to gather design ideas</li><li><span class='keyword'>evaluated ergonomics</span> to incorporate into the features</li><li><span class='keyword'>used 3D modeling software</span> to design a folding bedframe</li><li><span class='keyword'>manufactured and assembled</span> this design using salvaged materials</li></ul>",
+        "subtitle": "To live in a 200-square-foot apartment, I needed to adjust to optimize living space. Since a bed would take up much of the available area despite only being used for a third of each day living there, I considered getting a Murphy bed frame that could be folded up against the wall when not in use. For this project, I<ul><li><span class='keyword'>conducted market research</span> on existing products to conclude that they were all beyond my budget and also to gather design ideas</li><li><span class='keyword'>evaluated ergonomics</span> to incorporate into the features</li><li><span class='keyword'>used 3D modeling software</span> to design a folding bedframe</li><li><span class='keyword'>manufactured and assembled</span> this design using salvaged materials</li></ul><br>I used this bed frame for 2 years before moving out of the apartment and out of the state, at which point I disassembled the frame and gave the parts to the university workshop where I manufactured them.",
         "artifact": "bedframe.jpg",
         "artifactAlt": "",
         "examine": {
@@ -760,7 +837,7 @@ var workLibrary = {
     "portfolio": {
         "title": "Portfolio",
         "tags": "experience design, interaction design, implementation",
-        "subtitle": "This website was designed and programmed from the ground up to highlight some of the work I have engaged in alongside collaborators and also to capture the thought processes that progressed the work. The details of each work are structured along an outline of the design process of<ul><li>examine</li><li>experiment</li><li>embed</li></ul>to provide a semblence of narrative sequence, but in reality a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone merely demonstrates the surface level of all the insights gained from the variety of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.<br><br>On each work's page, images can be clicked to view a larger version (or sometimes an interactive piece) accompanied by a more detailed description. Some images have been placed in carousels with left and right arrows that can be clicked to view additional images.",
+        "subtitle": "This website was designed and programmed from the ground up to highlight some of the work I have engaged in alongside collaborators and also to capture the thought processes that advanced the work. The details of each work are structured along an outline of the design process of<ul><li><span class='keyword'>examine</span> a problem space for potential design opportunities</li><li><span class='keyword'>experiment</span> with various ideas for addressing the problem</li><li><span class='keyword'>embed</span> a design in the environment</li></ul>to provide a semblence of narrative sequence, but in reality a lot of design work is nonlinear with significant branching and backtracking, where the single presentable outcome alone merely demonstrates the surface level of all the insights gained from the variety of earlier experiments.<br><br>Each image in the gallery below represents a separate work. Hovering the mouse over an image below will update this upper section with an overview of that work. Clicking an image below will link to its corresponding page (if one exists) that details that work.<br><br>On each work's page, images can be clicked to view a larger version (or sometimes an interactive piece) accompanied by a more detailed description. Some images have been placed in carousels with left and right arrows that can be clicked to view additional images.",
         "artifact": "logo.png",
         "artifactAlt": "",
         "examine": {
@@ -867,7 +944,7 @@ var workLibrary = {
     "skim": {
         "title": "SKIM Ann Arbor Local News Publication Service Design",
         "tags": "service design, design evaluation, behavioral research, quantitative data analysis",
-        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, community volunteering, seeking information about civic issues, etc.). Additionally, university students face particular challenges to becoming engaged with the broader local community. To address this issue, we<ul><li><span class='keyword'>reviewed research literature</span> about trends in civic engagement</li><li><span class='keyword'>interviewed and surveyed</span> members of the target demographic</li><li><span class='keyword'>defined design objectives</span> based on student needs</li><li><span class='keyword'>brainstormed numerous ideas</span> that tried to address the problem</li><li><span class='keyword'>iteratively prototyped one idea</span> to capture the design objectives</li><li><span class='keyword'>conducted user testing</span> to verify functionality and validate projected adoption</li></ul>",
+        "subtitle": "Low voter turnout among young adults in local elections motivated our team to explore the factors contributing to low civic engagement (political participation, community volunteering, seeking information about civic issues, etc.). Additionally, university students face particular challenges to becoming engaged with the broader local community. To address this issue, we<ul><li><span class='keyword'>reviewed research literature</span> about trends in civic engagement</li><li><span class='keyword'>interviewed and surveyed</span> members of the target demographic</li><li><span class='keyword'>defined design objectives</span> based on student needs</li><li><span class='keyword'>brainstormed numerous ideas</span> that tried to address the problem</li><li><span class='keyword'>iteratively prototyped one idea</span> to capture the design objectives</li><li><span class='keyword'>conducted user testing</span> to verify functionality and validate projected adoption</li></ul><br>Our final design was a newsletter production service where students in a journalism course conduct research into local issues in collaboration with community residents, write actionable short-form news articles, and distribute them to the university population via email and digital displays on campus.",
         "artifact": "thumbnail.png",
         "artifactAlt": "",
         "examine": {
@@ -978,7 +1055,7 @@ var workLibrary = {
     "umlibrary": {
         "title": "U-M Library Digital Scholarship Experience Research",
         "tags": "literature review, interview, qualitative data analysis",
-        "subtitle": "Digital scholarship involves the use of digital technologies in creating and sharing knowledge, such as scanning archival materials to make accessible online, scraping social media to conduct sentiment analyses, incorporating virtual reality into a course curriculum, etc. The University of Michigan Library system was rethinking how to provide support for researchers and educators on digital scholarship projects. To approach this problem, we<ul><li><span class='keyword'>had conversations with librarians</span> to understand their experiences and goals when providing support on digital scholarship projects</li><li><span class='keyword'>conducted a literature review</span> of how other institutions conceptualized digital scholarship and implemented support services and programs</li><li><span class='keyword'>interviewed researchers and educators</span> who had previously received support from the library on digital scholarship projects to understand their needs and processes when seeking assistance</li><li><span class='keyword'>provided a set of recommendations</span> to the library based on the data gathered</li><li><span class='keyword'>brainstormed initial ideas</span> aimed at acting on the recommendations to improve the library's ability to support digital scholarship projects</li></ul>",
+        "subtitle": "Digital scholarship involves the use of digital technologies in creating and sharing knowledge, such as scanning archival materials to make accessible online, scraping social media to conduct sentiment analyses, incorporating virtual reality into a course curriculum, etc. The University of Michigan Library system was rethinking how to provide support for researchers and educators on digital scholarship projects. To approach this problem, we<ul><li><span class='keyword'>had conversations with librarians</span> to understand their experiences and goals when providing support on digital scholarship projects</li><li><span class='keyword'>conducted a literature review</span> of how other institutions conceptualized digital scholarship and implemented support services and programs</li><li><span class='keyword'>interviewed researchers and educators</span> who had previously received support from the library on digital scholarship projects to understand their needs and processes when seeking assistance</li><li><span class='keyword'>provided a set of recommendations</span> to the library based on the data gathered</li><li><span class='keyword'>brainstormed initial ideas</span> aimed at acting on the recommendations to improve the library's ability to support digital scholarship projects</li></ul><br>Our findings included that<ul><li>many digital scholarship services being decentralized among different departments around campus makes them hard to access</li><li>researchers often don't know enough about the kind of support that they need, so they have difficulty finding appropriate support and articulating questions</li><li>researchers tend to rely on previously established connections with individual librarians to initiate discussions about getting support</li><li>the university library's website is perceived as being frustrating to navigate so it is generally avoided, causing the useful information available there to be missed</li></ul>",
         "artifact": "poster.png",
         "artifactAlt": "",
         "examine": {
@@ -1054,7 +1131,7 @@ var workLibrary = {
     "veggiefresh": {
         "title": "VeggieFresh Consumer Food Storage Product Design",
         "tags": "product design, market research, quantitative data analysis, design engineering, business planning",
-        "subtitle": "In the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person per year. To address this issue, our team<ul><li><span class='keyword'>surveyed shoppers and home cooks</span> to learn about behaviors and concerns</li><li><span class='keyword'>researched the market of food storage products</span> to identify gaps and opportunities</li><li><span class='keyword'>defined design objectives</span> based on consumer needs</li><li><span class='keyword'>brainstormed</span> a diversity of potential ideas</li><li><span class='keyword'>iteratively prototyped</span> one design that best fit the objectives</li><li><span class='keyword'>conducted functional analyses</span> to validate that the design addressed consumer needs</li><li><span class='keyword'>outlined a business plan</span> for manufacturing, distribution, and sale</li></ul>Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
+        "subtitle": "In the United States, 21% of the total food supply is lost at the individual consumer level - about 90 billion pounds of waste costing $450 per person per year. To address this issue, our team<ul><li><span class='keyword'>surveyed shoppers and home cooks</span> to learn about behaviors and concerns</li><li><span class='keyword'>researched the market of food storage products</span> to identify gaps and opportunities</li><li><span class='keyword'>defined design objectives</span> based on consumer needs</li><li><span class='keyword'>brainstormed</span> a diversity of potential ideas</li><li><span class='keyword'>iteratively prototyped</span> one design that best fit the objectives</li><li><span class='keyword'>conducted functional analyses</span> to validate that the design addressed consumer needs</li><li><span class='keyword'>outlined a business plan</span> for manufacturing, distribution, and sale</li></ul><br>Our final design was an in-fridge, container storage vacuum preservation system that improves shelf life and visibility of stored food.",
         "artifact": "cad4.png",
         "artifactAlt": "Physical prototype manufactured to demonstrate the form and function of the final designed consumer product",
         "examine": {
@@ -1207,10 +1284,10 @@ var workLibrary = {
         "extra": "",
     },
     "youngread": {
-        "title": "YoungRead - ",
-        "tags": "design methodology",
-        "subtitle": "This project won 3rd prize at the 2020 James A. Kelly Learning Levers competition as well as the Zell Lurie Institute Innovation and Entrepreneurship Award at the 2020 UMSI Spring Exposition.",
-        "artifact": "",
+        "title": "YoungRead App for Supporting Elementary Student Reading in Rural China",
+        "tags": "qualitative data analysis, iterative prototyping, business planning",
+        "subtitle": "Elementary students in rural China face a combination of barriers to academic success including that many are what are known as \"left-behind children\" (\"留守儿童\") who are cared for by relatives while their parents spend most of the year working in a faraway city resulting in destabilized family life, their teachers' salaries are dependent on standardized test performance causing teachers to focus on instructing for higher scores rather than holistic learning, and that the government is more inclined to support tangible upgrades to the educational environment such as installing computers and interactive whiteboards rather than teacher training or curriculum development, among other obstacles. Some members of our team witnessed this first-hand during a summer program volunteering in a rural Chinese elementary school to establish a school library and lead reading activities with the students. To address this problem, our team<ul><li><span class='keyword'>interviewed teachers</span> who have taught in rural China to understand their experiences and perspectives</li><li><span class='keyword'>defined design objectives</span> based on the insights gained from interviews</li><li><span class='keyword'>brainstormed ideas</span> to improve teachers' teaching experience and/or students' learning experience</li><li><span class='keyword'>iteratively prototyped</span> a design by presenting working ideas to educators and incorporating feedback</li><li><span class='keyword'>outlined a business model</span> for rolling out and scaling our designed service through key partnerships</li></ul><br>This project won 3rd prize at the <a href='https://soe.umich.edu/learning-levers' target='_blank'>2020 James A. Kelly Learning Levers competition</a> as well as the Zell Lurie Institute Innovation and Entrepreneurship Award at the <a href='https://sites.google.com/umich.edu/umsistudentexposition/spring-2020-virtual-exposition' target='_blank'>2020 UMSI Spring Exposition</a>.",
+        "artifact": "poster.png",
         "artifactAlt": "",
         "examine": {
             0: {
